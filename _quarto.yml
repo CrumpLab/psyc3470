@@ -1,5 +1,9 @@
 project:
   type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!datascience-box/"
 
 website:
   title: "PSYC3470"
@@ -7,13 +11,22 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - syllabus.qmd
+    right:
       - about.qmd
+  sidebar:
+      style: "floating"
+      collapse-level: 3
+      align: left
+      contents: Course Material
+
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [minty,style/dsbox.scss]
+    css: css/nav.css
     toc: true
+    include-in-header: "style/fontawesome.html"
 
-editor: visual
+editor: source
 

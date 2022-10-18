@@ -1,11 +1,29 @@
 ---
-title: "PSYC3470"
+title: " "
+format:
+  html: 
+    theme: quartz
+    css: css/home.css
+    fontcolor: white
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
+```{r, echo=FALSE}
+#| out.width: "100%"
+knitr::include_graphics('images/datafingertips.jpg')
 ```
+
+## PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences
+
+This is the course website for PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences, taught by [Dr. Matthew Crump](https://crumplab.com) in Spring 2023. **This website is currently under development.**
+
+**Bulletin Description:**
+
+3 hours; 3 credits
+
+How the "data revolution" has transformed the way we understand and interact with the world around us. Fundamental concepts and practical techniques and skills needed for data analytics and data visualization. Availability of large datasets and their use across a variety of settings, including social networks, libraries, governments, non-profits, etc. The emergence of practices with regard to data analysis and visual communication in the social and behavioral sciences. This course is the same as Sociology 3507.
+
+**Sources**
+
+This course will use open-educational resources, typically licensed on creative commons. Current sources include:
+
+-   [data science in a box](https://datasciencebox.org)
