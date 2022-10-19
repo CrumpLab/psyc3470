@@ -26,4 +26,5 @@ How the "data revolution" has transformed the way we understand and interact wit
 
 This course will use open-educational resources, typically licensed on creative commons. Current sources include:
 
--   [data science in a box](https://datasciencebox.org)
+- [data science in a box](https://datasciencebox.org)
+- minor change
