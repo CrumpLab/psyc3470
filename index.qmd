@@ -4,7 +4,7 @@ format:
   html: 
     theme: quartz
     css: css/home.css
-    fontcolor: white
+    fontcolor: black
 ---
 
 ```{r, echo=FALSE}
@@ -24,7 +24,4 @@ How the "data revolution" has transformed the way we understand and interact wit
 
 **Sources**
 
-This course will use open-educational resources, typically licensed on creative commons. Current sources include:
-
-- [data science in a box](https://datasciencebox.org)
-- minor change
+This course will use open-educational resources, typically licensed on creative commons.

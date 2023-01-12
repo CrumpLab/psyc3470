@@ -1,9 +1,12 @@
 project:
   type: website
   output-dir: docs
+  preview:
+    port: 4200
+    browser: true
+    navigate: true
   render:
     - "*.qmd"
-    - "!datascience-box/"
 
 website:
   title: "PSYC3470"
@@ -11,22 +14,20 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - syllabus.qmd
-    right:
-      - about.qmd
+      - href: https://psyteachr.github.io/ads-v1/index.html
+        text: Textbook
   sidebar:
       style: "floating"
-      collapse-level: 3
+      collapse-level: 2
       align: left
-      contents: Course Material
-
+      contents: auto
 
 format:
   html:
-    theme: [minty,style/dsbox.scss]
-    css: css/nav.css
+    theme: minty
+    css: [css/nav.css,css/styles.css]
     toc: true
-    include-in-header: "style/fontawesome.html"
+    include-in-header: "css/fontawesome.html"
 
 editor: source
 

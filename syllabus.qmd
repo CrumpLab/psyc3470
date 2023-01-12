@@ -32,74 +32,76 @@ Email: mcrump\@brooklyn.cuny.edu (please put ''Psyc 3470' in subject line)
 
 ## Course Description
 
-Seminar 2: People of New York City
+PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences
+
 
 3 hours; 3 credits
 
-**Catalogue Description**: How the \"data revolution\" has transformed the way we understand and interact with the world around us. Fundamental concepts and practical techniques and skills needed for data analytics and data visualization. Availability of large datasets and their use across a variety of settings, including social networks, libraries, governments, non-profits, etc. The emergence of practices with regard to data analysis and visual communication in the social and behavioral sciences. This course is the same as Sociology 3507.
+**Catalogue Description**: How the "data revolution" has transformed the way we understand and interact with the world around us. Fundamental concepts and practical techniques and skills needed for data analytics and data visualization. Availability of large datasets and their use across a variety of settings, including social networks, libraries, governments, non-profits, etc. The emergence of practices with regard to data analysis and visual communication in the social and behavioral sciences. This course is the same as Sociology 3507.
 
 ### Learning Goals/Outcomes
 
 Students will:
 
--   A
+-   Develop familiarity and basic competency with concepts and techniques for data analytics and visualization
 
--   B
+    -   Outcome: students will create and contribute to a weekly learning blog to practice and demonstrate their skill-acquisition process
 
--   C
+-   Develop competencies in data structures, importing, filtering, wrangling, and curation techniques necessary for analysis and visualization
 
--   D
+    -   Outcomes: competencies assessed and demonstrated in weekly assignments
 
--   E
+-   Understand principles of automation and reproducibility and learn how to produce and communicate computationally reproducible data analysis projects
 
-## Course Materials
+    -   Outcomes: students create final project website and deliver a class presentation about their final research project.
+
+-   Understand and critically reflect upon data usage practices in society
+
+    -   Outcomes: demonstrated in class room discussions and reflections on readings.
+
+## Course Materials and Textbook
 
 All of the course materials will be available in a timely fashion on this course website and/or posted on blackboard.
 
 Link to the course website: <https://crumplab.com/psyc3470>
 
+### Textbook
+
+"**Applied Data Skills**: Processing & Presenting Data" (2022) Emily Nordmann and Lisa DeBruine.
+
+<https://psyteachr.github.io/ads-v1/index.html>
+
+The textbook is a free and open-source web book. There are many additional free resources for learning R that will be discussed and made available throughout the semester.
+
 ## Course Structure
 
-There are 15 weeks.
-
-This is an **in-person** class, and students are expected to participate in all aspects of the class.
+There are 15 weeks. This is an **in-person** class, and students are expected to participate in all aspects of the class. This is a class that involves learning computer programming skills for data-visualization and analysis. The assumption is that students may possess no prior skills in this area, so the course has an applied training component. Class time will involve mixtures of activities, including lectures, group-work, applied coding activities, presentations, and discussions.
 
 ## Course Schedule
 
-```{r, message=FALSE, warning=FALSE, echo=FALSE, eval=FALSE}
-#library(data.table)
-library(readxl)
-Lectures <- read_excel("Fall_2022_schedule.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
-Lectures$Week <- as.character(Lectures$Week)
-Lectures[is.na(Lectures)] <- " "
-#Lectures <- fread("Lectures.csv")
+```{r, message=FALSE, warning=FALSE, echo=FALSE, eval=TRUE}
+
+Lectures <- rio::import("schedule.csv")
 knitr::kable(Lectures)
 
 ```
 
-## Assignments, Assessments, and Grading
+## Portfolio development
 
-```{=html}
-<!--
-There are multiple ways for students to engage with course materials and achieve their desired grade. Students are encouraged to choose the assignments that work best for them. Major course assessments that occur throughout the semester are designed to help students set and achieve their own goals for engaging in course content.
+Throughout this course you will learn how to analyse and communicate data using reproducible computational methods. These methods allow you to communicate information in many formats including websites, interactive web apps, slide decks, pdfs, word documents, books, web-books, and more. Students can use these very same methods to create their own personal websites, which can be used as a digital portfolio to showcase examples of their work and demonstrate their skills. To support digital portfolio development, students will learn to create a personal website and blog. Students will add content to their websites in the form of blogs and other weekly assignment content prompts. By the end of the course students will have created evidence of their learning process in the form of their course website and blog.
 
--->
-```
-### Assignments
+## Assignments and Grading
 
-### Discussion Boards
-
-### Assessments
+This is an engagement and skills-acquisition based course. At the beginning of the course and throughout, students will be given instruction on building and maintaining a website using quarto and github pages. Each week students will contribute blog posts and other content to their websites in response to module assignments. Students will be expected to submit URL links to their blogs using Blackboard. Students are expected to attend and participate in each class. The final project includes conducting, communicating, and preserving a reproducible data analysis project.
 
 ### Points and letter grades
 
-| Assignment        | Points |    Total |
-|:------------------|-------:|---------:|
-| 12 Weekly Modules |     5+ | up to 75 |
-| Assessment 1      |      5 |        5 |
-| Assessment 2      |     10 |       10 |
-| Final Assessment  |     10 |       10 |
-|                   |        |      100 |
+| Assignment                | Points | Total |
+|:--------------------------|-------:|------:|
+| Weekly Blog post          |      4 |    60 |
+| Attendance                |      1 |    15 |
+| Final project and website |     25 |    25 |
+|                           |        |   100 |
 
 Percentage grades are converted to letter grades according to the following rubric.
 
@@ -153,7 +155,7 @@ I will regularly use e-mail via blackboard to send out announcements, changes in
 
 If you have questions please email me:
 
-1.  put Seminar 2 in your subject line
+1.  put PSYC 3470 in your subject line
 2.  email me at: mcrump\@brooklyn.cuny.edu
 
 ### General Help with Research and Writing
