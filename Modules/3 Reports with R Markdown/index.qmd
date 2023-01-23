@@ -1,0 +1,40 @@
+---
+title: "3 Reports with R Markdown"
+author: "Matt Crump"
+date: "2/1/2023"
+order: 3 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Read
+
+<https://psyteachr.github.io/ads-v2/02-reports.html>
+
+## Additional resources
+
+### Quarto documents
+
+The quarto website contains many helpful examples. We will cover aspects throughout the semester.
+
+General tips for writing in quarto markdown:
+
+<https://quarto.org/docs/authoring/markdown-basics.html>
+
+Making an html document:
+
+<https://quarto.org/docs/output-formats/html-basics.html>
+
+Making a pdf document:
+
+<https://quarto.org/docs/output-formats/pdf-basics.html>
+
+
+## Week 3 assignment
+
+1. Write your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.

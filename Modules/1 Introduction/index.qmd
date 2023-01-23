@@ -1,0 +1,47 @@
+---
+title: "1 Introduction"
+description: "General orientation for PSYC 3470"
+author: "Matt Crump"
+date: "2/1/2023"
+order: 1 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Welcome to the orientation learning module for PSYC 2530. We will cover everything here and more on the first day of class. See you there.
+
+## Goals
+
+- General course orientation
+- get you ready for the first week
+
+## Read
+
+Read the [syllabus for this course](https://www.crumplab.com/psyc3470/syllabus.html).
+
+## Getting started goals
+
+There are many possibilities for technical difficulties as we get started. The computer room is equipped with the software that we need, however, I strongly encourage you to install the necessary software on your own computer. 
+
+Throughout the semester we will be using software called R, Rstudio, quarto, and github. All of this software is free and open-source, and can be installed on windows, mac, or linux.
+
+**Over the semester, you will be using these tools to build a personal course blog and website.** Every week will involve blogging assignments, and there are slightly more involved midterm and final projects.
+
+Please follow these instructions to create a quarto blog. Don't worry if you can't get it to work, we will troubleshoot in class.
+
+## Quarto blog instructions
+
+This is a blog post I made (on my own quarto blog), about how to get started blogging with quarto.
+
+<https://crumplab.com/blog/post_887_8_25_22_quartoblog/>
+
+## Week 1 assignment
+
+1. Once you have created your quarto blog, please submit the url to your blog on blackboard (to the week 0 assignment.)
+
+

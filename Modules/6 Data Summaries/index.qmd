@@ -1,0 +1,28 @@
+---
+title: "6 Data Summaries"
+author: "Matt Crump"
+date: "1/23/2023"
+order: 6 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Read
+
+Read the data summaries chapter.
+
+<https://psyteachr.github.io/ads-v2/05-summary.html>
+
+## Additional resources
+
+TBD
+
+
+## Week 6 assignment
+
+1. Write your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.

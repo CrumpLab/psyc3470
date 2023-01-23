@@ -8,7 +8,7 @@ format:
     toc: true
 ---
 
-# PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences
+# PSYC 3470/SOCY 3507: Data Analytics and Data Visualization in the Social and Behavioral Sciences
 
 ::: callout-important
 ## Under construction
@@ -18,11 +18,11 @@ This syllabus is under construction until Spring 2023
 
 Spring 2023
 
-Section: TBD
+Section: PSYC 3470: 30351, SOCY 3507: 46070
 
 Time: 11:00am - 12:15pm, Monday and Wednesday
 
-Location: TBD
+Location: James 4607
 
 Office Hours: TBA (zoom link posted on Blackboard)
 
@@ -33,7 +33,6 @@ Email: mcrump\@brooklyn.cuny.edu (please put ''Psyc 3470' in subject line)
 ## Course Description
 
 PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences
-
 
 3 hours; 3 credits
 
@@ -67,9 +66,9 @@ Link to the course website: <https://crumplab.com/psyc3470>
 
 ### Textbook
 
-"**Applied Data Skills**: Processing & Presenting Data" (2022) Emily Nordmann and Lisa DeBruine.
+"**Applied Data Skills**: Processing & Presenting Data" (2023) Emily Nordmann and Lisa DeBruine.
 
-<https://psyteachr.github.io/ads-v1/index.html>
+<https://psyteachr.github.io/ads-v2>
 
 The textbook is a free and open-source web book. There are many additional free resources for learning R that will be discussed and made available throughout the semester.
 
@@ -96,12 +95,12 @@ This is an engagement and skills-acquisition based course. At the beginning of t
 
 ### Points and letter grades
 
-| Assignment                | Points | Total |
-|:--------------------------|-------:|------:|
-| Weekly Blog post          |      4 |    60 |
-| Attendance                |      1 |    15 |
-| Final project and website |     25 |    25 |
-|                           |        |   100 |
+| Assignment                                  |  Points | Total |
+|:--------------------------------------------|--------:|------:|
+| Weekly Blog post                            |       4 |    60 |
+| Attendance                                  |       1 |    15 |
+| Midterm, project, Final project and website | 10,10,5 |    25 |
+|                                             |         |   100 |
 
 Percentage grades are converted to letter grades according to the following rubric.
 

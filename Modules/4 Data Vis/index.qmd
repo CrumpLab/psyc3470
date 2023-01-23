@@ -1,0 +1,43 @@
+---
+title: "4 Data Vis"
+author: "Matt Crump"
+date: "1/23/2023"
+order: 4 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Read
+
+Read the data-visualization chapter
+
+<https://psyteachr.github.io/ads-v2/03-viz.html>
+
+## Additional resources
+
+### Adding figures to quarto documents
+
+<https://quarto.org/docs/authoring/figures.html>
+
+### ggplot 2
+
+Package website:
+
+<https://ggplot2.tidyverse.org>
+
+Books:
+
+<https://ggplot2-book.org>
+
+<https://r4ds.had.co.nz/data-visualisation.html>
+
+
+
+## Week 4 assignment
+
+1. Write your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.

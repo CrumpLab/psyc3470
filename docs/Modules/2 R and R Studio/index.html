@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Matt Crump">
+<meta name="dcterms.date" content="2023-02-01">
 
-<title>PSYC3470 -</title>
+<title>PSYC3470 - 2 R, R studio, Quarto and Github</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,9 +63,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="https://kit.fontawesome.com/78ddb093ea.js" crossorigin="anonymous"></script>
 
 
-<link rel="stylesheet" href="css/nav.css">
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="../../css/nav.css">
+<link rel="stylesheet" href="../../css/styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -73,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PSYC3470</span>
     </a>
   </div>
@@ -83,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="../../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -97,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"></h1>
+      <h1 class="quarto-secondary-nav-title">2 R, R studio, Quarto and Github</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -112,12 +113,12 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
+  <a href="../../syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./Modules/index.html" class="sidebar-item-text sidebar-link">Modules</a>
+            <a href="../../Modules/index.html" class="sidebar-item-text sidebar-link">Modules</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -125,72 +126,72 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/11 Data Wrangling/index.html" class="sidebar-item-text sidebar-link">11 Data Wrangling</a>
+  <a href="../../Modules/11 Data Wrangling/index.html" class="sidebar-item-text sidebar-link">11 Data Wrangling</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/1 Introduction/index.html" class="sidebar-item-text sidebar-link">1 Introduction</a>
+  <a href="../../Modules/1 Introduction/index.html" class="sidebar-item-text sidebar-link">1 Introduction</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/2 R and R Studio/index.html" class="sidebar-item-text sidebar-link">2 R, R studio, Quarto and Github</a>
+  <a href="../../Modules/2 R and R Studio/index.html" class="sidebar-item-text sidebar-link active">2 R, R studio, Quarto and Github</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/3 Reports with R Markdown/index.html" class="sidebar-item-text sidebar-link">3 Reports with R Markdown</a>
+  <a href="../../Modules/3 Reports with R Markdown/index.html" class="sidebar-item-text sidebar-link">3 Reports with R Markdown</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/4 Data Vis/index.html" class="sidebar-item-text sidebar-link">4 Data Vis</a>
+  <a href="../../Modules/4 Data Vis/index.html" class="sidebar-item-text sidebar-link">4 Data Vis</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/5 Data Import/index.html" class="sidebar-item-text sidebar-link">5 Data Import</a>
+  <a href="../../Modules/5 Data Import/index.html" class="sidebar-item-text sidebar-link">5 Data Import</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/6 Data Summaries/index.html" class="sidebar-item-text sidebar-link">6 Data Summaries</a>
+  <a href="../../Modules/6 Data Summaries/index.html" class="sidebar-item-text sidebar-link">6 Data Summaries</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/7 Practice Report/index.html" class="sidebar-item-text sidebar-link">7 Practice Report</a>
+  <a href="../../Modules/7 Practice Report/index.html" class="sidebar-item-text sidebar-link">7 Practice Report</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/8 Data Relations/index.html" class="sidebar-item-text sidebar-link">8 Data Relations</a>
+  <a href="../../Modules/8 Data Relations/index.html" class="sidebar-item-text sidebar-link">8 Data Relations</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/9 Data Tidying/index.html" class="sidebar-item-text sidebar-link">9 Data Tidying</a>
+  <a href="../../Modules/9 Data Tidying/index.html" class="sidebar-item-text sidebar-link">9 Data Tidying</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/10 Final Project Planning/index.html" class="sidebar-item-text sidebar-link">10 Final Project Planning</a>
+  <a href="../../Modules/10 Final Project Planning/index.html" class="sidebar-item-text sidebar-link">10 Final Project Planning</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/12 Customizations/index.html" class="sidebar-item-text sidebar-link">12 Customizations</a>
+  <a href="../../Modules/12 Customizations/index.html" class="sidebar-item-text sidebar-link">12 Customizations</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/13 Advanced Topics/index.html" class="sidebar-item-text sidebar-link">13 Advanced Topics</a>
+  <a href="../../Modules/13 Advanced Topics/index.html" class="sidebar-item-text sidebar-link">13 Advanced Topics</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Modules/14 Final Presentations/index.html" class="sidebar-item-text sidebar-link">14 Final Presentations</a>
+  <a href="../../Modules/14 Final Presentations/index.html" class="sidebar-item-text sidebar-link">14 Final Presentations</a>
   </div>
 </li>
       </ul>
@@ -204,28 +205,72 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#psyc-3470-data-analytics-and-data-visualization-in-the-social-and-behavioral-sciences" id="toc-psyc-3470-data-analytics-and-data-visualization-in-the-social-and-behavioral-sciences" class="nav-link active" data-scroll-target="#psyc-3470-data-analytics-and-data-visualization-in-the-social-and-behavioral-sciences">PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences</a></li>
+  <li><a href="#read" id="toc-read" class="nav-link active" data-scroll-target="#read">Read</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional resources</a>
+  <ul class="collapse">
+  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a></li>
+  <li><a href="#github" id="toc-github" class="nav-link" data-scroll-target="#github">Github</a></li>
+  </ul></li>
+  <li><a href="#week-2-assignment" id="toc-week-2-assignment" class="nav-link" data-scroll-target="#week-2-assignment">Week 2 Assignment</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">2 R, R studio, Quarto and Github</h1>
+</div>
 
 
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="images/datafingertips.jpg" class="img-fluid" style="width:100.0%"></p>
-</div>
-</div>
-<section id="psyc-3470-data-analytics-and-data-visualization-in-the-social-and-behavioral-sciences" class="level2">
-<h2 class="anchored" data-anchor-id="psyc-3470-data-analytics-and-data-visualization-in-the-social-and-behavioral-sciences">PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences</h2>
-<p>This is the course website for PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences, taught by <a href="https://crumplab.com">Dr.&nbsp;Matthew Crump</a> in Spring 2023. <strong>This website is currently under development.</strong></p>
-<p><strong>Bulletin Description:</strong></p>
-<p>3 hours; 3 credits</p>
-<p>How the “data revolution” has transformed the way we understand and interact with the world around us. Fundamental concepts and practical techniques and skills needed for data analytics and data visualization. Availability of large datasets and their use across a variety of settings, including social networks, libraries, governments, non-profits, etc. The emergence of practices with regard to data analysis and visual communication in the social and behavioral sciences. This course is the same as Sociology 3507.</p>
-<p><strong>Sources</strong></p>
-<p>This course will use open-educational resources, typically licensed on creative commons.</p>
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Matt Crump </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 1, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="read" class="level2">
+<h2 class="anchored" data-anchor-id="read">Read</h2>
+<p>Read the intro to R and RStudio chapter from the textbook.</p>
+<p><a href="https://psyteachr.github.io/ads-v2/01-intro.html" class="uri">https://psyteachr.github.io/ads-v2/01-intro.html</a></p>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
+<section id="quarto" class="level3">
+<h3 class="anchored" data-anchor-id="quarto">Quarto</h3>
+<p>The quarto website contains many helpful examples. We will cover aspects throughout the semester.</p>
+<p><a href="https://quarto.org" class="uri">https://quarto.org</a></p>
+</section>
+<section id="github" class="level3">
+<h3 class="anchored" data-anchor-id="github">Github</h3>
+<p>We will be making use of Github to store and share your course blog and website.</p>
+<p>We will troubleshoot all Github issues individually and in class. If you want to learn more, then I recommend this free resource.</p>
+<p><a href="https://happygitwithr.com" class="uri">https://happygitwithr.com</a></p>
+</section>
+</section>
+<section id="week-2-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="week-2-assignment">Week 2 Assignment</h2>
+<ol type="1">
+<li>Write your first blog post, and submit the link to your first blog post to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.</li>
+</ol>
 
 
 </section>
