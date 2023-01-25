@@ -1,332 +1,10 @@
 [
   {
-    "objectID": "Modules/1 Introduction/index.html",
-    "href": "Modules/1 Introduction/index.html",
-    "title": "1 Introduction",
+    "objectID": "compendium/index.html",
+    "href": "compendium/index.html",
+    "title": "Compendium",
     "section": "",
-    "text": "Welcome to the orientation learning module for PSYC 2530. We will cover everything here and more on the first day of class. See you there."
-  },
-  {
-    "objectID": "Modules/1 Introduction/index.html#goals",
-    "href": "Modules/1 Introduction/index.html#goals",
-    "title": "1 Introduction",
-    "section": "Goals",
-    "text": "Goals\n\nGeneral course orientation\nget you ready for the first week"
-  },
-  {
-    "objectID": "Modules/1 Introduction/index.html#read",
-    "href": "Modules/1 Introduction/index.html#read",
-    "title": "1 Introduction",
-    "section": "Read",
-    "text": "Read\nRead the syllabus for this course."
-  },
-  {
-    "objectID": "Modules/1 Introduction/index.html#getting-started-goals",
-    "href": "Modules/1 Introduction/index.html#getting-started-goals",
-    "title": "1 Introduction",
-    "section": "Getting started goals",
-    "text": "Getting started goals\nThere are many possibilities for technical difficulties as we get started. The computer room is equipped with the software that we need, however, I strongly encourage you to install the necessary software on your own computer.\nThroughout the semester we will be using software called R, Rstudio, quarto, and github. All of this software is free and open-source, and can be installed on windows, mac, or linux.\nOver the semester, you will be using these tools to build a personal course blog and website. Every week will involve blogging assignments, and there are slightly more involved midterm and final projects.\nPlease follow these instructions to create a quarto blog. Don’t worry if you can’t get it to work, we will troubleshoot in class."
-  },
-  {
-    "objectID": "Modules/1 Introduction/index.html#quarto-blog-instructions",
-    "href": "Modules/1 Introduction/index.html#quarto-blog-instructions",
-    "title": "1 Introduction",
-    "section": "Quarto blog instructions",
-    "text": "Quarto blog instructions\nThis is a blog post I made (on my own quarto blog), about how to get started blogging with quarto.\nhttps://crumplab.com/blog/post_887_8_25_22_quartoblog/"
-  },
-  {
-    "objectID": "Modules/1 Introduction/index.html#week-1-assignment",
-    "href": "Modules/1 Introduction/index.html#week-1-assignment",
-    "title": "1 Introduction",
-    "section": "Week 1 assignment",
-    "text": "Week 1 assignment\n\nOnce you have created your quarto blog, please submit the url to your blog on blackboard (to the week 0 assignment.)"
-  },
-  {
-    "objectID": "Modules/10 Final Project Planning/index.html",
-    "href": "Modules/10 Final Project Planning/index.html",
-    "title": "10 Final Project Planning",
-    "section": "",
-    "text": "TBD"
-  },
-  {
-    "objectID": "Modules/10 Final Project Planning/index.html#additional-resources",
-    "href": "Modules/10 Final Project Planning/index.html#additional-resources",
-    "title": "10 Final Project Planning",
-    "section": "Additional resources",
-    "text": "Additional resources\nTBD"
-  },
-  {
-    "objectID": "Modules/10 Final Project Planning/index.html#week-10-assignment",
-    "href": "Modules/10 Final Project Planning/index.html#week-10-assignment",
-    "title": "10 Final Project Planning",
-    "section": "Week 10 assignment",
-    "text": "Week 10 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/11 Data Wrangling/index.html",
-    "href": "Modules/11 Data Wrangling/index.html",
-    "title": "11 Data Wrangling",
-    "section": "",
-    "text": "Read the data-wrangling chapter.\nhttps://psyteachr.github.io/ads-v2/09-wrangle.html"
-  },
-  {
-    "objectID": "Modules/11 Data Wrangling/index.html#additional-resources",
-    "href": "Modules/11 Data Wrangling/index.html#additional-resources",
-    "title": "11 Data Wrangling",
-    "section": "Additional resources",
-    "text": "Additional resources\nhttps://r4ds.had.co.nz/wrangle-intro.html"
-  },
-  {
-    "objectID": "Modules/11 Data Wrangling/index.html#week-11-assignment",
-    "href": "Modules/11 Data Wrangling/index.html#week-11-assignment",
-    "title": "11 Data Wrangling",
-    "section": "Week 11 assignment",
-    "text": "Week 11 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/12 Customizations/index.html",
-    "href": "Modules/12 Customizations/index.html",
-    "title": "12 Customizations",
-    "section": "",
-    "text": "Read the practice report chapter.\nhttps://psyteachr.github.io/ads-v2/10-custom.html"
-  },
-  {
-    "objectID": "Modules/12 Customizations/index.html#additional-resources",
-    "href": "Modules/12 Customizations/index.html#additional-resources",
-    "title": "12 Customizations",
-    "section": "Additional resources",
-    "text": "Additional resources\nTBD"
-  },
-  {
-    "objectID": "Modules/12 Customizations/index.html#week-12-assignment",
-    "href": "Modules/12 Customizations/index.html#week-12-assignment",
-    "title": "12 Customizations",
-    "section": "Week 12 assignment",
-    "text": "Week 12 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/13 Advanced Topics/index.html",
-    "href": "Modules/13 Advanced Topics/index.html",
-    "title": "13 Advanced Topics",
-    "section": "",
-    "text": "TBD"
-  },
-  {
-    "objectID": "Modules/13 Advanced Topics/index.html#additional-resources",
-    "href": "Modules/13 Advanced Topics/index.html#additional-resources",
-    "title": "13 Advanced Topics",
-    "section": "Additional resources",
-    "text": "Additional resources\nTBD"
-  },
-  {
-    "objectID": "Modules/13 Advanced Topics/index.html#week-13-assignment",
-    "href": "Modules/13 Advanced Topics/index.html#week-13-assignment",
-    "title": "13 Advanced Topics",
-    "section": "Week 13 assignment",
-    "text": "Week 13 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/14 Final Presentations/index.html",
-    "href": "Modules/14 Final Presentations/index.html",
-    "title": "14 Final Presentations",
-    "section": "",
-    "text": "TBD"
-  },
-  {
-    "objectID": "Modules/14 Final Presentations/index.html#additional-resources",
-    "href": "Modules/14 Final Presentations/index.html#additional-resources",
-    "title": "14 Final Presentations",
-    "section": "Additional resources",
-    "text": "Additional resources\nSlide decks with quarto:\nhttps://quarto.org/docs/presentations/revealjs/"
-  },
-  {
-    "objectID": "Modules/14 Final Presentations/index.html#week-14-assignment",
-    "href": "Modules/14 Final Presentations/index.html#week-14-assignment",
-    "title": "14 Final Presentations",
-    "section": "Week 14 assignment",
-    "text": "Week 14 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/2 R and R Studio/index.html",
-    "href": "Modules/2 R and R Studio/index.html",
-    "title": "2 R, R studio, Quarto and Github",
-    "section": "",
-    "text": "Read the intro to R and RStudio chapter from the textbook.\nhttps://psyteachr.github.io/ads-v2/01-intro.html"
-  },
-  {
-    "objectID": "Modules/2 R and R Studio/index.html#additional-resources",
-    "href": "Modules/2 R and R Studio/index.html#additional-resources",
-    "title": "2 R, R studio, Quarto and Github",
-    "section": "Additional resources",
-    "text": "Additional resources\n\nQuarto\nThe quarto website contains many helpful examples. We will cover aspects throughout the semester.\nhttps://quarto.org\n\n\nGithub\nWe will be making use of Github to store and share your course blog and website.\nWe will troubleshoot all Github issues individually and in class. If you want to learn more, then I recommend this free resource.\nhttps://happygitwithr.com"
-  },
-  {
-    "objectID": "Modules/2 R and R Studio/index.html#week-2-assignment",
-    "href": "Modules/2 R and R Studio/index.html#week-2-assignment",
-    "title": "2 R, R studio, Quarto and Github",
-    "section": "Week 2 Assignment",
-    "text": "Week 2 Assignment\n\nWrite your first blog post, and submit the link to your first blog post to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/3 Reports with R Markdown/index.html",
-    "href": "Modules/3 Reports with R Markdown/index.html",
-    "title": "3 Reports with R Markdown",
-    "section": "",
-    "text": "https://psyteachr.github.io/ads-v2/02-reports.html"
-  },
-  {
-    "objectID": "Modules/3 Reports with R Markdown/index.html#additional-resources",
-    "href": "Modules/3 Reports with R Markdown/index.html#additional-resources",
-    "title": "3 Reports with R Markdown",
-    "section": "Additional resources",
-    "text": "Additional resources\n\nQuarto documents\nThe quarto website contains many helpful examples. We will cover aspects throughout the semester.\nGeneral tips for writing in quarto markdown:\nhttps://quarto.org/docs/authoring/markdown-basics.html\nMaking an html document:\nhttps://quarto.org/docs/output-formats/html-basics.html\nMaking a pdf document:\nhttps://quarto.org/docs/output-formats/pdf-basics.html"
-  },
-  {
-    "objectID": "Modules/3 Reports with R Markdown/index.html#week-3-assignment",
-    "href": "Modules/3 Reports with R Markdown/index.html#week-3-assignment",
-    "title": "3 Reports with R Markdown",
-    "section": "Week 3 assignment",
-    "text": "Week 3 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/4 Data Vis/index.html",
-    "href": "Modules/4 Data Vis/index.html",
-    "title": "4 Data Vis",
-    "section": "",
-    "text": "Read the data-visualization chapter\nhttps://psyteachr.github.io/ads-v2/03-viz.html"
-  },
-  {
-    "objectID": "Modules/4 Data Vis/index.html#additional-resources",
-    "href": "Modules/4 Data Vis/index.html#additional-resources",
-    "title": "4 Data Vis",
-    "section": "Additional resources",
-    "text": "Additional resources\n\nAdding figures to quarto documents\nhttps://quarto.org/docs/authoring/figures.html\n\n\nggplot 2\nPackage website:\nhttps://ggplot2.tidyverse.org\nBooks:\nhttps://ggplot2-book.org\nhttps://r4ds.had.co.nz/data-visualisation.html"
-  },
-  {
-    "objectID": "Modules/4 Data Vis/index.html#week-4-assignment",
-    "href": "Modules/4 Data Vis/index.html#week-4-assignment",
-    "title": "4 Data Vis",
-    "section": "Week 4 assignment",
-    "text": "Week 4 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/5 Data Import/index.html",
-    "href": "Modules/5 Data Import/index.html",
-    "title": "5 Data Import",
-    "section": "",
-    "text": "Read the data import chapter.\nhttps://psyteachr.github.io/ads-v2/04-data.html"
-  },
-  {
-    "objectID": "Modules/5 Data Import/index.html#additional-resources",
-    "href": "Modules/5 Data Import/index.html#additional-resources",
-    "title": "5 Data Import",
-    "section": "Additional resources",
-    "text": "Additional resources\nhttps://r4ds.had.co.nz/data-import.html"
-  },
-  {
-    "objectID": "Modules/5 Data Import/index.html#week-5-assignment",
-    "href": "Modules/5 Data Import/index.html#week-5-assignment",
-    "title": "5 Data Import",
-    "section": "Week 5 assignment",
-    "text": "Week 5 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/6 Data Summaries/index.html",
-    "href": "Modules/6 Data Summaries/index.html",
-    "title": "6 Data Summaries",
-    "section": "",
-    "text": "Read the data summaries chapter.\nhttps://psyteachr.github.io/ads-v2/05-summary.html"
-  },
-  {
-    "objectID": "Modules/6 Data Summaries/index.html#additional-resources",
-    "href": "Modules/6 Data Summaries/index.html#additional-resources",
-    "title": "6 Data Summaries",
-    "section": "Additional resources",
-    "text": "Additional resources\nTBD"
-  },
-  {
-    "objectID": "Modules/6 Data Summaries/index.html#week-6-assignment",
-    "href": "Modules/6 Data Summaries/index.html#week-6-assignment",
-    "title": "6 Data Summaries",
-    "section": "Week 6 assignment",
-    "text": "Week 6 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/7 Practice Report/index.html",
-    "href": "Modules/7 Practice Report/index.html",
-    "title": "7 Practice Report",
-    "section": "",
-    "text": "Read the practice report chapter.\nhttps://psyteachr.github.io/ads-v2/06-formative.html"
-  },
-  {
-    "objectID": "Modules/7 Practice Report/index.html#additional-resources",
-    "href": "Modules/7 Practice Report/index.html#additional-resources",
-    "title": "7 Practice Report",
-    "section": "Additional resources",
-    "text": "Additional resources\nTBD"
-  },
-  {
-    "objectID": "Modules/7 Practice Report/index.html#week-7-assignment",
-    "href": "Modules/7 Practice Report/index.html#week-7-assignment",
-    "title": "7 Practice Report",
-    "section": "Week 7 assignment",
-    "text": "Week 7 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/8 Data Relations/index.html",
-    "href": "Modules/8 Data Relations/index.html",
-    "title": "8 Data Relations",
-    "section": "",
-    "text": "Read the chapter.\nhttps://psyteachr.github.io/ads-v2/07-joins.html"
-  },
-  {
-    "objectID": "Modules/8 Data Relations/index.html#additional-resources",
-    "href": "Modules/8 Data Relations/index.html#additional-resources",
-    "title": "8 Data Relations",
-    "section": "Additional resources",
-    "text": "Additional resources\nTBD"
-  },
-  {
-    "objectID": "Modules/8 Data Relations/index.html#week-8-assignment",
-    "href": "Modules/8 Data Relations/index.html#week-8-assignment",
-    "title": "8 Data Relations",
-    "section": "Week 8 assignment",
-    "text": "Week 8 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/9 Data Tidying/index.html",
-    "href": "Modules/9 Data Tidying/index.html",
-    "title": "9 Data Tidying",
-    "section": "",
-    "text": "Read the data-tidying chapter.\nhttps://psyteachr.github.io/ads-v2/08-tidy.html"
-  },
-  {
-    "objectID": "Modules/9 Data Tidying/index.html#additional-resources",
-    "href": "Modules/9 Data Tidying/index.html#additional-resources",
-    "title": "9 Data Tidying",
-    "section": "Additional resources",
-    "text": "Additional resources\nTBD"
-  },
-  {
-    "objectID": "Modules/9 Data Tidying/index.html#week-9-assignment",
-    "href": "Modules/9 Data Tidying/index.html#week-9-assignment",
-    "title": "9 Data Tidying",
-    "section": "Week 9 assignment",
-    "text": "Week 9 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
-  },
-  {
-    "objectID": "Modules/index.html",
-    "href": "Modules/index.html",
-    "title": "Modules",
-    "section": "",
-    "text": "This is a 15 week course, with roughly 14 modules. The practical goal of the course is to train a broad base of data-analysis and visualization skills using open-source software tools like R.\nThe modules roughly track the ten chapters of the textbook:\nhttps://psyteachr.github.io/ads-v2/"
-  },
-  {
-    "objectID": "Modules/index.html#module-structure",
-    "href": "Modules/index.html#module-structure",
-    "title": "Modules",
-    "section": "Module structure",
-    "text": "Module structure\nIn general, modules will contain a reading, additional resources, and a weekly assignment.\nThe modules will be updated across the semester as needed."
+    "text": "This compendium will contain numerous assorted resources for PSYC 3470 and it’s contents will be expanded across the semester. Student contributions to the compendium are encouraged."
   },
   {
     "objectID": "index.html#psyc-3470-data-analytics-and-data-visualization-in-the-social-and-behavioral-sciences",
@@ -334,6 +12,335 @@
     "title": "PSYC3470",
     "section": "PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences",
     "text": "PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences\nThis is the course website for PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences, taught by Dr. Matthew Crump in Spring 2023. This website is currently under development.\nBulletin Description:\n3 hours; 3 credits\nHow the “data revolution” has transformed the way we understand and interact with the world around us. Fundamental concepts and practical techniques and skills needed for data analytics and data visualization. Availability of large datasets and their use across a variety of settings, including social networks, libraries, governments, non-profits, etc. The emergence of practices with regard to data analysis and visual communication in the social and behavioral sciences. This course is the same as Sociology 3507.\nSources\nThis course will use open-educational resources, typically licensed on creative commons."
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html",
+    "href": "modules/1 Introduction/index.html",
+    "title": "1 Introduction",
+    "section": "",
+    "text": "Welcome to the orientation learning module for PSYC 2530. We will cover everything here and more on the first day of class. See you there."
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#goals",
+    "href": "modules/1 Introduction/index.html#goals",
+    "title": "1 Introduction",
+    "section": "Goals",
+    "text": "Goals\n\nGeneral course orientation\nget you ready for the first week"
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#read",
+    "href": "modules/1 Introduction/index.html#read",
+    "title": "1 Introduction",
+    "section": "Read",
+    "text": "Read\nRead the syllabus for this course."
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#getting-started-goals",
+    "href": "modules/1 Introduction/index.html#getting-started-goals",
+    "title": "1 Introduction",
+    "section": "Getting started goals",
+    "text": "Getting started goals\nThere are many possibilities for technical difficulties as we get started. The computer room is equipped with the software that we need, however, I strongly encourage you to install the necessary software on your own computer.\nThroughout the semester we will be using software called R, Rstudio, quarto, and github. All of this software is free and open-source, and can be installed on windows, mac, or linux.\nOver the semester, you will be using these tools to build a personal course blog and website. Every week will involve blogging assignments, and there are slightly more involved midterm and final projects.\nPlease follow these instructions to create a quarto blog. Don’t worry if you can’t get it to work, we will troubleshoot in class."
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#quarto-blog-instructions",
+    "href": "modules/1 Introduction/index.html#quarto-blog-instructions",
+    "title": "1 Introduction",
+    "section": "Quarto blog instructions",
+    "text": "Quarto blog instructions\nThis is a blog post I made (on my own quarto blog), about how to get started blogging with quarto.\nhttps://crumplab.com/blog/post_887_8_25_22_quartoblog/"
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#week-1-assignment",
+    "href": "modules/1 Introduction/index.html#week-1-assignment",
+    "title": "1 Introduction",
+    "section": "Week 1 assignment",
+    "text": "Week 1 assignment\n\nOnce you have created your quarto blog, please submit the url to your blog on blackboard (to the week 0 assignment.)"
+  },
+  {
+    "objectID": "modules/10 Final Project Planning/index.html",
+    "href": "modules/10 Final Project Planning/index.html",
+    "title": "10 Final Project Planning",
+    "section": "",
+    "text": "TBD"
+  },
+  {
+    "objectID": "modules/10 Final Project Planning/index.html#additional-resources",
+    "href": "modules/10 Final Project Planning/index.html#additional-resources",
+    "title": "10 Final Project Planning",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/10 Final Project Planning/index.html#week-10-assignment",
+    "href": "modules/10 Final Project Planning/index.html#week-10-assignment",
+    "title": "10 Final Project Planning",
+    "section": "Week 10 assignment",
+    "text": "Week 10 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/11 Data Wrangling/index.html",
+    "href": "modules/11 Data Wrangling/index.html",
+    "title": "11 Data Wrangling",
+    "section": "",
+    "text": "Read the data-wrangling chapter.\nhttps://psyteachr.github.io/ads-v2/09-wrangle.html"
+  },
+  {
+    "objectID": "modules/11 Data Wrangling/index.html#additional-resources",
+    "href": "modules/11 Data Wrangling/index.html#additional-resources",
+    "title": "11 Data Wrangling",
+    "section": "Additional resources",
+    "text": "Additional resources\nhttps://r4ds.had.co.nz/wrangle-intro.html"
+  },
+  {
+    "objectID": "modules/11 Data Wrangling/index.html#week-11-assignment",
+    "href": "modules/11 Data Wrangling/index.html#week-11-assignment",
+    "title": "11 Data Wrangling",
+    "section": "Week 11 assignment",
+    "text": "Week 11 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/12 Customizations/index.html",
+    "href": "modules/12 Customizations/index.html",
+    "title": "12 Customizations",
+    "section": "",
+    "text": "Read the practice report chapter.\nhttps://psyteachr.github.io/ads-v2/10-custom.html"
+  },
+  {
+    "objectID": "modules/12 Customizations/index.html#additional-resources",
+    "href": "modules/12 Customizations/index.html#additional-resources",
+    "title": "12 Customizations",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/12 Customizations/index.html#week-12-assignment",
+    "href": "modules/12 Customizations/index.html#week-12-assignment",
+    "title": "12 Customizations",
+    "section": "Week 12 assignment",
+    "text": "Week 12 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/13 Advanced Topics/index.html",
+    "href": "modules/13 Advanced Topics/index.html",
+    "title": "13 Advanced Topics",
+    "section": "",
+    "text": "TBD"
+  },
+  {
+    "objectID": "modules/13 Advanced Topics/index.html#additional-resources",
+    "href": "modules/13 Advanced Topics/index.html#additional-resources",
+    "title": "13 Advanced Topics",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/13 Advanced Topics/index.html#week-13-assignment",
+    "href": "modules/13 Advanced Topics/index.html#week-13-assignment",
+    "title": "13 Advanced Topics",
+    "section": "Week 13 assignment",
+    "text": "Week 13 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/14 Final Presentations/index.html",
+    "href": "modules/14 Final Presentations/index.html",
+    "title": "14 Final Presentations",
+    "section": "",
+    "text": "TBD"
+  },
+  {
+    "objectID": "modules/14 Final Presentations/index.html#additional-resources",
+    "href": "modules/14 Final Presentations/index.html#additional-resources",
+    "title": "14 Final Presentations",
+    "section": "Additional resources",
+    "text": "Additional resources\nSlide decks with quarto:\nhttps://quarto.org/docs/presentations/revealjs/"
+  },
+  {
+    "objectID": "modules/14 Final Presentations/index.html#week-14-assignment",
+    "href": "modules/14 Final Presentations/index.html#week-14-assignment",
+    "title": "14 Final Presentations",
+    "section": "Week 14 assignment",
+    "text": "Week 14 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/2 R and R Studio/index.html",
+    "href": "modules/2 R and R Studio/index.html",
+    "title": "2 R, R studio, Quarto and Github",
+    "section": "",
+    "text": "Read the intro to R and RStudio chapter from the textbook.\nhttps://psyteachr.github.io/ads-v2/01-intro.html"
+  },
+  {
+    "objectID": "modules/2 R and R Studio/index.html#additional-resources",
+    "href": "modules/2 R and R Studio/index.html#additional-resources",
+    "title": "2 R, R studio, Quarto and Github",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nQuarto\nThe quarto website contains many helpful examples. We will cover aspects throughout the semester.\nhttps://quarto.org\n\n\nGithub\nWe will be making use of Github to store and share your course blog and website.\nWe will troubleshoot all Github issues individually and in class. If you want to learn more, then I recommend this free resource.\nhttps://happygitwithr.com"
+  },
+  {
+    "objectID": "modules/2 R and R Studio/index.html#week-2-assignment",
+    "href": "modules/2 R and R Studio/index.html#week-2-assignment",
+    "title": "2 R, R studio, Quarto and Github",
+    "section": "Week 2 Assignment",
+    "text": "Week 2 Assignment\n\nWrite your first blog post, and submit the link to your first blog post to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/3 Reports with R Markdown/index.html",
+    "href": "modules/3 Reports with R Markdown/index.html",
+    "title": "3 Reports with R Markdown",
+    "section": "",
+    "text": "https://psyteachr.github.io/ads-v2/02-reports.html"
+  },
+  {
+    "objectID": "modules/3 Reports with R Markdown/index.html#additional-resources",
+    "href": "modules/3 Reports with R Markdown/index.html#additional-resources",
+    "title": "3 Reports with R Markdown",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nQuarto documents\nThe quarto website contains many helpful examples. We will cover aspects throughout the semester.\nGeneral tips for writing in quarto markdown:\nhttps://quarto.org/docs/authoring/markdown-basics.html\nMaking an html document:\nhttps://quarto.org/docs/output-formats/html-basics.html\nMaking a pdf document:\nhttps://quarto.org/docs/output-formats/pdf-basics.html"
+  },
+  {
+    "objectID": "modules/3 Reports with R Markdown/index.html#week-3-assignment",
+    "href": "modules/3 Reports with R Markdown/index.html#week-3-assignment",
+    "title": "3 Reports with R Markdown",
+    "section": "Week 3 assignment",
+    "text": "Week 3 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/4 Data Vis/index.html",
+    "href": "modules/4 Data Vis/index.html",
+    "title": "4 Data Vis",
+    "section": "",
+    "text": "Read the data-visualization chapter\nhttps://psyteachr.github.io/ads-v2/03-viz.html"
+  },
+  {
+    "objectID": "modules/4 Data Vis/index.html#additional-resources",
+    "href": "modules/4 Data Vis/index.html#additional-resources",
+    "title": "4 Data Vis",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nAdding figures to quarto documents\nhttps://quarto.org/docs/authoring/figures.html\n\n\nggplot 2\nPackage website:\nhttps://ggplot2.tidyverse.org\nBooks:\nhttps://ggplot2-book.org\nhttps://r4ds.had.co.nz/data-visualisation.html"
+  },
+  {
+    "objectID": "modules/4 Data Vis/index.html#week-4-assignment",
+    "href": "modules/4 Data Vis/index.html#week-4-assignment",
+    "title": "4 Data Vis",
+    "section": "Week 4 assignment",
+    "text": "Week 4 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/5 Data Import/index.html",
+    "href": "modules/5 Data Import/index.html",
+    "title": "5 Data Import",
+    "section": "",
+    "text": "Read the data import chapter.\nhttps://psyteachr.github.io/ads-v2/04-data.html"
+  },
+  {
+    "objectID": "modules/5 Data Import/index.html#additional-resources",
+    "href": "modules/5 Data Import/index.html#additional-resources",
+    "title": "5 Data Import",
+    "section": "Additional resources",
+    "text": "Additional resources\nhttps://r4ds.had.co.nz/data-import.html"
+  },
+  {
+    "objectID": "modules/5 Data Import/index.html#week-5-assignment",
+    "href": "modules/5 Data Import/index.html#week-5-assignment",
+    "title": "5 Data Import",
+    "section": "Week 5 assignment",
+    "text": "Week 5 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/6 Data Summaries/index.html",
+    "href": "modules/6 Data Summaries/index.html",
+    "title": "6 Data Summaries",
+    "section": "",
+    "text": "Read the data summaries chapter.\nhttps://psyteachr.github.io/ads-v2/05-summary.html"
+  },
+  {
+    "objectID": "modules/6 Data Summaries/index.html#additional-resources",
+    "href": "modules/6 Data Summaries/index.html#additional-resources",
+    "title": "6 Data Summaries",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/6 Data Summaries/index.html#week-6-assignment",
+    "href": "modules/6 Data Summaries/index.html#week-6-assignment",
+    "title": "6 Data Summaries",
+    "section": "Week 6 assignment",
+    "text": "Week 6 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/7 Practice Report/index.html",
+    "href": "modules/7 Practice Report/index.html",
+    "title": "7 Practice Report",
+    "section": "",
+    "text": "Read the practice report chapter.\nhttps://psyteachr.github.io/ads-v2/06-formative.html"
+  },
+  {
+    "objectID": "modules/7 Practice Report/index.html#additional-resources",
+    "href": "modules/7 Practice Report/index.html#additional-resources",
+    "title": "7 Practice Report",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/7 Practice Report/index.html#week-7-assignment",
+    "href": "modules/7 Practice Report/index.html#week-7-assignment",
+    "title": "7 Practice Report",
+    "section": "Week 7 assignment",
+    "text": "Week 7 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/8 Data Relations/index.html",
+    "href": "modules/8 Data Relations/index.html",
+    "title": "8 Data Relations",
+    "section": "",
+    "text": "Read the chapter.\nhttps://psyteachr.github.io/ads-v2/07-joins.html"
+  },
+  {
+    "objectID": "modules/8 Data Relations/index.html#additional-resources",
+    "href": "modules/8 Data Relations/index.html#additional-resources",
+    "title": "8 Data Relations",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/8 Data Relations/index.html#week-8-assignment",
+    "href": "modules/8 Data Relations/index.html#week-8-assignment",
+    "title": "8 Data Relations",
+    "section": "Week 8 assignment",
+    "text": "Week 8 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/9 Data Tidying/index.html",
+    "href": "modules/9 Data Tidying/index.html",
+    "title": "9 Data Tidying",
+    "section": "",
+    "text": "Read the data-tidying chapter.\nhttps://psyteachr.github.io/ads-v2/08-tidy.html"
+  },
+  {
+    "objectID": "modules/9 Data Tidying/index.html#additional-resources",
+    "href": "modules/9 Data Tidying/index.html#additional-resources",
+    "title": "9 Data Tidying",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/9 Data Tidying/index.html#week-9-assignment",
+    "href": "modules/9 Data Tidying/index.html#week-9-assignment",
+    "title": "9 Data Tidying",
+    "section": "Week 9 assignment",
+    "text": "Week 9 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/index.html",
+    "href": "modules/index.html",
+    "title": "Modules",
+    "section": "",
+    "text": "This is a 15 week course, with roughly 14 modules. The practical goal of the course is to train a broad base of data-analysis and visualization skills using open-source software tools like R.\nThe modules roughly track the ten chapters of the textbook:\nhttps://psyteachr.github.io/ads-v2/"
+  },
+  {
+    "objectID": "modules/index.html#module-structure",
+    "href": "modules/index.html#module-structure",
+    "title": "Modules",
+    "section": "Module structure",
+    "text": "Module structure\nIn general, modules will contain a reading, additional resources, and a weekly assignment.\nThe modules will be updated across the semester as needed."
   },
   {
     "objectID": "syllabus.html",

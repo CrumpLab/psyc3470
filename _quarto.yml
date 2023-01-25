@@ -12,15 +12,45 @@ website:
   title: "PSYC3470"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: https://psyteachr.github.io/ads-v1/index.html
-        text: Textbook
+      - text: "Home"
+        file: index.qmd
+      - text: "Syllabus"
+        file: syllabus.qmd
+      - text: "Textbook"
+        href: https://psyteachr.github.io/ads-v2
+      - text: "Modules"
+        file: modules/index.qmd
+      - text: "Compendium"
+        file: compendium/index.qmd
+
+    right:
+      - icon: github
+        href: https://github.com/CrumpLab/psyc3470
+        aria-label: GitHub
+
   sidebar:
+      #style: "floating"
+      #collapse-level: 2
+      #align: left
+      #contents: auto
+    - title: "Home"
       style: "floating"
       collapse-level: 2
       align: left
-      contents: auto
+      contents:
+        - syllabus.qmd
+        - auto: "modules"
+        - compendium
+    - title: "Modules"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents: modules
+    - title: "Compendium"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents: compendium
 
 format:
   html:

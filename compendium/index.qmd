@@ -1,0 +1,16 @@
+---
+title: "Compendium"
+description: "Additional resources for PSYC 3470"
+author: "Matt Crump"
+date: "1/25/2023"
+order: 0 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This compendium will contain numerous assorted resources for PSYC 3470 and it's contents will be expanded across the semester. Student contributions to the compendium are encouraged.
