@@ -95,12 +95,14 @@ This is an engagement and skills-acquisition based course. At the beginning of t
 
 ### Points and letter grades
 
-| Assignment                                  |  Points | Total |
-|:--------------------------------------------|--------:|------:|
-| Weekly Blog post                            |       4 |    60 |
-| Attendance                                  |       1 |    15 |
-| Midterm, project, Final project and website | 10,10,5 |    25 |
-|                                             |         |   100 |
+| Assignment          | Points | Total |
+|:--------------------|-------:|------:|
+| Course blog/website |      5 |     5 |
+| Weekly Blog post    |      4 |    60 |
+| Attendance          |      1 |    15 |
+| Midterm project     |     10 |    10 |
+| Final Project       |     10 |    10 |
+|                     |        |   100 |
 
 Percentage grades are converted to letter grades according to the following rubric.
 
