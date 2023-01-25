@@ -1,0 +1,352 @@
+[
+  {
+    "objectID": "compendium/index.html",
+    "href": "compendium/index.html",
+    "title": "Compendium",
+    "section": "",
+    "text": "This compendium will contain numerous assorted resources for PSYC 3470 and it’s contents will be expanded across the semester. Student contributions to the compendium are encouraged."
+  },
+  {
+    "objectID": "index.html#psyc-3470-data-analytics-and-data-visualization-in-the-social-and-behavioral-sciences",
+    "href": "index.html#psyc-3470-data-analytics-and-data-visualization-in-the-social-and-behavioral-sciences",
+    "title": "PSYC3470",
+    "section": "PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences",
+    "text": "PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences\nThis is the course website for PSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences, taught by Dr. Matthew Crump in Spring 2023. This website is currently under development.\nBulletin Description:\n3 hours; 3 credits\nHow the “data revolution” has transformed the way we understand and interact with the world around us. Fundamental concepts and practical techniques and skills needed for data analytics and data visualization. Availability of large datasets and their use across a variety of settings, including social networks, libraries, governments, non-profits, etc. The emergence of practices with regard to data analysis and visual communication in the social and behavioral sciences. This course is the same as Sociology 3507.\nSources\nThis course will use open-educational resources, typically licensed on creative commons."
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html",
+    "href": "modules/1 Introduction/index.html",
+    "title": "1 Introduction",
+    "section": "",
+    "text": "Welcome to the orientation learning module for PSYC 2530. We will cover everything here and more on the first day of class. See you there."
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#goals",
+    "href": "modules/1 Introduction/index.html#goals",
+    "title": "1 Introduction",
+    "section": "Goals",
+    "text": "Goals\n\nGeneral course orientation\nget you ready for the first week"
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#read",
+    "href": "modules/1 Introduction/index.html#read",
+    "title": "1 Introduction",
+    "section": "Read",
+    "text": "Read\nRead the syllabus for this course."
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#getting-started-goals",
+    "href": "modules/1 Introduction/index.html#getting-started-goals",
+    "title": "1 Introduction",
+    "section": "Getting started goals",
+    "text": "Getting started goals\nThere are many possibilities for technical difficulties as we get started. The computer room is equipped with the software that we need, however, I strongly encourage you to install the necessary software on your own computer.\nThroughout the semester we will be using software called R, Rstudio, quarto, and github. All of this software is free and open-source, and can be installed on windows, mac, or linux.\nOver the semester, you will be using these tools to build a personal course blog and website. Every week will involve blogging assignments, and there are slightly more involved midterm and final projects.\nPlease follow these instructions to create a quarto blog. Don’t worry if you can’t get it to work, we will troubleshoot in class."
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#quarto-blog-instructions",
+    "href": "modules/1 Introduction/index.html#quarto-blog-instructions",
+    "title": "1 Introduction",
+    "section": "Quarto blog instructions",
+    "text": "Quarto blog instructions\nThis is a blog post I made (on my own quarto blog), about how to get started blogging with quarto.\nhttps://crumplab.com/blog/post_887_8_25_22_quartoblog/"
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#week-1-assignment",
+    "href": "modules/1 Introduction/index.html#week-1-assignment",
+    "title": "1 Introduction",
+    "section": "Week 1 assignment",
+    "text": "Week 1 assignment\n\nOnce you have created your quarto blog, please submit the url to your blog on blackboard (to the week 0 assignment.)"
+  },
+  {
+    "objectID": "modules/10 Final Project Planning/index.html",
+    "href": "modules/10 Final Project Planning/index.html",
+    "title": "10 Final Project Planning",
+    "section": "",
+    "text": "TBD"
+  },
+  {
+    "objectID": "modules/10 Final Project Planning/index.html#additional-resources",
+    "href": "modules/10 Final Project Planning/index.html#additional-resources",
+    "title": "10 Final Project Planning",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/10 Final Project Planning/index.html#week-10-assignment",
+    "href": "modules/10 Final Project Planning/index.html#week-10-assignment",
+    "title": "10 Final Project Planning",
+    "section": "Week 10 assignment",
+    "text": "Week 10 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/11 Data Wrangling/index.html",
+    "href": "modules/11 Data Wrangling/index.html",
+    "title": "11 Data Wrangling",
+    "section": "",
+    "text": "Read the data-wrangling chapter.\nhttps://psyteachr.github.io/ads-v2/09-wrangle.html"
+  },
+  {
+    "objectID": "modules/11 Data Wrangling/index.html#additional-resources",
+    "href": "modules/11 Data Wrangling/index.html#additional-resources",
+    "title": "11 Data Wrangling",
+    "section": "Additional resources",
+    "text": "Additional resources\nhttps://r4ds.had.co.nz/wrangle-intro.html"
+  },
+  {
+    "objectID": "modules/11 Data Wrangling/index.html#week-11-assignment",
+    "href": "modules/11 Data Wrangling/index.html#week-11-assignment",
+    "title": "11 Data Wrangling",
+    "section": "Week 11 assignment",
+    "text": "Week 11 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/12 Customizations/index.html",
+    "href": "modules/12 Customizations/index.html",
+    "title": "12 Customizations",
+    "section": "",
+    "text": "Read the practice report chapter.\nhttps://psyteachr.github.io/ads-v2/10-custom.html"
+  },
+  {
+    "objectID": "modules/12 Customizations/index.html#additional-resources",
+    "href": "modules/12 Customizations/index.html#additional-resources",
+    "title": "12 Customizations",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/12 Customizations/index.html#week-12-assignment",
+    "href": "modules/12 Customizations/index.html#week-12-assignment",
+    "title": "12 Customizations",
+    "section": "Week 12 assignment",
+    "text": "Week 12 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/13 Advanced Topics/index.html",
+    "href": "modules/13 Advanced Topics/index.html",
+    "title": "13 Advanced Topics",
+    "section": "",
+    "text": "TBD"
+  },
+  {
+    "objectID": "modules/13 Advanced Topics/index.html#additional-resources",
+    "href": "modules/13 Advanced Topics/index.html#additional-resources",
+    "title": "13 Advanced Topics",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/13 Advanced Topics/index.html#week-13-assignment",
+    "href": "modules/13 Advanced Topics/index.html#week-13-assignment",
+    "title": "13 Advanced Topics",
+    "section": "Week 13 assignment",
+    "text": "Week 13 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/14 Final Presentations/index.html",
+    "href": "modules/14 Final Presentations/index.html",
+    "title": "14 Final Presentations",
+    "section": "",
+    "text": "TBD"
+  },
+  {
+    "objectID": "modules/14 Final Presentations/index.html#additional-resources",
+    "href": "modules/14 Final Presentations/index.html#additional-resources",
+    "title": "14 Final Presentations",
+    "section": "Additional resources",
+    "text": "Additional resources\nSlide decks with quarto:\nhttps://quarto.org/docs/presentations/revealjs/"
+  },
+  {
+    "objectID": "modules/14 Final Presentations/index.html#week-14-assignment",
+    "href": "modules/14 Final Presentations/index.html#week-14-assignment",
+    "title": "14 Final Presentations",
+    "section": "Week 14 assignment",
+    "text": "Week 14 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/2 R and R Studio/index.html",
+    "href": "modules/2 R and R Studio/index.html",
+    "title": "2 R, R studio, Quarto and Github",
+    "section": "",
+    "text": "Read the intro to R and RStudio chapter from the textbook.\nhttps://psyteachr.github.io/ads-v2/01-intro.html"
+  },
+  {
+    "objectID": "modules/2 R and R Studio/index.html#additional-resources",
+    "href": "modules/2 R and R Studio/index.html#additional-resources",
+    "title": "2 R, R studio, Quarto and Github",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nQuarto\nThe quarto website contains many helpful examples. We will cover aspects throughout the semester.\nhttps://quarto.org\n\n\nGithub\nWe will be making use of Github to store and share your course blog and website.\nWe will troubleshoot all Github issues individually and in class. If you want to learn more, then I recommend this free resource.\nhttps://happygitwithr.com"
+  },
+  {
+    "objectID": "modules/2 R and R Studio/index.html#week-2-assignment",
+    "href": "modules/2 R and R Studio/index.html#week-2-assignment",
+    "title": "2 R, R studio, Quarto and Github",
+    "section": "Week 2 Assignment",
+    "text": "Week 2 Assignment\n\nWrite your first blog post, and submit the link to your first blog post to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/3 Reports with R Markdown/index.html",
+    "href": "modules/3 Reports with R Markdown/index.html",
+    "title": "3 Reports with R Markdown",
+    "section": "",
+    "text": "https://psyteachr.github.io/ads-v2/02-reports.html"
+  },
+  {
+    "objectID": "modules/3 Reports with R Markdown/index.html#additional-resources",
+    "href": "modules/3 Reports with R Markdown/index.html#additional-resources",
+    "title": "3 Reports with R Markdown",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nQuarto documents\nThe quarto website contains many helpful examples. We will cover aspects throughout the semester.\nGeneral tips for writing in quarto markdown:\nhttps://quarto.org/docs/authoring/markdown-basics.html\nMaking an html document:\nhttps://quarto.org/docs/output-formats/html-basics.html\nMaking a pdf document:\nhttps://quarto.org/docs/output-formats/pdf-basics.html"
+  },
+  {
+    "objectID": "modules/3 Reports with R Markdown/index.html#week-3-assignment",
+    "href": "modules/3 Reports with R Markdown/index.html#week-3-assignment",
+    "title": "3 Reports with R Markdown",
+    "section": "Week 3 assignment",
+    "text": "Week 3 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/4 Data Vis/index.html",
+    "href": "modules/4 Data Vis/index.html",
+    "title": "4 Data Vis",
+    "section": "",
+    "text": "Read the data-visualization chapter\nhttps://psyteachr.github.io/ads-v2/03-viz.html"
+  },
+  {
+    "objectID": "modules/4 Data Vis/index.html#additional-resources",
+    "href": "modules/4 Data Vis/index.html#additional-resources",
+    "title": "4 Data Vis",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nAdding figures to quarto documents\nhttps://quarto.org/docs/authoring/figures.html\n\n\nggplot 2\nPackage website:\nhttps://ggplot2.tidyverse.org\nBooks:\nhttps://ggplot2-book.org\nhttps://r4ds.had.co.nz/data-visualisation.html"
+  },
+  {
+    "objectID": "modules/4 Data Vis/index.html#week-4-assignment",
+    "href": "modules/4 Data Vis/index.html#week-4-assignment",
+    "title": "4 Data Vis",
+    "section": "Week 4 assignment",
+    "text": "Week 4 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/5 Data Import/index.html",
+    "href": "modules/5 Data Import/index.html",
+    "title": "5 Data Import",
+    "section": "",
+    "text": "Read the data import chapter.\nhttps://psyteachr.github.io/ads-v2/04-data.html"
+  },
+  {
+    "objectID": "modules/5 Data Import/index.html#additional-resources",
+    "href": "modules/5 Data Import/index.html#additional-resources",
+    "title": "5 Data Import",
+    "section": "Additional resources",
+    "text": "Additional resources\nhttps://r4ds.had.co.nz/data-import.html"
+  },
+  {
+    "objectID": "modules/5 Data Import/index.html#week-5-assignment",
+    "href": "modules/5 Data Import/index.html#week-5-assignment",
+    "title": "5 Data Import",
+    "section": "Week 5 assignment",
+    "text": "Week 5 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/6 Data Summaries/index.html",
+    "href": "modules/6 Data Summaries/index.html",
+    "title": "6 Data Summaries",
+    "section": "",
+    "text": "Read the data summaries chapter.\nhttps://psyteachr.github.io/ads-v2/05-summary.html"
+  },
+  {
+    "objectID": "modules/6 Data Summaries/index.html#additional-resources",
+    "href": "modules/6 Data Summaries/index.html#additional-resources",
+    "title": "6 Data Summaries",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/6 Data Summaries/index.html#week-6-assignment",
+    "href": "modules/6 Data Summaries/index.html#week-6-assignment",
+    "title": "6 Data Summaries",
+    "section": "Week 6 assignment",
+    "text": "Week 6 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/7 Practice Report/index.html",
+    "href": "modules/7 Practice Report/index.html",
+    "title": "7 Practice Report",
+    "section": "",
+    "text": "Read the practice report chapter.\nhttps://psyteachr.github.io/ads-v2/06-formative.html"
+  },
+  {
+    "objectID": "modules/7 Practice Report/index.html#additional-resources",
+    "href": "modules/7 Practice Report/index.html#additional-resources",
+    "title": "7 Practice Report",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/7 Practice Report/index.html#week-7-assignment",
+    "href": "modules/7 Practice Report/index.html#week-7-assignment",
+    "title": "7 Practice Report",
+    "section": "Week 7 assignment",
+    "text": "Week 7 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/8 Data Relations/index.html",
+    "href": "modules/8 Data Relations/index.html",
+    "title": "8 Data Relations",
+    "section": "",
+    "text": "Read the chapter.\nhttps://psyteachr.github.io/ads-v2/07-joins.html"
+  },
+  {
+    "objectID": "modules/8 Data Relations/index.html#additional-resources",
+    "href": "modules/8 Data Relations/index.html#additional-resources",
+    "title": "8 Data Relations",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/8 Data Relations/index.html#week-8-assignment",
+    "href": "modules/8 Data Relations/index.html#week-8-assignment",
+    "title": "8 Data Relations",
+    "section": "Week 8 assignment",
+    "text": "Week 8 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/9 Data Tidying/index.html",
+    "href": "modules/9 Data Tidying/index.html",
+    "title": "9 Data Tidying",
+    "section": "",
+    "text": "Read the data-tidying chapter.\nhttps://psyteachr.github.io/ads-v2/08-tidy.html"
+  },
+  {
+    "objectID": "modules/9 Data Tidying/index.html#additional-resources",
+    "href": "modules/9 Data Tidying/index.html#additional-resources",
+    "title": "9 Data Tidying",
+    "section": "Additional resources",
+    "text": "Additional resources\nTBD"
+  },
+  {
+    "objectID": "modules/9 Data Tidying/index.html#week-9-assignment",
+    "href": "modules/9 Data Tidying/index.html#week-9-assignment",
+    "title": "9 Data Tidying",
+    "section": "Week 9 assignment",
+    "text": "Week 9 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+  },
+  {
+    "objectID": "modules/index.html",
+    "href": "modules/index.html",
+    "title": "Modules",
+    "section": "",
+    "text": "This is a 15 week course, with roughly 14 modules. The practical goal of the course is to train a broad base of data-analysis and visualization skills using open-source software tools like R.\nThe modules roughly track the ten chapters of the textbook:\nhttps://psyteachr.github.io/ads-v2/"
+  },
+  {
+    "objectID": "modules/index.html#module-structure",
+    "href": "modules/index.html#module-structure",
+    "title": "Modules",
+    "section": "Module structure",
+    "text": "Module structure\nIn general, modules will contain a reading, additional resources, and a weekly assignment.\nThe modules will be updated across the semester as needed."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Under construction\n\n\n\nThis syllabus is under construction until Spring 2023\n\n\nSpring 2023\nSection: PSYC 3470: 30351, SOCY 3507: 46070\nTime: 11:00am - 12:15pm, Monday and Wednesday\nLocation: James 4607\nOffice Hours: TBA (zoom link posted on Blackboard)\nInstructor: Dr. Matthew Crump\nEmail: mcrump@brooklyn.cuny.edu (please put ‘’Psyc 3470’ in subject line)\n\n\nPSYC 3470: Data Analytics and Data Visualization in the Social and Behavioral Sciences\n3 hours; 3 credits\nCatalogue Description: How the “data revolution” has transformed the way we understand and interact with the world around us. Fundamental concepts and practical techniques and skills needed for data analytics and data visualization. Availability of large datasets and their use across a variety of settings, including social networks, libraries, governments, non-profits, etc. The emergence of practices with regard to data analysis and visual communication in the social and behavioral sciences. This course is the same as Sociology 3507.\n\n\nStudents will:\n\nDevelop familiarity and basic competency with concepts and techniques for data analytics and visualization\n\nOutcome: students will create and contribute to a weekly learning blog to practice and demonstrate their skill-acquisition process\n\nDevelop competencies in data structures, importing, filtering, wrangling, and curation techniques necessary for analysis and visualization\n\nOutcomes: competencies assessed and demonstrated in weekly assignments\n\nUnderstand principles of automation and reproducibility and learn how to produce and communicate computationally reproducible data analysis projects\n\nOutcomes: students create final project website and deliver a class presentation about their final research project.\n\nUnderstand and critically reflect upon data usage practices in society\n\nOutcomes: demonstrated in class room discussions and reflections on readings.\n\n\n\n\n\n\nAll of the course materials will be available in a timely fashion on this course website and/or posted on blackboard.\nLink to the course website: https://crumplab.com/psyc3470\n\n\n“Applied Data Skills: Processing & Presenting Data” (2023) Emily Nordmann and Lisa DeBruine.\nhttps://psyteachr.github.io/ads-v2\nThe textbook is a free and open-source web book. There are many additional free resources for learning R that will be discussed and made available throughout the semester.\n\n\n\n\nThere are 15 weeks. This is an in-person class, and students are expected to participate in all aspects of the class. This is a class that involves learning computer programming skills for data-visualization and analysis. The assumption is that students may possess no prior skills in this area, so the course has an applied training component. Class time will involve mixtures of activities, including lectures, group-work, applied coding activities, presentations, and discussions.\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nDate\nTopic\n\n\n\n\nW0 M:\nJanuary 25, 2023\nIntroduction\n\n\nW1 M:\nJanuary 30, 2023\nIntroduction\n\n\nW1 W:\nFebruary 1, 2023\nIntro to R and Rstudio\n\n\nW2 M:\nFebruary 6, 2023\nIntro to R and Rstudio\n\n\nW2 W:\nFebruary 8, 2023\nReports with R Markdown\n\n\nNo class - College Closed\nFebruary 13, 2023\n\n\n\nW3 W:\nFebruary 15, 2023\nReports with R Markdown\n\n\nNo class - College closed\nFebruary 20, 2023\n\n\n\nW4 T(M):\nFebruary 21, 2023\nData Visualisation\n\n\nW4 W:\nFebruary 22, 2023\nData Visualisation\n\n\nW5 M:\nFebruary 27, 2023\nData Import\n\n\nW5 W:\nMarch 1, 2023\nData Import\n\n\nW6 M:\nMarch 6, 2023\nData Summaries\n\n\nW6 W:\nMarch 8, 2023\nData Summaries\n\n\nW7 M:\nMarch 13, 2023\nPractice Report\n\n\nW7 W:\nMarch 15, 2023\nPractice Report\n\n\nW8 M:\nMarch 20, 2023\nData Relations\n\n\nW8 W:\nMarch 22, 2023\nData Relations\n\n\nW9 M:\nMarch 27, 2023\nData Tidying\n\n\nW9 W:\nMarch 29, 2023\nData Tidying\n\n\nW10 M:\nApril 3, 2023\nFinal Project Planning\n\n\nSpring Break\nApril 5, 2023\n\n\n\nSpring Break\nApril 12, 2023\n\n\n\nW11 M:\nApril 17, 2023\nData Wrangling\n\n\nW11 W:\nApril 19, 2023\nData Wrangling\n\n\nW12 M:\nApril 24, 2023\nCustomising Visualizations & Reports\n\n\nW12 W:\nApril 26, 2023\nCustomising Visualizations & Reports\n\n\nW13 M:\nMay 1, 2023\nAdvanced Quarto & Shiny\n\n\nW13 W:\nMay 3, 2023\nAdvanced Quarto & Shiny\n\n\nW14 M:\nMay 8, 2023\nAdvanced Quarto & Shiny\n\n\nW14 W:\nMay 10, 2023\nAdvanced Quarto & Shiny\n\n\nReading Day\nMay 12, 2023\n\n\n\nW15 M:\nMay 15, 2023\nFinal Presentations\n\n\nLast day of classes\nMay 16, 2023\n\n\n\n\n\n\n\n\n\nThroughout this course you will learn how to analyse and communicate data using reproducible computational methods. These methods allow you to communicate information in many formats including websites, interactive web apps, slide decks, pdfs, word documents, books, web-books, and more. Students can use these very same methods to create their own personal websites, which can be used as a digital portfolio to showcase examples of their work and demonstrate their skills. To support digital portfolio development, students will learn to create a personal website and blog. Students will add content to their websites in the form of blogs and other weekly assignment content prompts. By the end of the course students will have created evidence of their learning process in the form of their course website and blog.\n\n\n\nThis is an engagement and skills-acquisition based course. At the beginning of the course and throughout, students will be given instruction on building and maintaining a website using quarto and github pages. Each week students will contribute blog posts and other content to their websites in response to module assignments. Students will be expected to submit URL links to their blogs using Blackboard. Students are expected to attend and participate in each class. The final project includes conducting, communicating, and preserving a reproducible data analysis project.\n\n\n\n\n\nAssignment\nPoints\nTotal\n\n\n\n\nWeekly Blog post\n4\n60\n\n\nAttendance\n1\n15\n\n\nMidterm, project, Final project and website\n10,10,5\n25\n\n\n\n\n100\n\n\n\nPercentage grades are converted to letter grades according to the following rubric.\n\n\n\nLetter grade\nRange\n\n\n\n\nA+\n96.67-100\n\n\nA\n93.33-96.66\n\n\nA-\n90-93.32\n\n\nB+\n86.67-89.99\n\n\nB\n83.33-86.66\n\n\nB-\n80-83.32\n\n\nC+\n76.67-79.99\n\n\nC\n73-76.66\n\n\nC-\n70-72.99\n\n\nD+\n66.67-69.99\n\n\nD\n63.33-66.66\n\n\nD-\n60-63.32\n\n\nF\n0-59.99\n\n\n\n\n\n\n\nStudents are expected to attend and participate in each class.\n\n\n\n\n\nDue dates are suggestions for completing coursework on a weekly basis. You may be able to work ahead, but you are not encouraged to fall behind.\nYou should email me if you have an exceptional circumstance preventing you from taking an assessment during an assessment week.\n\n\n\nThe syllabus may be updated for clarity or to make adjustments for pedagogical purposes. The most current version of the syllabus is always available from the course website.\n\n\n\nIn the event of an emergency, contact me as soon as possible. If you are missing an exam for religious reasons refer to the state law regarding non-attendance because of religious beliefs noted in the front matter of the Undergraduate Bulletin and Graduate Bulletin. These may be found on the Academic Calendars, Course Schedules, and Bulletins page of the Registrar’s website. See also the student bereavement policy at http://www.brooklyn.cuny.edu/web/about/initiatives/policies/bereavement.php.\n\n\n\n\nIn order to receive disability-related academic accommodations students must first be registered with the Center for Student Disability Services. Students who have a documented disability or suspect they may have a disability are invited to set up an appointment with the Director of the Center for Student Disability Services, at 718-951-5538. If you have already registered with the Center for Student Disability Services, please provide your professor with the course accommodation form and discuss your specific accommodation with him/her.\n\n\n\n\nI will regularly use e-mail via blackboard to send out announcements, changes in the syllabus, reminders about tests or due dates etc. It is your responsibility to check e-mail regularly to keep up-to-date with these announcements. I will use the e-mail address you have listed with the College. Therefore, please make sure that this is indeed the correct address.\nIf you have questions please email me:\n\nput PSYC 3470 in your subject line\nemail me at: mcrump@brooklyn.cuny.edu\n\n\n\n\nThe Library maintains a collection of links to sites that can assist you with proper citation format and paraphrasing and quoting other authors at Research & Writing Help. The Learning Center has writing tutors available to help you with your writing http://lc.brooklyn.cuny.edu/.\nThe best learning is done in conversation with others, whether they are people—classmates, teachers, friends—or texts—books, articles, essays, poems, films etc. It should not be a solitary process. However, the assignments that you hand in for this course must be done on your own, should represent your own thinking, and should be original work that you have done for this particular course. A good way to balance these two seemingly contradictory approaches (collaborative learning and original individually-produced work) without knowingly—or, even unwittingly—resorting to plagiarism or other forms of academic misconduct is to learn and meticulously observe the rules for citing the work of others (this could be the great point your roommate made that you used in your paper, it could be a well-turned phrase from an academic essay, or it could be anything in between). It is your responsibility to learn what constitutes plagiarism and the correct rules for citing sources—read the information on the following website carefully: http://www.brooklyn.cuny.edu/bc/policies/. The bottom line is: passing off anyone’s words or ideas as your own for any reason whatsoever is plagiarism.\n\n\n\n\nIt is the responsibility of each student to understand and act in accordance with the University’s policy on Academic Integrity, described below.\n\n\nThe faculty and administration of Brooklyn College support an environment free from cheating and plagiarism. Each student is responsible for being aware of what constitutes cheating and plagiarism and for avoiding both. The complete text of the CUNY Academic Integrity Policy and the Brooklyn College procedure for implementing that policy can be found at this site. If a faculty member suspects a violation of academic integrity and, upon investigation, confirms that violation, or if the student admits the violation, the faculty member MUST report the violation.\n\n\n\nRemember, you are responsible for not cheating or violating CUNY’s Academic Integrity Policy. You are responsible for understanding that policy, and for conducting yourself in a manner such that you do not violate the policy.\nThe above link lists many examples of cheating and plagiarism that are not allowed. There are many more specific acts that you should NOT do. Here is an additional list of activities that will be sufficient cause for immediate failure in the course.\n\nDo not take pictures of exam or quiz questions and share them with other students\nDo not give other students answers during an exam or quiz, or any other assignment that is an individual assignment\nDo not copy work from another source and submit it as your own\nDo not copy and paste text from the internet and submit it as your own words\nDo not copy and paste text and slightly alter wording to pass the work off as your own\nDo not hire someone else to do the coursework for you\nDo not copy and paste text into a paraphrasing app, and then submit the output of the paraphrasing app as your own work\nDo not copy random words from the internet that have nothing to do with the assignment and submit them as your own work.\nDo not work on individual assignments with other students, share answers or other material, and then all hand in versions of the same thing that are slightly different.\nDo not plagiarize yourself by submitting work that you have previously completed in another class.\n\n\n\n\nIf a faculty member suspects a violation of academic integrity and, upon investigation, confirms that violation, or if the student admits the violation, the faculty member MUST report the violation. Students should be aware that faculty may use plagiarism detection software.\nThere is no excuse for cheating. Students who are caught cheating may receive a failing grade for the entire course. All students who violate the academic integrity will receive a Faculty Action Report, which will go on their personal file at the Academic Integrity Office.\n\n\n\n\nIf you have questions about the syllabus, let’s talk about it in class, and/or please create a thread to discuss the question on the discussion board for this course on Blackboard."
+  }
+]
