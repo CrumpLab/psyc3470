@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "Untitled.html",
+    "href": "Untitled.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "Write anything we want."
+  },
+  {
     "objectID": "compendium/index.html",
     "href": "compendium/index.html",
     "title": "Compendium",
@@ -54,6 +61,20 @@
     "title": "1 Introduction",
     "section": "Week 1 assignment",
     "text": "Week 1 assignment\n\nOnce you have created your quarto blog, please submit the url to your blog on blackboard (to the week 0 assignment.)"
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#more-goals-for-week-1",
+    "href": "modules/1 Introduction/index.html#more-goals-for-week-1",
+    "title": "1 Introduction",
+    "section": "More Goals for Week 1",
+    "text": "More Goals for Week 1\nWe have two more introductory week classes. In these two classes we have a few goals to keep us busy.\n\nGet an overall sense of what we can do with the data-analysis and data visualization software we are using in the class.\nSolve technical problems associated with the first assignment (getting R, R Studio, Github Desktop, and your Quarto blog working.)\nGet some basic understanding of the workflow we will be using, make sure it works, and start getting into the learning process.\n\nThroughout the first week I will be updating this page as well as the compendium with material as we go."
+  },
+  {
+    "objectID": "modules/1 Introduction/index.html#data-science-in-a-box",
+    "href": "modules/1 Introduction/index.html#data-science-in-a-box",
+    "title": "1 Introduction",
+    "section": "Data science in a box",
+    "text": "Data science in a box\nThere are many great free resources on the web for learning data skills with R. This example comes from data science in a box.\nhttps://datasciencebox.org\nThis whole course is built using quarto, the same tool we will use for our blogs.\nThere are different approaches to learning R from scratch. One approach is start with all of the fundamental building blocks of coding, and then slowly move into much higher level tasks for data analysis, like learning how to use functions for data-visualization. Another approach is to begin with a hands-on example of using R for reproducible data-analysis and visualization.\nNOTE: “Reproducible” is an important concept we will emphasize throughout the course. For now a “reproducible” analysis means that other people can re-do the same analysis that you did and get the same results.\nIn class we will look at the “First dataviz” example from the hello world section:\nhttps://datasciencebox.org/02-hello-world.html\n\nInstructions\nGOAL: Our big goal here is to reproduce the data-visualization from this example on our own computer using R Studio, and then talk about what we are looking at.\n\nOpen Rstudio\nMake a new project\n\n\n\nUnder the file menu, select “New project”, or click the top-right corner of R studio (with the blue R cube), and choose New Project.\nIMPORTANT: You should almost always be working inside an R studio project. We will talk more about this in class.\nChoose “New Directory”\nChoose “New Project”\nCreate a name, and choose where to save it, e.g. “datavis1”\nClick “Create project”\n\n\n\nYou can confirm you are now in an R studio project by looking at the top right hand corner, you should see a blue cube with the name of your project.\n\n\nThis is what an empty R studio project looks like. The bottom right corner shows you the folder for your current project. There is only one file “datavis1.Rproj”. If you click on this file from your filesystem (e.g., in finder on a mac, or in explorer or my computer on windows), then it will load Rstudio and this project.\n\nCreate a new quarto document. Click the green circle with a plus, choose new “Quarto document”.\n\n\nGive your document a title.\n\nClick the “Render” Button. Then save your document in your R project folder.\nIMPORTANT. The title of your document can be different from the name of the file. You should change the file name from “Untitled.qmd” to something more descriptive like “datavis_example.qmd”, and then press save.\nAfter saving and rendering the document you will see the html (web-page) output. The file doesn’t have any text or analysis code, so it will appear mostly blank.\n\nThe datascience in a box course has an example data analysis and visualization that we should be able to reproduce on our computers.\nThis example shows a short data-analysis report that conducts a visualization of United Nations voting data for different countries.\nThe source code for this report is available here:\nhttps://github.com/rstudio-education/datascience-box/blob/main/course-materials/application-exercises/ae-01a-un-votes/unvotes.qmd\n\nCopy the plain text from line 1 to line 92, and then paste it into your own .qmd document. Make sure you replace all of your original text. Save your .qmd document.\nRstudio may ask you to install some missing packages, click the install option.\n\n\n\nOnce the packages are installed, then you should be able to render the document."
   },
   {
     "objectID": "modules/10 Final Project Planning/index.html",
