@@ -1,0 +1,118 @@
+---
+title: "R resources"
+description: "A collection of free online resources for learning R."
+author: "Matt Crump"
+date: "1/25/2023"
+order: 1
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Note: My plan is to update and organize this across the semester. 
+
+If you want a really big list of all things R, check this one out by Paul Vanderlaken:
+
+<https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/>
+
+
+## Textbook and psyteachR
+
+We are using a textbook (Applied Data Skills: Processing and Presenting Data) by the psyteachR group:
+
+<https://psyteachr.github.io/ads-v2/>
+
+PsyteachR has several other excellent resources for learning R:
+
+<https://psyteachr.github.io>
+
+## Software we use in this class
+
+### R
+
+The programming language, <https://www.r-project.org>.
+
+### R Studio
+
+The IDE (integrated development environment) used to write code, <https://posit.co/products/open-source/rstudio/>.
+
+### Github Desktop
+
+A program we use for git version control, and to push and pull our projects from our local computer to Github.com.
+
+<https://desktop.github.com>
+
+### Quarto
+
+Quarto is a "scientific and technical publishing system" that we will use for reproducible data analysis. Quarto uses a combination of markdown and code to produce many forms of documents, from slide decks, to pdfs, and books, and websites.
+
+<https://quarto.org>
+
+## Getting Help
+
+### Ask me and each other
+
+Every coder runs into roadblocks. I've spent hours upon hours chasing down bugs. I encourage you to try pushing through and track down issues in your own code; however, please use the class as a resource for help when you get stuck (ask me, ask another student in class). 
+
+### Googling
+
+Googling R questions can often turn up an example of someone solving your issue or a closely related one. For example, you can copy error messages and google them, or ask "how to do X in R".
+
+### Stackoverflow
+
+[Stackoverflow](https://stackoverflow.com) is great, Google will often take you there because someone has already asked your question, and someone else has answered, usually many people have answered your question many ways. At the same time, you may find lots of "answers" that don't help you with your specific problem. 
+
+### Rstudio/Posit Community
+
+RStudio recently changed its name to posit. They have a forum with many helpful answers to user questions.
+
+<https://community.rstudio.com>
+
+## Statistics concepts
+
+Our class will make use of some statistics concepts for data analysis and visualization, but this is not a statistics class. There are several free resources combining learning R and statistics. 
+
+I have wrote a few resources at the undergraduate and graduate levels, each with different examples you may find helpful.
+
+### Answering questions with data
+
+An undergraduate statistics textbook for psychology students. 
+
+Textbook: <https://crumplab.com/statistics/>
+Lab manual with R exercises: <https://crumplab.com/statisticsLab/>
+
+### Reproducible statistics for psychologists with R
+
+A two semester graduate compilation of R-based labs, each one has a video tutorial, example problems, and worked through video solutions. 
+
+<https://crumplab.com/rstatsforpsych/>
+
+
+### Other online stats textbooks
+
+There are increasing numbers of excellent, free, and online resources for learning statistics and R, here are some:
+
+1. Danielle Navarro's [Learning Statistics with R](https://learningstatisticswithr.com) and website for learning R [R for Psychological Science](https://psyr.djnavarro.net)
+2. Russell Poldracks's [Statistical Thinking for the 21st Century](https://statsthinking21.org)
+3. Martin Speekenbrink's [Statistics: data analysis and modelling](https://mspeekenbrink.github.io/sdam-book/), and companion R book [An R companion to Statistics: data analysis and modelling](https://mspeekenbrink.github.io/sdam-r-companion/)
+4. Into python instead? Check out Todd Gureckis' [Lab in Cognition and Perception](http://gureckislab.org/courses/fall20/labincp/intro.html)
+5. Looking for stats videos, check out Erin Buchanan's STATISTICS OF DOOM! on youtube: <https://www.youtube.com/channel/UCMdihazndR0f9XBoSXWqnYg>
+
+
+## A longeR list
+
+- Hadley Wickham has written several fantastic and free books that I keep coming back to all the time, [R for Data Science](https://r4ds.had.co.nz), [ggplot 2: elegant graphics for data analyis](https://ggplot2-book.org), [Advanced R](https://adv-r.hadley.nz), and [R packages](https://r-pkgs.org). 
+- R markdown and knitr are core libraries for using R to create all sorts of reproducible documents from pdfs to websites. Here are some excellent resources:
+  - <https://bookdown.org/yihui/rmarkdown/>
+  - <https://bookdown.org/yihui/rmarkdown-cookbook/>
+- Github got you down? Jenny Bryan has a pick me up for you <https://happygitwithr.com>
+- [https://cran.r-project.org/doc/contrib/Short-refcard.pdf](https://cran.r-project.org/doc/contrib/Short-refcard.pdf) This link takes you to a reference card, that shows a big long list of intrinsic r functions.
+- There's a bunch of R markdown tricks right here <https://holtzy.github.io/Pimp-my-rmd/>.
+
+
+
+

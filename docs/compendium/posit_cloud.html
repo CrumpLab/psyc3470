@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.210">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Matt Crump">
+<meta name="dcterms.date" content="2023-01-25">
+<meta name="description" content="A few pointers on using Posit cloud for this class">
+
+<title>PSYC3470 - Posit cloud</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="https://kit.fontawesome.com/78ddb093ea.js" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="../css/nav.css">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">PSYC3470</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html">
+ <span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://psyteachr.github.io/ads-v2">
+ <span class="menu-text">Textbook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../modules/index.html">
+ <span class="menu-text">Modules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../compendium/index.html" aria-current="page">
+ <span class="menu-text">Compendium</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/CrumpLab/psyc3470"><i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Posit cloud</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../compendium/index.html" class="sidebar-item-text sidebar-link">Compendium</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../compendium/resources.html" class="sidebar-item-text sidebar-link">R resources</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../compendium/reference_code.html" class="sidebar-item-text sidebar-link">Coding Reference</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../compendium/version_control.html" class="sidebar-item-text sidebar-link">Git, github, and version control</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../compendium/posit_cloud.html" class="sidebar-item-text sidebar-link active">Posit cloud</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#get-a-posit-cloud-account" id="toc-get-a-posit-cloud-account" class="nav-link active" data-scroll-target="#get-a-posit-cloud-account">Get a posit cloud account</a></li>
+  <li><a href="#login-screen" id="toc-login-screen" class="nav-link" data-scroll-target="#login-screen">Login screen</a></li>
+  <li><a href="#new-project" id="toc-new-project" class="nav-link" data-scroll-target="#new-project">New Project</a></li>
+  <li><a href="#test-r-markdown-or-quarto" id="toc-test-r-markdown-or-quarto" class="nav-link" data-scroll-target="#test-r-markdown-or-quarto">Test R Markdown or Quarto</a>
+  <ul class="collapse">
+  <li><a href="#show-output-in-the-viewer-pane" id="toc-show-output-in-the-viewer-pane" class="nav-link" data-scroll-target="#show-output-in-the-viewer-pane">Show output in the viewer pane</a></li>
+  </ul></li>
+  <li><a href="#datascience-in-a-box-example" id="toc-datascience-in-a-box-example" class="nav-link" data-scroll-target="#datascience-in-a-box-example">Datascience in a box example</a></li>
+  <li><a href="#quarto-blog" id="toc-quarto-blog" class="nav-link" data-scroll-target="#quarto-blog">Quarto Blog</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Posit cloud</h1>
+</div>
+
+<div>
+  <div class="description">
+    A few pointers on using Posit cloud for this class
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Matt Crump </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 25, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Posit cloud is an online service that allows you to run RStudio in your web-browser. You can sign up for a free account which should be sufficient for this class. The free account has 25 compute hours per month. If you need more you can pay 5 dollars a month for 75 hours.</p>
+<p>Some advantages to using posit cloud are that it runs recent versions of R and Rstudio, and should work “out-of-the-box” with minimal technical issues. It should be totally sufficient for the needs of our class.</p>
+<section id="get-a-posit-cloud-account" class="level2">
+<h2 class="anchored" data-anchor-id="get-a-posit-cloud-account">Get a posit cloud account</h2>
+<p><a href="https://posit.cloud/plans/free" class="uri">https://posit.cloud/plans/free</a></p>
+</section>
+<section id="login-screen" class="level2">
+<h2 class="anchored" data-anchor-id="login-screen">Login screen</h2>
+<p>My login screen looks shows a list of my existing R studio projects. Clicking on any of them will open Rstudio and load the project.</p>
+<p><img src="images/Screenshot 2023-02-01 at 8.53.18 AM.png" class="img-fluid"></p>
+</section>
+<section id="new-project" class="level2">
+<h2 class="anchored" data-anchor-id="new-project">New Project</h2>
+<p>Click the “New Project” Button to make a new project, and choose “New Rstudio Project”.</p>
+<p><img src="images/Screenshot 2023-02-01 at 8.56.16 AM.png" class="img-fluid"></p>
+<p>Your project will start deploying, this could take 15-30 seconds:</p>
+<p><img src="images/Screenshot 2023-02-01 at 8.56.39 AM.png" class="img-fluid"></p>
+<p>And when you are done, you should see a new R studio application in your browser.</p>
+<p><img src="images/Screenshot 2023-02-01 at 8.58.10 AM.png" class="img-fluid"></p>
+<p>Give your project a name (up at the top), and then get started! You can do all of the things you would normally do. You can also install packages that you need, and they will be available next time without having to install them again. But, everytime you make a new project, you will start fresh.</p>
+<p>The rest of this resource goes through a few minimal examples of getting started.</p>
+</section>
+<section id="test-r-markdown-or-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="test-r-markdown-or-quarto">Test R Markdown or Quarto</h2>
+<p>Click the green circle with a plus to make a new document, choose quarto document.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.00.59 AM.png" class="img-fluid"></p>
+<p>Give the document a title, and you can call yourself the author. Then press Create.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.01.57 AM.png" class="img-fluid"></p>
+<p>You will see the template quarto document, and a message that “rmarkdown required but not installed”.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.02.49 AM.png" class="img-fluid"></p>
+<p>Install rmarkdown by clicking the underlined install link. You should see the installation take place in the lower left panel. Takes about 30 seconds.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.04.09 AM.png" class="img-fluid"></p>
+<p>Once the installation finished, it’s time to see if quarto documents can be rendered to HTML. Click the render button:</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.05.43 AM.png" class="img-fluid"></p>
+<p>You will be asked to save the file. I chose the name “test”. This will save the file “test.qmd” into my project folder.</p>
+<p>Next, I get a message saying a pop-up window was blocked, and I can’t see the output.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.07.05 AM.png" class="img-fluid"></p>
+<p>This OK, everything likely worked, you just can’t see it yet. I press Cancel.</p>
+<section id="show-output-in-the-viewer-pane" class="level3">
+<h3 class="anchored" data-anchor-id="show-output-in-the-viewer-pane">Show output in the viewer pane</h3>
+<p>Rendering documents produces outputs that can be viewed in different ways. I highly suggest viewing outputs in the viewer pane, this way you won’t have any pop-up blocker issues.</p>
+<p>Go to the tools menu, and select Global options:</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.12.02 AM.png" class="img-fluid"></p>
+<p>Then, find the Rmarkdown menu, and choose the viewer pane output option, and choose Apply, if the window doesn’t close, choose OK.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.12.11 AM.png" class="img-fluid"></p>
+<p>Now, “Render” the document again, and you should see the output in the viewer pane tab.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.14.05 AM.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="datascience-in-a-box-example" class="level2">
+<h2 class="anchored" data-anchor-id="datascience-in-a-box-example">Datascience in a box example</h2>
+<p>In our second class we tried to use the lab computers to reproduce the analysis from this source code:</p>
+<p><a href="https://github.com/rstudio-education/datascience-box/blob/main/course-materials/application-exercises/ae-01a-un-votes/unvotes.qmd" class="uri">https://github.com/rstudio-education/datascience-box/blob/main/course-materials/application-exercises/ae-01a-un-votes/unvotes.qmd</a></p>
+<p>The lab computer software needed updates and was unable to compile the document. We should be able to do this no problem in a posit cloud environment.</p>
+<ol type="1">
+<li>Make a new quarto doc, like above.</li>
+<li>Replace the contents of the document with the source code from the above link.</li>
+</ol>
+<p>Let’s use the “Source” editor which shows the plain text.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.20.55 AM.png" class="img-fluid"></p>
+<p>Delete all of the text, and replace it with the source code in the link. My document is still called Untitled1 (it’s in red), and needs to be saved.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.26.24 AM.png" class="img-fluid"></p>
+<p>I saves it as “Datavis1.qmd”, and then I see a message saying I need to install some packages. Click install.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.28.44 AM.png" class="img-fluid"></p>
+<p>There ’s a timer, let’s see how long it takes to install…about 56 seconds.</p>
+<p>After that you should be able to render and view the document.</p>
+<p><img src="images/Screenshot 2023-02-01 at 9.30.45 AM.png" class="img-fluid"></p>
+<p>Success!</p>
+</section>
+<section id="quarto-blog" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-blog">Quarto Blog</h2>
+<p>I will add more here later, but it’s quick to set up.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -13,4 +13,4 @@ knitr::opts_chunk$set(
 )
 ```
 
-This compendium will contain numerous assorted resources for PSYC 3470 and it's contents will be expanded across the semester. Student contributions to the compendium are encouraged.
+This compendium will contain numerous assorted resources for PSYC 3470 and its contents will be expanded across the semester. Student contributions to the compendium are encouraged.

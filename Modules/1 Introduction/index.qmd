@@ -118,6 +118,16 @@ The source code for this report is available here:
 
 9.  Rstudio may ask you to install some missing packages, click the install option.
 
-![](images/Screenshot%202023-01-30%20at%209.32.11%20AM.png)
+10. Once the packages are installed, then you should be able to render the document. And, you should see something like this.
 
-10. Once the packages are installed, then you should be able to render the document.
+![](images/Screenshot%202023-01-30%20at%209.57.26%20AM.png)
+
+We are going to cover the rest in class. If you missed class you can try the videos about this content on datascience in a
+
+<https://datasciencebox.org/02-hello-world.html>
+
+The first two videos are probably most helpful and similar to what we will discuss in class.
+
+Finally, I created a folder called examples in the gihthub repository for this course. This example is located in the "datavis1" folder. You can also download this folder and access its contents as another method to try the example:
+
+<https://github.com/CrumpLab/psyc3470/tree/master/examples>

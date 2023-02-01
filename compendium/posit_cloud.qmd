@@ -1,0 +1,120 @@
+---
+title: "Posit cloud"
+description: "A few pointers on using Posit cloud for this class"
+author: "Matt Crump"
+date: "1/25/2023"
+order: 4
+---
+
+Posit cloud is an online service that allows you to run RStudio in your web-browser. You can sign up for a free account which should be sufficient for this class. The free account has 25 compute hours per month. If you need more you can pay 5 dollars a month for 75 hours.
+
+Some advantages to using posit cloud are that it runs recent versions of R and Rstudio, and should work "out-of-the-box" with minimal technical issues. It should be totally sufficient for the needs of our class.
+
+## Get a posit cloud account
+
+<https://posit.cloud/plans/free>
+
+## Login screen
+
+My login screen looks shows a list of my existing R studio projects. Clicking on any of them will open Rstudio and load the project.
+
+![](images/Screenshot%202023-02-01%20at%208.53.18%20AM.png)
+
+## New Project
+
+Click the "New Project" Button to make a new project, and choose "New Rstudio Project".
+
+![](images/Screenshot%202023-02-01%20at%208.56.16%20AM.png)
+
+Your project will start deploying, this could take 15-30 seconds:
+
+![](images/Screenshot%202023-02-01%20at%208.56.39%20AM.png)
+
+And when you are done, you should see a new R studio application in your browser.
+
+![](images/Screenshot%202023-02-01%20at%208.58.10%20AM.png)
+
+Give your project a name (up at the top), and then get started! You can do all of the things you would normally do. You can also install packages that you need, and they will be available next time without having to install them again. But, everytime you make a new project, you will start fresh.
+
+The rest of this resource goes through a few minimal examples of getting started.
+
+## Test R Markdown or Quarto
+
+Click the green circle with a plus to make a new document, choose quarto document.
+
+![](images/Screenshot%202023-02-01%20at%209.00.59%20AM.png)
+
+Give the document a title, and you can call yourself the author. Then press Create.
+
+![](images/Screenshot%202023-02-01%20at%209.01.57%20AM.png)
+
+You will see the template quarto document, and a message that "rmarkdown required but not installed".
+
+![](images/Screenshot%202023-02-01%20at%209.02.49%20AM.png)
+
+Install rmarkdown by clicking the underlined install link. You should see the installation take place in the lower left panel. Takes about 30 seconds.
+
+![](images/Screenshot%202023-02-01%20at%209.04.09%20AM.png)
+
+Once the installation finished, it's time to see if quarto documents can be rendered to HTML. Click the render button:
+
+![](images/Screenshot%202023-02-01%20at%209.05.43%20AM.png)
+
+You will be asked to save the file. I chose the name "test". This will save the file "test.qmd" into my project folder.
+
+Next, I get a message saying a pop-up window was blocked, and I can't see the output.
+
+![](images/Screenshot%202023-02-01%20at%209.07.05%20AM.png)
+
+This OK, everything likely worked, you just can't see it yet. I press Cancel.
+
+### Show output in the viewer pane
+
+Rendering documents produces outputs that can be viewed in different ways. I highly suggest viewing outputs in the viewer pane, this way you won't have any pop-up blocker issues.
+
+Go to the tools menu, and select Global options:
+
+![](images/Screenshot%202023-02-01%20at%209.12.02%20AM.png)
+
+Then, find the Rmarkdown menu, and choose the viewer pane output option, and choose Apply, if the window doesn't close, choose OK.
+
+![](images/Screenshot%202023-02-01%20at%209.12.11%20AM.png)
+
+Now, "Render" the document again, and you should see the output in the viewer pane tab.
+
+![](images/Screenshot%202023-02-01%20at%209.14.05%20AM.png)
+
+## Datascience in a box example
+
+In our second class we tried to use the lab computers to reproduce the analysis from this source code:
+
+<https://github.com/rstudio-education/datascience-box/blob/main/course-materials/application-exercises/ae-01a-un-votes/unvotes.qmd>
+
+The lab computer software needed updates and was unable to compile the document. We should be able to do this no problem in a posit cloud environment.
+
+1.  Make a new quarto doc, like above.
+2.  Replace the contents of the document with the source code from the above link.
+
+Let's use the "Source" editor which shows the plain text.
+
+![](images/Screenshot%202023-02-01%20at%209.20.55%20AM.png)
+
+Delete all of the text, and replace it with the source code in the link. My document is still called Untitled1 (it's in red), and needs to be saved.
+
+![](images/Screenshot%202023-02-01%20at%209.26.24%20AM.png)
+
+I saves it as "Datavis1.qmd", and then I see a message saying I need to install some packages. Click install.
+
+![](images/Screenshot%202023-02-01%20at%209.28.44%20AM.png)
+
+There 's a timer, let's see how long it takes to install...about 56 seconds.
+
+After that you should be able to render and view the document.
+
+![](images/Screenshot%202023-02-01%20at%209.30.45%20AM.png)
+
+Success!
+
+## Quarto Blog
+
+I will add more here later, but it's quick to set up.
