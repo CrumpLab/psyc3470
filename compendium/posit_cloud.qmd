@@ -125,9 +125,10 @@ I created a github repository called **quartoCourseBlog** for this purpose. The 
 
 <https://github.com/CrumpLab/quartoCourseBlog>
 
-The instructions for using this with posit cloud are contained in the repository, just keep scrolling down in the readme.md. The instructions are also re-printed here:
+The instructions for using this with posit cloud are contained in the repository, just keep scrolling down in the readme.md. The instructions are also re-printed here, along with a video tutorial.
 
-I am planning to add a video overview of these steps soon. In the meantime, these instructions should be enough to get started with R studio cloud and github.com.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AkKbPhK83bE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 1.  Sign up for a free account with posit cloud here <https://posit.cloud/plans/free>
 2.  Sign up for a free <https://github.com> account.
