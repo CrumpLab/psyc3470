@@ -1,0 +1,56 @@
+---
+title: "Privacy and sharing"
+description: "Class policies and suggestions about sharing your work or keeping it private"
+author: "Matt Crump"
+date: "2/3/2023"
+order: 5
+---
+
+In this class students have the option of sharing their work online in public forums, such as Github.com. Importantly, public sharing is NOT a requirement of this class and students can also choose to maintain their privacy, or switch between public and private modes. This course document is intended to discuss some of the options for handing in assignments. 
+
+This class involves learning how to use tools for reproducible data-analysis and visualization that can be shared in public forums, like online repositories. In the first weeks of class the assignment is to set up a personal [quarto](https://quarto.org) blog and publish it on github.com. Across the semester students will make contributions to their blog as a method to learn the functions of the quarto system.
+
+## Be able to share your work so I can evaluate/reproduce it
+
+Whether or not you choose to share your work publicly, it is very important that you can share it with me. This way I can help you assess and improve your own work. Next, I describe some possibilities for public and private sharing so that you can hand in your assignments and I can check them efficiently. 
+
+Note, most of the assignments in this class involve producing working code in a reproducible document, like a blog entry containing working R code for a graph, table, or other behavior. As a result, the ability to "render" or compile the document becomes an important quality check for the work. If the document does not compile, then something is definitely not working. If the document does compile, then you can see the evidence that it is working (e.g., you can see the correct output on your blog). As a result, the gold-standard for each assignment is to submit a working output, and often times a correctly published blog post is part of this demonstration.
+
+In other words, when I am assessing your work I want to see that you can compile your own documents. Below I describe some options for this in public or private modes of sharing your work with me.
+
+## Public mode
+
+This course suggests github.com as a place to share your work publicly. To work in this mode students will create and maintain local folders with their code (on their computer, or on posit cloud), and they will publish them in public repositories on github.com. Students who do this will submit URLs to their github.com assets on Blackboard for each assignment.
+
+For example, if you successfully published a quarto blog and you can view the source code on github.com, and view the published blog as a website, you would be able to submit both URLs on blackboard, and I would be able to immediately see what is working or not.
+
+Remember, anything you put out on github.com in a public folder is publicly viewable by anyone on the internet.
+
+## Private modes
+
+There are potentially many ways to complete your work in private in this class.
+
+### pseudonyms
+
+A simple method could be using a pseudonym account on github.com. I will not share your user name or repository information. In this method you sign up with an account that does not reveal your identity, and you work in public repositories that you share with me on blackboard. 
+
+### Private github.com repositories
+
+It is possible to set a github.com repository to "private". In this case the repository will only be accessible to you or other collaborators that you give access to. If you do this, then I will request access to your repository so that I can check your work. In this method, you would still submit links to your work on github, but only people with access to your repository would be able to view the links
+
+### posit cloud
+
+You could use posit cloud for this class, which allows you to run R studio in your web-browser. Posit cloud projects are private by default. However, it is possible to share access privileges with other people. So, you could share your posit cloud account with me, and submit your work by sharing the link to your R studio project on posit cloud
+
+### other methods
+
+There are potentially several other methods that we could explore. For example, you could .zip a folder of your code and upload it directly to a blackboard assignment. We can discuss other methods if necesssary in class. 
+
+
+
+
+
+
+
+
+
