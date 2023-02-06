@@ -230,6 +230,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="../compendium/privacy.html" class="sidebar-item-text sidebar-link">Privacy and sharing</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../compendium/Example_blog.html" class="sidebar-item-text sidebar-link">Example Blog</a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -1427,45 +1432,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <tbody>
 <tr class="odd">
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">67.87728</td>
+<td style="text-align: right;">74.68832</td>
 <td style="text-align: right;">19</td>
 <td style="text-align: left;">FALSE</td>
 <td style="text-align: left;">i</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">69.73400</td>
+<td style="text-align: right;">66.38559</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">b</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">57.44027</td>
 <td style="text-align: right;">19</td>
 <td style="text-align: left;">FALSE</td>
 <td style="text-align: left;">g</td>
 </tr>
-<tr class="odd">
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">67.23321</td>
-<td style="text-align: right;">18</td>
-<td style="text-align: left;">FALSE</td>
-<td style="text-align: left;">b</td>
-</tr>
 <tr class="even">
 <td style="text-align: right;">4</td>
-<td style="text-align: right;">68.23409</td>
+<td style="text-align: right;">76.94362</td>
 <td style="text-align: right;">18</td>
 <td style="text-align: left;">FALSE</td>
-<td style="text-align: left;">y</td>
+<td style="text-align: left;">i</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">5</td>
-<td style="text-align: right;">63.60980</td>
+<td style="text-align: right;">64.91376</td>
 <td style="text-align: right;">20</td>
 <td style="text-align: left;">TRUE</td>
-<td style="text-align: left;">i</td>
+<td style="text-align: left;">r</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">6</td>
-<td style="text-align: right;">61.83105</td>
-<td style="text-align: right;">20</td>
+<td style="text-align: right;">66.90713</td>
+<td style="text-align: right;">18</td>
 <td style="text-align: left;">FALSE</td>
-<td style="text-align: left;">g</td>
+<td style="text-align: left;">i</td>
 </tr>
 </tbody>
 </table>
@@ -1493,8 +1498,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb57-15"><a href="#cb57-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # A tibble: 2 × 3</span></span>
 <span id="cb57-16"><a href="#cb57-16" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   likes_chocolate mean_grade sd_grad</span></span>
 <span id="cb57-17"><a href="#cb57-17" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   &lt;lgl&gt;                &lt;dbl&gt;   &lt;dbl&gt;</span></span>
-<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 FALSE                 66.6    3.81</span></span>
-<span id="cb57-19"><a href="#cb57-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2 TRUE                  63.6   NA</span></span>
+<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 FALSE                 68.5    7.73</span></span>
+<span id="cb57-19"><a href="#cb57-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2 TRUE                  64.6    6.24</span></span>
 <span id="cb57-20"><a href="#cb57-20" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb57-21"><a href="#cb57-21" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
 <span id="cb57-22"><a href="#cb57-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(likes_chocolate, age) <span class="sc">%&gt;%</span></span>
@@ -1502,14 +1507,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb57-24"><a href="#cb57-24" aria-hidden="true" tabindex="-1"></a>            <span class="at">sd_grad =</span> <span class="fu">sd</span>(grades))</span>
 <span id="cb57-25"><a href="#cb57-25" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; `summarise()` has grouped output by 'likes_chocolate'. You can override using</span></span>
 <span id="cb57-26"><a href="#cb57-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; the `.groups` argument.</span></span>
-<span id="cb57-27"><a href="#cb57-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # A tibble: 4 × 4</span></span>
+<span id="cb57-27"><a href="#cb57-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # A tibble: 6 × 4</span></span>
 <span id="cb57-28"><a href="#cb57-28" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # Groups:   likes_chocolate [2]</span></span>
 <span id="cb57-29"><a href="#cb57-29" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   likes_chocolate   age mean_grade sd_grad</span></span>
 <span id="cb57-30"><a href="#cb57-30" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   &lt;lgl&gt;           &lt;int&gt;      &lt;dbl&gt;   &lt;dbl&gt;</span></span>
-<span id="cb57-31"><a href="#cb57-31" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 FALSE              18       65.5    3.88</span></span>
-<span id="cb57-32"><a href="#cb57-32" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2 FALSE              19       68.8    1.31</span></span>
-<span id="cb57-33"><a href="#cb57-33" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3 FALSE              20       66.3    4.84</span></span>
-<span id="cb57-34"><a href="#cb57-34" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4 TRUE               20       63.6   NA</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb57-31"><a href="#cb57-31" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 FALSE              18       71.9    7.10</span></span>
+<span id="cb57-32"><a href="#cb57-32" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2 FALSE              19       66.1   12.2 </span></span>
+<span id="cb57-33"><a href="#cb57-33" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3 FALSE              20       66.4   NA   </span></span>
+<span id="cb57-34"><a href="#cb57-34" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4 TRUE               18       63.8   11.2 </span></span>
+<span id="cb57-35"><a href="#cb57-35" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5 TRUE               19       65.1    5.25</span></span>
+<span id="cb57-36"><a href="#cb57-36" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6 TRUE               20       64.9   NA</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="filter" class="level3">
@@ -1519,16 +1526,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb58"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
 <span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(grades <span class="sc">&lt;</span> <span class="dv">65</span>)</span>
 <span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   subjects   grades age likes_chocolate favorite_color</span></span>
-<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1        5 63.60980  20            TRUE              i</span></span>
-<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2        6 61.83105  20           FALSE              g</span></span>
-<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3        9 61.06406  18           FALSE              o</span></span>
-<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4       10 62.58858  20           FALSE              b</span></span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1        3 57.44027  19           FALSE              g</span></span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2        5 64.91376  20            TRUE              r</span></span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3        7 61.38480  19            TRUE              v</span></span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4        8 55.89014  18            TRUE              r</span></span>
 <span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
 <span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(grades <span class="sc">&lt;</span> <span class="dv">65</span>,</span>
 <span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a>         likes_chocolate <span class="sc">==</span> <span class="cn">TRUE</span>)</span>
-<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   subjects  grades age likes_chocolate favorite_color</span></span>
-<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1        5 63.6098  20            TRUE              i</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   subjects   grades age likes_chocolate favorite_color</span></span>
+<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1        5 64.91376  20            TRUE              r</span></span>
+<span id="cb58-14"><a href="#cb58-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2        7 61.38480  19            TRUE              v</span></span>
+<span id="cb58-15"><a href="#cb58-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3        8 55.89014  18            TRUE              r</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="select" class="level3">
@@ -1538,30 +1547,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb59"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
 <span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(grades)</span>
 <span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      grades</span></span>
-<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1  67.87728</span></span>
-<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2  69.73400</span></span>
-<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3  67.23321</span></span>
-<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4  68.23409</span></span>
-<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5  63.60980</span></span>
-<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6  61.83105</span></span>
-<span id="cb59-10"><a href="#cb59-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7  69.30295</span></span>
-<span id="cb59-11"><a href="#cb59-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8  71.55643</span></span>
-<span id="cb59-12"><a href="#cb59-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9  61.06406</span></span>
-<span id="cb59-13"><a href="#cb59-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10 62.58858</span></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1  74.68832</span></span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2  66.38559</span></span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3  57.44027</span></span>
+<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4  76.94362</span></span>
+<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5  64.91376</span></span>
+<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6  66.90713</span></span>
+<span id="cb59-10"><a href="#cb59-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7  61.38480</span></span>
+<span id="cb59-11"><a href="#cb59-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8  55.89014</span></span>
+<span id="cb59-12"><a href="#cb59-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9  68.80611</span></span>
+<span id="cb59-13"><a href="#cb59-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10 71.80000</span></span>
 <span id="cb59-14"><a href="#cb59-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb59-15"><a href="#cb59-15" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
 <span id="cb59-16"><a href="#cb59-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(grades,likes_chocolate)</span>
 <span id="cb59-17"><a href="#cb59-17" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      grades likes_chocolate</span></span>
-<span id="cb59-18"><a href="#cb59-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1  67.87728           FALSE</span></span>
-<span id="cb59-19"><a href="#cb59-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2  69.73400           FALSE</span></span>
-<span id="cb59-20"><a href="#cb59-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3  67.23321           FALSE</span></span>
-<span id="cb59-21"><a href="#cb59-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4  68.23409           FALSE</span></span>
-<span id="cb59-22"><a href="#cb59-22" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5  63.60980            TRUE</span></span>
-<span id="cb59-23"><a href="#cb59-23" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6  61.83105           FALSE</span></span>
-<span id="cb59-24"><a href="#cb59-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7  69.30295           FALSE</span></span>
-<span id="cb59-25"><a href="#cb59-25" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8  71.55643           FALSE</span></span>
-<span id="cb59-26"><a href="#cb59-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9  61.06406           FALSE</span></span>
-<span id="cb59-27"><a href="#cb59-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10 62.58858           FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb59-18"><a href="#cb59-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1  74.68832           FALSE</span></span>
+<span id="cb59-19"><a href="#cb59-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2  66.38559           FALSE</span></span>
+<span id="cb59-20"><a href="#cb59-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3  57.44027           FALSE</span></span>
+<span id="cb59-21"><a href="#cb59-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4  76.94362           FALSE</span></span>
+<span id="cb59-22"><a href="#cb59-22" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5  64.91376            TRUE</span></span>
+<span id="cb59-23"><a href="#cb59-23" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6  66.90713           FALSE</span></span>
+<span id="cb59-24"><a href="#cb59-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7  61.38480            TRUE</span></span>
+<span id="cb59-25"><a href="#cb59-25" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8  55.89014            TRUE</span></span>
+<span id="cb59-26"><a href="#cb59-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9  68.80611            TRUE</span></span>
+<span id="cb59-27"><a href="#cb59-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10 71.80000            TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="mutate" class="level3">
@@ -1573,16 +1582,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>fake_data</span>
 <span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;    subjects   grades age likes_chocolate favorite_color new_thing</span></span>
-<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1         1 67.87728  19           FALSE              i         0</span></span>
-<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2         2 69.73400  19           FALSE              g         0</span></span>
-<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3         3 67.23321  18           FALSE              b         0</span></span>
-<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4         4 68.23409  18           FALSE              y         0</span></span>
-<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5         5 63.60980  20            TRUE              i         0</span></span>
-<span id="cb60-11"><a href="#cb60-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6         6 61.83105  20           FALSE              g         0</span></span>
-<span id="cb60-12"><a href="#cb60-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7         7 69.30295  20           FALSE              y         0</span></span>
-<span id="cb60-13"><a href="#cb60-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8         8 71.55643  20           FALSE              v         0</span></span>
-<span id="cb60-14"><a href="#cb60-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9         9 61.06406  18           FALSE              o         0</span></span>
-<span id="cb60-15"><a href="#cb60-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10       10 62.58858  20           FALSE              b         0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1         1 74.68832  19           FALSE              i         0</span></span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2         2 66.38559  20           FALSE              b         0</span></span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3         3 57.44027  19           FALSE              g         0</span></span>
+<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4         4 76.94362  18           FALSE              i         0</span></span>
+<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5         5 64.91376  20            TRUE              r         0</span></span>
+<span id="cb60-11"><a href="#cb60-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6         6 66.90713  18           FALSE              i         0</span></span>
+<span id="cb60-12"><a href="#cb60-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7         7 61.38480  19            TRUE              v         0</span></span>
+<span id="cb60-13"><a href="#cb60-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8         8 55.89014  18            TRUE              r         0</span></span>
+<span id="cb60-14"><a href="#cb60-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9         9 68.80611  19            TRUE              r         0</span></span>
+<span id="cb60-15"><a href="#cb60-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10       10 71.80000  18            TRUE              i         0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 </section>
@@ -2217,11 +2226,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="cell">
 <div class="sourceCode cell-code" id="cb88"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a><span class="co"># returns 1 randomly sampled number from 1 to 10</span></span>
 <span id="cb88-2"><a href="#cb88-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>,<span class="dv">1</span>)</span>
-<span id="cb88-3"><a href="#cb88-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 2</span></span>
+<span id="cb88-3"><a href="#cb88-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 9</span></span>
 <span id="cb88-4"><a href="#cb88-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb88-5"><a href="#cb88-5" aria-hidden="true" tabindex="-1"></a><span class="co"># let's repeat the above 10 times using replicate</span></span>
 <span id="cb88-6"><a href="#cb88-6" aria-hidden="true" tabindex="-1"></a><span class="fu">replicate</span>(<span class="dv">10</span>,<span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>,<span class="dv">1</span>))</span>
-<span id="cb88-7"><a href="#cb88-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  [1] 9 1 8 3 1 4 6 1 9 5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb88-7"><a href="#cb88-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  [1]  3  4  8 10  8  1  9  3  3  9</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>The next example shows how to write a function to do something, and then use the function inside replicate to repeat the function many times.</p>
 <p>For example, we write a function to run a one-sample t-test on a random sample drawn from a normal distribution</p>
@@ -2235,9 +2244,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb89-7"><a href="#cb89-7" aria-hidden="true" tabindex="-1"></a><span class="co"># get 10 t-values from repeating the above 10 times</span></span>
 <span id="cb89-8"><a href="#cb89-8" aria-hidden="true" tabindex="-1"></a><span class="fu">replicate</span>(<span class="dv">10</span>, <span class="fu">ttest_result</span>() )</span>
 <span id="cb89-9"><a href="#cb89-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;          t          t          t          t          t          t          t </span></span>
-<span id="cb89-10"><a href="#cb89-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.6556787  0.6500385  0.1955914 -1.7832105 -0.7642465  1.1286131 -1.3558749 </span></span>
+<span id="cb89-10"><a href="#cb89-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  1.5612562  0.2534267 -0.1194978 -1.3654999  1.7448848  1.9904660  0.6604283 </span></span>
 <span id="cb89-11"><a href="#cb89-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;          t          t          t </span></span>
-<span id="cb89-12"><a href="#cb89-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  0.5294203  0.6682099 -1.6053441</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb89-12"><a href="#cb89-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.3031843 -0.1356073  1.1521186</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="apply-family" class="level3">
@@ -2311,14 +2320,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb92-3"><a href="#cb92-3" aria-hidden="true" tabindex="-1"></a><span class="co"># applies the sum function to each row</span></span>
 <span id="cb92-4"><a href="#cb92-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1 tells apply to go across rows</span></span>
 <span id="cb92-5"><a href="#cb92-5" aria-hidden="true" tabindex="-1"></a><span class="fu">apply</span>(random_matrix,<span class="dv">1</span>,sum)</span>
-<span id="cb92-6"><a href="#cb92-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 31 28 32 34 30</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb92-6"><a href="#cb92-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 27 31 16 22 30</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>The sum of each column</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb93"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a><span class="co"># applies the sum function to each column</span></span>
 <span id="cb93-2"><a href="#cb93-2" aria-hidden="true" tabindex="-1"></a><span class="co"># 2 tells apply to go across columns</span></span>
 <span id="cb93-3"><a href="#cb93-3" aria-hidden="true" tabindex="-1"></a><span class="fu">apply</span>(random_matrix, <span class="dv">2</span>, sum)</span>
-<span id="cb93-4"><a href="#cb93-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 32 31 22 38 32</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb93-4"><a href="#cb93-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 35 23 16 27 25</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Let’s say we have a matrix storing 3 samples. Each sample has 10 numbers. Each sample is stored in a column, and each row represents an observation.</p>
 <div class="cell">
@@ -2332,13 +2341,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb95-4"><a href="#cb95-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  One Sample t-test</span></span>
 <span id="cb95-5"><a href="#cb95-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-6"><a href="#cb95-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; data:  newX[, i]</span></span>
-<span id="cb95-7"><a href="#cb95-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = -0.78367, df = 9, p-value = 0.4534</span></span>
+<span id="cb95-7"><a href="#cb95-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = 1.8514, df = 9, p-value = 0.09713</span></span>
 <span id="cb95-8"><a href="#cb95-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; alternative hypothesis: true mean is not equal to 0</span></span>
 <span id="cb95-9"><a href="#cb95-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 95 percent confidence interval:</span></span>
-<span id="cb95-10"><a href="#cb95-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -0.9934616  0.4822408</span></span>
+<span id="cb95-10"><a href="#cb95-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -0.1600968  1.6033854</span></span>
 <span id="cb95-11"><a href="#cb95-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; sample estimates:</span></span>
-<span id="cb95-12"><a href="#cb95-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  mean of x </span></span>
-<span id="cb95-13"><a href="#cb95-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.2556104 </span></span>
+<span id="cb95-12"><a href="#cb95-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; mean of x </span></span>
+<span id="cb95-13"><a href="#cb95-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 0.7216443 </span></span>
 <span id="cb95-14"><a href="#cb95-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-15"><a href="#cb95-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-16"><a href="#cb95-16" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [[2]]</span></span>
@@ -2346,13 +2355,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb95-18"><a href="#cb95-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  One Sample t-test</span></span>
 <span id="cb95-19"><a href="#cb95-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-20"><a href="#cb95-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; data:  newX[, i]</span></span>
-<span id="cb95-21"><a href="#cb95-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = 1.2963, df = 9, p-value = 0.2271</span></span>
+<span id="cb95-21"><a href="#cb95-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = -1.6456, df = 9, p-value = 0.1342</span></span>
 <span id="cb95-22"><a href="#cb95-22" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; alternative hypothesis: true mean is not equal to 0</span></span>
 <span id="cb95-23"><a href="#cb95-23" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 95 percent confidence interval:</span></span>
-<span id="cb95-24"><a href="#cb95-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -0.3472505  1.2792835</span></span>
+<span id="cb95-24"><a href="#cb95-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -1.5290346  0.2412294</span></span>
 <span id="cb95-25"><a href="#cb95-25" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; sample estimates:</span></span>
-<span id="cb95-26"><a href="#cb95-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; mean of x </span></span>
-<span id="cb95-27"><a href="#cb95-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 0.4660165 </span></span>
+<span id="cb95-26"><a href="#cb95-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  mean of x </span></span>
+<span id="cb95-27"><a href="#cb95-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.6439026 </span></span>
 <span id="cb95-28"><a href="#cb95-28" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-29"><a href="#cb95-29" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-30"><a href="#cb95-30" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [[3]]</span></span>
@@ -2360,13 +2369,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb95-32"><a href="#cb95-32" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  One Sample t-test</span></span>
 <span id="cb95-33"><a href="#cb95-33" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-34"><a href="#cb95-34" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; data:  newX[, i]</span></span>
-<span id="cb95-35"><a href="#cb95-35" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = -1.499, df = 9, p-value = 0.1681</span></span>
+<span id="cb95-35"><a href="#cb95-35" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = 0.44505, df = 9, p-value = 0.6668</span></span>
 <span id="cb95-36"><a href="#cb95-36" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; alternative hypothesis: true mean is not equal to 0</span></span>
 <span id="cb95-37"><a href="#cb95-37" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 95 percent confidence interval:</span></span>
-<span id="cb95-38"><a href="#cb95-38" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -0.9046480  0.1835619</span></span>
+<span id="cb95-38"><a href="#cb95-38" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -0.711284  1.059703</span></span>
 <span id="cb95-39"><a href="#cb95-39" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; sample estimates:</span></span>
 <span id="cb95-40"><a href="#cb95-40" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; mean of x </span></span>
-<span id="cb95-41"><a href="#cb95-41" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.360543</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb95-41"><a href="#cb95-41" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 0.1742094</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>What if we wanted to return only the t-values, rather than whole output?</p>
 <p>You might try this, but it doesn’t work</p>
@@ -2381,7 +2390,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb97-3"><a href="#cb97-3" aria-hidden="true" tabindex="-1"></a>        t_out <span class="ot">&lt;-</span> <span class="fu">t.test</span>(x,<span class="at">mu=</span><span class="dv">0</span>)</span>
 <span id="cb97-4"><a href="#cb97-4" aria-hidden="true" tabindex="-1"></a>        <span class="fu">return</span>(t_out<span class="sc">$</span>statistic)</span>
 <span id="cb97-5"><a href="#cb97-5" aria-hidden="true" tabindex="-1"></a>      })</span>
-<span id="cb97-6"><a href="#cb97-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] -0.7836687  1.2962564 -1.4989847</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb97-6"><a href="#cb97-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1]  1.8514197 -1.6456404  0.4450502</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 

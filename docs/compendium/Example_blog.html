@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Matt Crump">
-<meta name="dcterms.date" content="2023-01-25">
-<meta name="description" content="A few pointers on using git and github in our class">
+<meta name="dcterms.date" content="2023-02-06">
+<meta name="description" content="Link to an example blog with working source code that you can use as a resource for this class">
 
-<title>PSYC3470 - Git, github, and version control</title>
+<title>PSYC3470 - Example Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Git, github, and version control</h1>
+      <h1 class="quarto-secondary-nav-title">Example Blog</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../compendium/version_control.html" class="sidebar-item-text sidebar-link active">Git, github, and version control</a>
+  <a href="../compendium/version_control.html" class="sidebar-item-text sidebar-link">Git, github, and version control</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../compendium/Example_blog.html" class="sidebar-item-text sidebar-link">Example Blog</a>
+  <a href="../compendium/Example_blog.html" class="sidebar-item-text sidebar-link active">Example Blog</a>
   </div>
 </li>
       </ul>
@@ -176,28 +176,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#a-cartoon-overview" id="toc-a-cartoon-overview" class="nav-link active" data-scroll-target="#a-cartoon-overview">A cartoon overview</a></li>
-  <li><a href="#best-general-and-comprehensive-overview" id="toc-best-general-and-comprehensive-overview" class="nav-link" data-scroll-target="#best-general-and-comprehensive-overview">Best general and comprehensive overview</a></li>
-  <li><a href="#what-is-version-control" id="toc-what-is-version-control" class="nav-link" data-scroll-target="#what-is-version-control">What is version control?</a></li>
-  <li><a href="#git-github-desktop-and-github.com" id="toc-git-github-desktop-and-github.com" class="nav-link" data-scroll-target="#git-github-desktop-and-github.com">Git, Github Desktop and Github.com</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Git, github, and version control</h1>
+<h1 class="title d-none d-lg-block">Example Blog</h1>
 </div>
 
 <div>
   <div class="description">
-    A few pointers on using git and github in our class
+    Link to an example blog with working source code that you can use as a resource for this class
   </div>
 </div>
 
@@ -214,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 25, 2023</p>
+      <p class="date">February 6, 2023</p>
     </div>
   </div>
   
@@ -224,48 +215,14 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="a-cartoon-overview" class="level2">
-<h2 class="anchored" data-anchor-id="a-cartoon-overview">A cartoon overview</h2>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="images/Version_control.jpg" class="img-fluid"></p>
-</div>
-</div>
-<p>In a nutshell, we will use git software in our folders so that we can time travel back to any previously saved state (version control gives us access to the history of all our changes). We will also publish copies of our folders on the cloud service Github.com, which has git enabled cloud folders. This will allow us to share code, websites, and many other aspects of our data analysis.</p>
-</section>
-<section id="best-general-and-comprehensive-overview" class="level2">
-<h2 class="anchored" data-anchor-id="best-general-and-comprehensive-overview">Best general and comprehensive overview</h2>
-<p>The best resource I have found to explain git, github, and using version control with R is Jenny Bryan’s book “Let’s Git started”.</p>
-<p><a href="https://happygitwithr.com" class="uri">https://happygitwithr.com</a></p>
-</section>
-<section id="what-is-version-control" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-version-control">What is version control?</h2>
-<p>When you make changes to a file or folder on your computer they may be lost if they are not saved. If you make changes AND save your changes, then the previous state of the file is erased and replaced with the new version of the file.</p>
-<p>Version control systems allow a user to go back to previous versions of a file. Imagine you were writing a paper in a microsoft word and you saved it several times as you went along. If you were using version control you would be able to go back and see the version of the document at each saved state.</p>
-<p>Some cloud services automatically have version control. For example, dropbox.com uses version control, and if you have saved and changed files in a dropbox folder, then it is possible to go back to previous versions of the file.</p>
-<p>Version control is used by software developers and coders for many reasons, including to organize and keep track of project development, but also to be able to go back to previous versions of a project or code base.</p>
-</section>
-<section id="git-github-desktop-and-github.com" class="level2">
-<h2 class="anchored" data-anchor-id="git-github-desktop-and-github.com">Git, Github Desktop and Github.com</h2>
-<p>We will use the git version control system in our class. This system is deep, sophisticated, and even daunting to a beginner. At the same time, there are som comparatively simple ways to use the system and get benefits from it without being pro git users right away.</p>
-<p>Git is a software library you install on your local computer. This software will allow you to create “git-enabled” folders with version control. When you make changes in these folder AND save your changes using a <strong>commit</strong> message, you will be able to go back to any previous saved state.</p>
-<p>There are multiple ways to enable any folder as a git folder. We will usually do this using R studio. Whenever we create a new R studio project folder, if you have git properly installed, you will be able to choose an option to initialize as a git folder. It is possible to turn a folder into a git folder later on too using other methods.</p>
-<p>Github desktop is a free program we will use to easily work with a git folder. We use this program to locate git folders on our computer (build a list of them for easy access.) When we make changes to files in a git folder, then Github desktop is used to <strong>commit</strong> the changes. This involves writing a short title or message describing the changes, and then “committing” them. This is all point and click. You can also view the history of all previously committed changes in Github desktop.</p>
-<p>Everything so far is all local to your own computer. We will also be using Github.com as a cloud service to publicly (or privately) share code on the internet. Github desktop is a program that let’s us do a few things with Github.com:</p>
-<ol type="1">
-<li>Publish a local git folder to a Github.com repository</li>
-</ol>
-<ol type="a">
-<li>You will be able to go to your Github.com account and view the published folder there</li>
-</ol>
-<ol start="2" type="1">
-<li><p>Make changes to your files on your local computer, <strong>commit</strong> your changes with a message, then <strong>push</strong> them to github.com so that the cloud repository will be updated.</p></li>
-<li><p>If you change something in your repository on github.com, then you can “pull” your changes back.</p></li>
-<li><p>It’s also possible to manage collaborations with other people.</p></li>
-</ol>
+<p>In this class you will be contributing posts to a quarto blog to complete weekly assignments. It can be very helpful to see examples of working code as you learn about quarto. To help with this I created an example blog with lots of example code. If you have requests about examples to add please let me know.</p>
+<p>The source code can be found here:</p>
+<p><a href="https://github.com/CrumpLab/CrumplabExampleBlog" class="uri">https://github.com/CrumpLab/CrumplabExampleBlog</a></p>
+<p>The blog is viewable here:</p>
+<p><a href="https://crumplab.com/CrumplabExampleBlog/" class="uri">https://crumplab.com/CrumplabExampleBlog/</a></p>
+<p>I will be mostly making posts for PSYC 3470 in this blog, but sometimes I may add posts with examples for students in other classes.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

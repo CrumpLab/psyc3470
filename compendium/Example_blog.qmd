@@ -1,0 +1,25 @@
+---
+title: "Example Blog"
+description: "Link to an example blog with working source code that you can use as a resource for this class"
+author: "Matt Crump"
+date: "2/6/2023"
+order: 6
+---
+
+In this class you will be contributing posts to a quarto blog to complete weekly assignments. It can be very helpful to see examples of working code as you learn about quarto. To help with this I created an example blog with lots of example code. If you have requests about examples to add please let me know.
+
+The source code can be found here:
+
+<https://github.com/CrumpLab/CrumplabExampleBlog>
+
+The blog is viewable here:
+
+<https://crumplab.com/CrumplabExampleBlog/>
+
+I will be mostly making posts for PSYC 3470 in this blog, but sometimes I may add posts with examples for students in other classes.
+
+
+
+
+
+
