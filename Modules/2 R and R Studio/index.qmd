@@ -35,8 +35,17 @@ We will troubleshoot all Github issues individually and in class. If you want to
 
 <https://happygitwithr.com>
 
-## Week 2 Assignment
+## Week 2 Assignment: Make a tip sheet
 
-1. Write your first blog post, and submit the link to your first blog post to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.
+We are beginning week 2 on Monday February, 6th, 2023. By this point you should have your quarto blog published on github.com, and have the url to your blog submitted to the first assignment on Blackboard. If you need help completing this step, please email me. 
+
+This week we will cover the first chapter of the textbook, which goes into several important details about using Rstudio. In [section 1.2](https://psyteachr.github.io/ads-v2/01-intro.html#sec-intro-sessions), the authors recommend that "now would be a good time to create a notebook where you can keep a record of useful hints and tips and things to try when your code isn’t working." 
+
+Making a tip sheet for yourself is the assignment for this weeks blog post.
+
+### Instructions
+
+1. Make a new blog post where you can write "tips" and notes as you are learning about Rstudio this week. Please feel free to make notes during class and stuff this blog post with as many things that will be helpful for you to remember. 
+2. Submit the URL to your tips post to the week 2 assignment on blackboard.
 
 
