@@ -6,7 +6,6 @@ date: "1/25/2023"
 order: 3
 ---
 
-
 ## A cartoon overview
 
 ```{r, echo=FALSE}
@@ -23,18 +22,17 @@ The best resource I have found to explain git, github, and using version control
 
 ## What is version control?
 
-When you make changes to a file or folder on your computer they may be lost if they are not saved. If you make changes AND save your changes, then the previous state of the file is erased and replaced with the new version of the file. 
+When you make changes to a file or folder on your computer they may be lost if they are not saved. If you make changes AND save your changes, then the previous state of the file is erased and replaced with the new version of the file.
 
 Version control systems allow a user to go back to previous versions of a file. Imagine you were writing a paper in a microsoft word and you saved it several times as you went along. If you were using version control you would be able to go back and see the version of the document at each saved state.
 
-Some cloud services automatically have version control. For example, dropbox.com uses version control, and if you have saved and changed files in a dropbox folder, then it is possible to go back to previous versions of the file. 
+Some cloud services automatically have version control. For example, dropbox.com uses version control, and if you have saved and changed files in a dropbox folder, then it is possible to go back to previous versions of the file.
 
-Version control is used by software developers and coders for many reasons, including to organize and keep track of project development, but also to be able to go back to previous versions of a project or code base. 
+Version control is used by software developers and coders for many reasons, including to organize and keep track of project development, but also to be able to go back to previous versions of a project or code base.
 
 ## Git, Github Desktop and Github.com
 
-
-We will use the git version control system in our class. This system is deep, sophisticated, and even daunting to a beginner. At the same time, there are som comparatively simple ways to use the system and get benefits from it without being pro git users right away. 
+We will use the git version control system in our class. This system is deep, sophisticated, and even daunting to a beginner. At the same time, there are som comparatively simple ways to use the system and get benefits from it without being pro git users right away.
 
 Git is a software library you install on your local computer. This software will allow you to create "git-enabled" folders with version control. When you make changes in these folder AND save your changes using a **commit** message, you will be able to go back to any previous saved state.
 
@@ -44,15 +42,21 @@ Github desktop is a free program we will use to easily work with a git folder. W
 
 Everything so far is all local to your own computer. We will also be using Github.com as a cloud service to publicly (or privately) share code on the internet. Github desktop is a program that let's us do a few things with Github.com:
 
-1. Publish a local git folder to a Github.com repository
+1.  Publish a local git folder to a Github.com repository
 
-  a. You will be able to go to your Github.com account and view the published folder there
+```{=html}
+<!-- -->
+```
+a.  You will be able to go to your Github.com account and view the published folder there
 
-2. Make changes to your files on your local computer, **commit** your changes with a message, then **push** them to github.com so that the cloud repository will be updated.
+```{=html}
+<!-- -->
+```
+2.  Make changes to your files on your local computer, **commit** your changes with a message, then **push** them to github.com so that the cloud repository will be updated.
 
-3. If you change something in your repository on github.com, then you can "pull" your changes back. 
+3.  If you change something in your repository on github.com, then you can "pull" your changes back.
 
-4. It's also possible to manage collaborations with other people. 
+4.  It's also possible to manage collaborations with other people.
 
 ## Github workflows for this class
 
@@ -70,31 +74,38 @@ You are using Rstudio on your computer and you have github desktop installed.
 
 If everything is working properly, then when you make a new R studio project you should see the option to enable the project as a git repository. You should also see the git tab in Rstudio when you have your git-enabled project open. **If you do not see these options, you may have a problem with git being installed, or with Rstudio detecting git where it is installed**. Talk to me if you have this problem.
 
-1. Make changes in Rstudio to the files in your project
-2. If you are making changes to your blog or website, make sure you "render" the new page, or the whole website (press render website from the build tab in Rstudio). This ensures all of the html files are correctly compiled to the docs folder.
+1.  Make changes in Rstudio to the files in your project
+2.  If you are making changes to your blog or website, make sure you "render" the new page, or the whole website (press render website from the build tab in Rstudio). This ensures all of the html files are correctly compiled to the docs folder.
 
 When you are ready to push your changes to github.com follow these steps.
 
-1. Open github desktop
-2. Make sure you have added your project folder to github desktop (done one time at the beginning). If you delete and redownload github desktop you have to add again. 
-3. Make sure you are signed into your github.com account in github desktop
-4. **Commit** your changes. When you click on a repository in github desktop, you will see a column of changes to all of the files. There is a textbox for a commit message. Add a short title to describe the changes, and press commit.
-5. **Push** your changes
+1.  Open github desktop
+2.  Make sure you have added your project folder to github desktop (done one time at the beginning). If you delete and redownload github desktop you have to add again.
+3.  Make sure you are signed into your github.com account in github desktop
+4.  **Commit** your changes. When you click on a repository in github desktop, you will see a column of changes to all of the files. There is a textbox for a commit message. Add a short title to describe the changes, and press commit.
+5.  **Push** your changes. After you have committed your changes you will have the "Push Origin" option. Clicking this will update the repository on github.com with the new changes.
 
+After you "push" the changes, you can "view on github" which will take you directly to your repo on github.com. You will also see a "fetch origin" message. If any changes were made to the repository on github.com (that are not on your local computer), then you can "pull" them or "fetch" them from github.com back to your computer. We won't be using this option much in our class.
 
+### Desktop workflow with Rstudio
 
+You are using Rstudio on your computer and you want to use Rstudio to interact with git and github.com.
 
+If everything is working properly, then when you make a new R studio project you should see the option to enable the project as a git repository. You should also see the git tab in Rstudio when you have your git-enabled project open. **If you do not see these options, you may have a problem with git being installed, or with Rstudio detecting git where it is installed**. Talk to me if you have this problem. You will not be able to use this method unless Rstudio can detect your git installation.
 
+1.  Make changes in Rstudio to the files in your project
+2.  If you are making changes to your blog or website, make sure you "render" the new page, or the whole website (press render website from the build tab in Rstudio). This ensures all of the html files are correctly compiled to the docs folder.
 
+When you are ready to push your changes to github.com follow these steps.
 
+1.  Open the git tab in Rstudio.
 
+2.  Make sure you have added your project folder to github desktop (done one time at the beginning). If you delete and redownload github desktop you have to add again.
 
+3.  Make sure you are signed into your github.com account in github desktop
 
+4.  **Commit** your changes. When you click on a repository in github desktop, you will see a column of changes to all of the files. There is a textbox for a commit message. Add a short title to describe the changes, and press commit.
 
+5.  **Push** your changes. After you have committed your changes you will have the "Push Origin" option. Clicking this will update the repository on github.com with the new changes.
 
-
-
-
-
-
-
+After you "push" the changes, you can "view on github" which will take you directly to your repo on github.com. You will also see a "fetch origin" message. If any changes were made to the repository on github.com (that are not on your local computer), then you can "pull" them or "fetch" them from github.com back to your computer. We won't be using this option much in our class.
