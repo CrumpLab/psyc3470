@@ -184,6 +184,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#best-general-and-comprehensive-overview" id="toc-best-general-and-comprehensive-overview" class="nav-link" data-scroll-target="#best-general-and-comprehensive-overview">Best general and comprehensive overview</a></li>
   <li><a href="#what-is-version-control" id="toc-what-is-version-control" class="nav-link" data-scroll-target="#what-is-version-control">What is version control?</a></li>
   <li><a href="#git-github-desktop-and-github.com" id="toc-git-github-desktop-and-github.com" class="nav-link" data-scroll-target="#git-github-desktop-and-github.com">Git, Github Desktop and Github.com</a></li>
+  <li><a href="#github-workflows-for-this-class" id="toc-github-workflows-for-this-class" class="nav-link" data-scroll-target="#github-workflows-for-this-class">Github workflows for this class</a>
+  <ul class="collapse">
+  <li><a href="#desktop-workflow-with-github-desktop" id="toc-desktop-workflow-with-github-desktop" class="nav-link" data-scroll-target="#desktop-workflow-with-github-desktop">Desktop workflow with Github Desktop</a></li>
+  <li><a href="#posit-cloud-workflow" id="toc-posit-cloud-workflow" class="nav-link" data-scroll-target="#posit-cloud-workflow">Posit cloud workflow</a></li>
+  <li><a href="#advanced-workflow" id="toc-advanced-workflow" class="nav-link" data-scroll-target="#advanced-workflow">Advanced workflow</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -255,16 +261,51 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>Publish a local git folder to a Github.com repository</li>
 </ol>
+<!-- -->
 <ol type="a">
 <li>You will be able to go to your Github.com account and view the published folder there</li>
 </ol>
+<!-- -->
 <ol start="2" type="1">
 <li><p>Make changes to your files on your local computer, <strong>commit</strong> your changes with a message, then <strong>push</strong> them to github.com so that the cloud repository will be updated.</p></li>
 <li><p>If you change something in your repository on github.com, then you can “pull” your changes back.</p></li>
 <li><p>It’s also possible to manage collaborations with other people.</p></li>
 </ol>
+</section>
+<section id="github-workflows-for-this-class" class="level2">
+<h2 class="anchored" data-anchor-id="github-workflows-for-this-class">Github workflows for this class</h2>
+<p>There are multiple workflows for making changes to your local R project (or posit cloud project) and sending them to your github.com repository. This is an instructional guide that you can consult if you forget or run into trouble.</p>
+<p>At the beginning of the course these steps may be confusing. Over time they will become familiar and easy. By the end of the course you should be justifiably confident that you can do basic github operations like make a repository and push/pull changes from it.</p>
+<p>If you are spending more than 20 minutes trying to solve a github.com problem it is time to email me, or ask someone in class for help.</p>
+<p>Over time I hope to add video demonstrations to improve the instructions.</p>
+<section id="desktop-workflow-with-github-desktop" class="level3">
+<h3 class="anchored" data-anchor-id="desktop-workflow-with-github-desktop">Desktop workflow with Github Desktop</h3>
+<p>You are using Rstudio on your computer and you have github desktop installed.</p>
+<p>If everything is working properly, then when you make a new R studio project you should see the option to enable the project as a git repository. You should also see the git tab in Rstudio when you have your git-enabled project open. <strong>If you do not see these options, you may have a problem with git being installed, or with Rstudio detecting git where it is installed</strong>. Talk to me if you have this problem.</p>
+<ol type="1">
+<li>Make changes in Rstudio to the files in your project</li>
+<li>If you are making changes to your blog or website, make sure you “render” the new page, or the whole website (press render website from the build tab in Rstudio). This ensures all of the html files are correctly compiled to the docs folder.</li>
+</ol>
+<p>When you are ready to push your changes to github.com follow these steps.</p>
+<ol type="1">
+<li>Open github desktop</li>
+<li>Make sure you have added your project folder to github desktop (done one time at the beginning). If you delete and redownload github desktop you have to add again.</li>
+<li>Make sure you are signed into your github.com account in github desktop</li>
+<li><strong>Commit</strong> your changes. When you click on a repository in github desktop, you will see a column of changes to all of the files. There is a textbox for a commit message. Add a short title to describe the changes, and press commit.</li>
+<li><strong>Push</strong> your changes. After you have committed your changes you will have the “Push Origin” option. Clicking this will update the repository on github.com with the new changes.</li>
+</ol>
+<p>After you “push” the changes, you can “view on github” which will take you directly to your repo on github.com. You will also see a “fetch origin” message. If any changes were made to the repository on github.com (that are not on your local computer), then you can “pull” them or “fetch” them from github.com back to your computer. We won’t be using this option much in our class.</p>
+</section>
+<section id="posit-cloud-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="posit-cloud-workflow">Posit cloud workflow</h3>
+<p>You are using posit cloud and you want to push your repository to github.com. See the tutorial on using <a href="../compendium/posit_cloud.html">posit cloud</a>.</p>
+</section>
+<section id="advanced-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-workflow">Advanced workflow</h3>
+<p>Other workflows are possible, but beyond the scope of this tutorial. The best comprehensive information I have seen is in Jenny Bryan’s free book here: <a href="https://happygitwithr.com/index.html" class="uri">https://happygitwithr.com/index.html</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
