@@ -26,27 +26,31 @@ We are just starting to learn bits of R coding. In class we have only be executi
 
 ### MOST IMPORTANT: Reproducible document
 
-The most important concept here is that we will be learning to code using a reproducible document creation system. This provides an integrated document format to write and execute code, and to write text for purposes of communication. 
+The most important concept here is that we will be learning to code using a reproducible document creation system. This provides an integrated document format to write and execute code, and to write text for purposes of communication.
 
 ### Basic Skills for this section
 
-1. Be able to make a new .qmd document
-2. Be able to render a .qmd document
-3. Be able to insert simple markdown plain text (headers, lists, paragraphs), and render the document.
-4. Be aware of resources to help you learn more about markdown options.
-5. Be able to insert an R code chunk, and show the output in the rendered document.
- - macro for quick insert
-6. Running R code chunks in a qmd
-  - pressing play
-  - copy/paste into console
-  - highlight then command-enter (mac) 
-  - precedence issues (first to last)
-7. Be aware of R code chunk options, and how to use eval, messages, error, warning, and echo.
-8. Be able to set code chunk options per chunk, and/or for the whole document. Understand rules for precedence (which options will apply if both are set.)
-9. Write inline r code.
-10. Explain how the rendering environment is different from the Rstudio environment.
-11. Be aware of more advanced quarto options for html documents, and try some of the options.
+1.  Be able to make a new .qmd document
+2.  Be able to render a .qmd document
+3.  Explain the difference between the source editor view and visual editor view in Rstudio.
+4.  Be able to insert simple markdown plain text (headers, lists, paragraphs), and render the document.
+5.  Be aware of resources to help you learn more about markdown options.
+6.  Be able to insert an R code chunk, and show the output in the rendered document.
 
+-   macro for quick insert
+
+7.  Running R code chunks in a qmd
+
+-   pressing play
+-   copy/paste into console
+-   highlight then command-enter (mac)
+-   precedence issues (first to last)
+
+8.  Be aware of R code chunk options, and how to use eval, messages, error, warning, and echo.
+9.  Be able to set code chunk options per chunk, and/or for the whole document. Understand rules for precedence (which options will apply if both are set.)
+10. Write inline r code.
+11. Explain how the rendering environment is different from the Rstudio environment.
+12. Be aware of more advanced quarto options for html documents, and try some of the options.
 
 ## Additional resources
 
@@ -70,15 +74,15 @@ R code chunk options:
 
 <https://quarto.org/docs/computations/execution-options.html>
 
-
 ## Week 3 assignment
 
-1. Write your blog post, and submit the link to this assignment on blackboard.
+1.  Write your blog post, and submit the link to this assignment on blackboard.
 
 At this point we are just beginning to start coding, and at the end of this session we will have learned more about using .qmd documents. We have already been using .qmd documents for our blog posts. And, we will be using throughout the semester for almost everything we do, including coding.
 
-The blog post for this week is to write a post where you check off as many basic skills as you can for this section. The basic skills are:
+The blog post for this week is to write a post where you check off as many basic skills as you can for this section. The basic skills are the same as above, I put them in a code chunk to make them easier to copy.
 
+``` markdown
 1. Be able to make a new .qmd document
 2. Be able to render a .qmd document
 3. Be able to insert simple markdown plain text (headers, lists, paragraphs), and render the document.
@@ -95,25 +99,8 @@ The blog post for this week is to write a post where you check off as many basic
 9. Write inline r code.
 10. Explain how the rendering environment is different from the Rstudio environment.
 11. Be aware of more advanced quarto options for html documents, and try some of the options.
+```
 
-"Checking off" the skills means making notes, or making additions/changes to your .qmd document to show yourself you can accomplish these tasks and/or understand the concepts. 
+"Checking off" the skills means making notes, or making additions/changes to your .qmd document to show yourself you can accomplish these tasks and/or understand the concepts.
 
 I intend to produce a tutorial video on this and post it here ASAP.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
