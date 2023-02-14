@@ -1,0 +1,61 @@
+---
+title: "General Assignments"
+author: "Matt Crump"
+date: "1/23/2023"
+order: 15
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+These assignments will span multiple weeks. They are intended to help you become aware of important goalposts in learning to code with R, to give you actionable items to practice, and to give you scaffolded problems to solve with code to help you improve your skills.
+
+## GA1: Explaining Basic programming skills
+
+Importance: VERY HIGH
+
+Due: Before Spring Break
+
+Write a blog post where you demonstrate your ability to use these basic programming concepts in R. 
+
+1. R objects: show that you understand and can create/use objects of various types, including at least: character/string, numeric, integer, logical, data.frame, and list.
+
+2. Logical operations: show that you understand and can use logical operators in R (e.g., == | > < >= <=)
+
+3. Loops: Show that you understand the components of a for loop, and that you can use a for loop. 
+
+4. Functions: Show that you understand the syntax for declaring your own function, and that you can declare and run your own custom function to accomplish some task (you choose what the function does).
+
+5. Algorithm: An algorithm combines some or all of the above components to solve a computational problem. Demonstrate that you can use all of the above elements to write a script to solve a problem. There are many example problems to choose from in the second general assignment.
+
+Some example problems are: write a function to find the median of a set of numbers, write a function to first exclude outliers that are greater or less than 2 standard deviations, write a function to solve the fizz-buzz problem. 
+
+
+## GA2: Solving Problems
+
+Importance: HIGH
+
+It can be difficult to apply basic programming concepts to real problems when you are learning to code. I strongly advocate that you practice solving toy programming problems to become more comfortable with basic programming. The provided URL is a list of problems that can be solved with R code. They are not necessarily related to solving data-visualization problems. They are arranged roughly in order from easier to harder. Take a look at some of the harder problems and see what you think. I think that if you can code all of the steps to solve the snakes and ladders problem (chutes and ladders), then you have demonstrated a wide variety of generalizable skills that will be very helpful down the road. You might never re-use the code you wrote, but the process of breaking down large problems into smaller ones and converting the problem into a set of computational tasks is immensely generalizable. These skills don't come for free, and much practice is required. This assignment is an opportunity for practice, to show your work, and to refine your code.
+
+The list of problems is published here:
+
+<https://crumplab.com/rstatsforpsych/practice-problems.html>
+
+There is a list of easier problems, and a list of harder problems. There are two videos throughout to provide tutorial support. 
+
+1. Create a new blog post for solving problems from this list
+2. Create sections within the post to describe each problem, and then add R code chunks to solve each problem.
+3. For a deeper learning experience, attempt to solve each problem in more than one way.
+
+
+## GA3: Do a tidy tuesday
+
+Usefulness: VERY HIGH
+
+Will add more here soon. Basically, learn about what tidy Tuesday is, get the dataset for a recent Tuesday, and do a blog post with your tidy Tuesday data-visualization.
+
+

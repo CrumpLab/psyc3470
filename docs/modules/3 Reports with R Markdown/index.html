@@ -213,6 +213,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="../../modules/14 Final Presentations/index.html" class="sidebar-item-text sidebar-link">14 Final Presentations</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../modules/General Assignments/index.html" class="sidebar-item-text sidebar-link">General Assignments</a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -225,6 +230,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#read" id="toc-read" class="nav-link active" data-scroll-target="#read">Read</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#most-important-reproducible-document" id="toc-most-important-reproducible-document" class="nav-link" data-scroll-target="#most-important-reproducible-document">MOST IMPORTANT: Reproducible document</a></li>
+  <li><a href="#basic-skills-for-this-section" id="toc-basic-skills-for-this-section" class="nav-link" data-scroll-target="#basic-skills-for-this-section">Basic Skills for this section</a></li>
+  </ul></li>
   <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional resources</a>
   <ul class="collapse">
   <li><a href="#quarto-documents" id="toc-quarto-documents" class="nav-link" data-scroll-target="#quarto-documents">Quarto documents</a></li>
@@ -269,6 +279,44 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="read">Read</h2>
 <p><a href="https://psyteachr.github.io/ads-v2/02-reports.html" class="uri">https://psyteachr.github.io/ads-v2/02-reports.html</a></p>
 </section>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The textbook chapter covers writing R markdown documents (.Rmd extension). R Markdown is a note-book style coding document that can contain plain text (markdown), and executable R code chunks along with outputs, and compile everything into one output document. This system using a package called <code>knitr</code> to “knit” together the plain text and code into a final output.</p>
+<p>Our class is using a newer note-book system called quarto (.qmd extension). Most of the same concepts and syntax used in .Rmd work in .qmd.</p>
+<p>We are just starting to learn bits of R coding. In class we have only be executing bits of R code in the console and pressing enter to run the code. You will always be able to run code in the console. Moving forward we will be writing whole scripts of code and saving our scripts in text files. It is possible to store R code in .R files, however, these script files do not allow for regular text. Instead, we will be using notebook style .qmd documents that can contain both code and text.</p>
+<section id="most-important-reproducible-document" class="level3">
+<h3 class="anchored" data-anchor-id="most-important-reproducible-document">MOST IMPORTANT: Reproducible document</h3>
+<p>The most important concept here is that we will be learning to code using a reproducible document creation system. This provides an integrated document format to write and execute code, and to write text for purposes of communication.</p>
+</section>
+<section id="basic-skills-for-this-section" class="level3">
+<h3 class="anchored" data-anchor-id="basic-skills-for-this-section">Basic Skills for this section</h3>
+<ol type="1">
+<li>Be able to make a new .qmd document</li>
+<li>Be able to render a .qmd document</li>
+<li>Be able to insert simple markdown plain text (headers, lists, paragraphs), and render the document.</li>
+<li>Be aware of resources to help you learn more about markdown options.</li>
+<li>Be able to insert an R code chunk, and show the output in the rendered document.</li>
+</ol>
+<ul>
+<li>macro for quick insert</li>
+</ul>
+<ol start="6" type="1">
+<li>Be aware of R code chunk options, and how to use eval, messages, error, warning, and echo.</li>
+<li>Be able to set code chunk options per chunk, and/or for the whole document. Understand rules for precedence (which options will apply if both are set.)</li>
+<li>Running R code chunks in a qmd</li>
+</ol>
+<ul>
+<li>pressing play</li>
+<li>copy/paste into console</li>
+<li>highlight then command-enter (mac)</li>
+<li>precedence issues (first to last)</li>
+</ul>
+<ol start="9" type="1">
+<li>The rendering environment is different from the Rstudio environment.</li>
+<li>Be aware of more advanced quarto options for html documents, and try some of the options.</li>
+</ol>
+</section>
+</section>
 <section id="additional-resources" class="level2">
 <h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
 <section id="quarto-documents" class="level3">
@@ -285,8 +333,37 @@ ul.task-list li input[type="checkbox"] {
 <section id="week-3-assignment" class="level2">
 <h2 class="anchored" data-anchor-id="week-3-assignment">Week 3 assignment</h2>
 <ol type="1">
-<li>Write your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.</li>
+<li>Write your blog post, and submit the link to this assignment on blackboard.</li>
 </ol>
+<p>At this point we are just beginning to start coding, and at the end of this session we will have learned more about using .qmd documents. We have already been using .qmd documents for our blog posts. And, we will be using throughout the semester for almost everything we do, including coding.</p>
+<p>The blog post for this week is to write a post where you check off as many basic skills as you can for this section. The basic skills are:</p>
+<ol type="1">
+<li>Be able to make a new .qmd document</li>
+<li>Be able to render a .qmd document</li>
+<li>Be able to insert simple markdown plain text (headers, lists, paragraphs), and render the document.</li>
+<li>Be aware of resources to help you learn more about markdown options.</li>
+<li>Be able to insert an R code chunk, and show the output in the rendered document.</li>
+</ol>
+<ul>
+<li>macro for quick insert</li>
+</ul>
+<ol start="6" type="1">
+<li>Running R code chunks in a qmd</li>
+</ol>
+<ul>
+<li>pressing play</li>
+<li>copy/paste into console</li>
+<li>highlight then command-enter (mac)</li>
+<li>precedence issues (first to last)</li>
+</ul>
+<ol start="7" type="1">
+<li>Be aware of R code chunk options, and how to use eval, messages, error, warning, and echo.</li>
+<li>Be able to set code chunk options per chunk, and/or for the whole document. Understand rules for precedence (which options will apply if both are set.)</li>
+<li>The rendering environment is different from the Rstudio environment.</li>
+<li>Be aware of more advanced quarto options for html documents, and try some of the options.</li>
+</ol>
+<p>“Checking off” the skills means making notes, or making additions/changes to your .qmd document to show yourself you can accomplish these tasks and/or understand the concepts.</p>
+<p>I intend to produce a tutorial video on this and post it here ASAP.</p>
 
 
 </section>
