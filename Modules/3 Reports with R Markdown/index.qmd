@@ -65,6 +65,10 @@ Making a pdf document:
 
 <https://quarto.org/docs/output-formats/pdf-basics.html>
 
+R code chunk options:
+
+<https://quarto.org/docs/computations/execution-options.html>
+
 
 ## Week 3 assignment
 

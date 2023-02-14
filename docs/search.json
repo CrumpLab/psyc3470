@@ -473,7 +473,7 @@
     "href": "modules/3 Reports with R Markdown/index.html#additional-resources",
     "title": "3 Reports with R Markdown",
     "section": "Additional resources",
-    "text": "Additional resources\n\nQuarto documents\nThe quarto website contains many helpful examples. We will cover aspects throughout the semester.\nGeneral tips for writing in quarto markdown:\nhttps://quarto.org/docs/authoring/markdown-basics.html\nMaking an html document:\nhttps://quarto.org/docs/output-formats/html-basics.html\nMaking a pdf document:\nhttps://quarto.org/docs/output-formats/pdf-basics.html"
+    "text": "Additional resources\n\nQuarto documents\nThe quarto website contains many helpful examples. We will cover aspects throughout the semester.\nGeneral tips for writing in quarto markdown:\nhttps://quarto.org/docs/authoring/markdown-basics.html\nMaking an html document:\nhttps://quarto.org/docs/output-formats/html-basics.html\nMaking a pdf document:\nhttps://quarto.org/docs/output-formats/pdf-basics.html\nR code chunk options:\nhttps://quarto.org/docs/computations/execution-options.html"
   },
   {
     "objectID": "modules/3 Reports with R Markdown/index.html#week-3-assignment",
