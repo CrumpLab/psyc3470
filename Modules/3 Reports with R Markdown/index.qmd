@@ -76,7 +76,9 @@ R code chunk options:
 
 ## Week 3 assignment
 
-1.  Write your blog post, and submit the link to this assignment on blackboard.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QcmFSIPGJBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+1.  Write your blog post, and submit the link to this assignment on blackboard. The video tutorial gives an extended walkthrough.
 
 At this point we are just beginning to start coding, and at the end of this session we will have learned more about using .qmd documents. We have already been using .qmd documents for our blog posts. And, we will be using throughout the semester for almost everything we do, including coding.
 
@@ -102,5 +104,3 @@ The blog post for this week is to write a post where you check off as many basic
 ```
 
 "Checking off" the skills means making notes, or making additions/changes to your .qmd document to show yourself you can accomplish these tasks and/or understand the concepts.
-
-I intend to produce a tutorial video on this and post it here ASAP.
