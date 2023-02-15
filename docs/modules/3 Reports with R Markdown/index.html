@@ -344,9 +344,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The textbook chapter covers writing R markdown documents (.Rmd extension). R Markdown is a note-book style coding document that can contain plain text (markdown), and executable R code chunks along with outputs, and compile everything into one output document. This system using a package called <code>knitr</code> to “knit” together the plain text and code into a final output.</p>
-<p>Our class is using a newer note-book system called quarto (.qmd extension). Most of the same concepts and syntax used in .Rmd work in .qmd.</p>
-<p>We are just starting to learn bits of R coding. In class we have only be executing bits of R code in the console and pressing enter to run the code. You will always be able to run code in the console. Moving forward we will be writing whole scripts of code and saving our scripts in text files. It is possible to store R code in .R files, however, these script files do not allow for regular text. Instead, we will be using notebook style .qmd documents that can contain both code and text.</p>
+<p>The textbook chapter covers writing R markdown documents (.Rmd extension). R Markdown is a notebook style coding document that can contain plain text (markdown), and executable R code chunks along with outputs, and compile everything into one output document. This system uses a package called <code>knitr</code> to “knit” together the plain text and code into a final output.</p>
+<p>Our class is using a newer notebook system called quarto (.qmd extension). Most of the same concepts and syntax used in .Rmd work in .qmd.</p>
+<p>We are just starting to learn bits of R coding. In class we have executed bits of R code in the console. Moving forward we will be writing whole scripts of code and saving our scripts in text files. It is possible to store R code in .R files, however, these script files do not allow for regular text. Instead, we will be using notebook style .qmd documents that contain both code and text.</p>
 <section id="most-important-reproducible-document" class="level3">
 <h3 class="anchored" data-anchor-id="most-important-reproducible-document">MOST IMPORTANT: Reproducible document</h3>
 <p>The most important concept here is that we will be learning to code using a reproducible document creation system. This provides an integrated document format to write and execute code, and to write text for purposes of communication.</p>
@@ -406,23 +406,35 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ol>
 <p>At this point we are just beginning to start coding, and at the end of this session we will have learned more about using .qmd documents. We have already been using .qmd documents for our blog posts. And, we will be using throughout the semester for almost everything we do, including coding.</p>
 <p>The blog post for this week is to write a post where you check off as many basic skills as you can for this section. The basic skills are the same as above, I put them in a code chunk to make them easier to copy.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Be able to make a new .qmd document</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Be able to render a .qmd document</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Be able to insert simple markdown plain text (headers, lists, paragraphs), and render the document.</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Be aware of resources to help you learn more about markdown options.</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>Be able to insert an R code chunk, and show the output in the rendered document.</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ss"> - </span>macro for quick insert</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>Running R code chunks in a qmd</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>pressing play</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>copy/paste into console</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>highlight then command-enter (mac) </span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>precedence issues (first to last)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">7. </span>Be aware of R code chunk options, and how to use eval, messages, error, warning, and echo.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">8. </span>Be able to set code chunk options per chunk, and/or for the whole document. Understand rules for precedence (which options will apply if both are set.)</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">9. </span>Write inline r code.</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">10. </span>Explain how the rendering environment is different from the Rstudio environment.</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">11. </span>Be aware of more advanced quarto options for html documents, and try some of the options.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>“Checking off” the skills means making notes, or making additions/changes to your .qmd document to show yourself you can accomplish these tasks and/or understand the concepts.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>Be able to make a new .qmd document</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>Be able to render a .qmd document</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>Explain the difference between the source editor view and visual editor view in Rstudio.</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ss">4.  </span>Be able to insert simple markdown plain text (headers, lists, paragraphs), and render the document.</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ss">5.  </span>Be aware of resources to help you learn more about markdown options.</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">6.  </span>Be able to insert an R code chunk, and show the output in the rendered document.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">  -   </span>macro for quick insert</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">7.  </span>Running R code chunks in a qmd</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">  -   </span>pressing play</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">  -   </span>copy/paste into console</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">  -   </span>highlight then command-enter (mac)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">  -   </span>precedence issues (first to last)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">8.  </span>Be aware of R code chunk options, and how to use eval, messages, error, warning, and echo.</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">9.  </span>Be able to set code chunk options per chunk, and/or for the whole document. Understand rules for precedence (which options will apply if both are set.)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">10. </span>Write inline r code.</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="ss">11. </span>Explain how the rendering environment is different from the Rstudio environment.</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">12. </span>Be aware of more advanced quarto options for html documents, and try some of the options.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
