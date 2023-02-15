@@ -1,0 +1,60 @@
+---
+title: "Midterm Project"
+author: "Matt Crump"
+date: "2/15/2023"
+order: 16
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The midterm project is in two parts, each worth 5 points. The assignment is due before spring break. I encourage you to engage with this project immediately.
+
+I will post video tutorials of this project to help you out. This project is for you to clarify basic concepts for yourself. It is most important that you feel confident that you can explain and use the basic concepts, and this project gives a structured assignment to help you assess this for yourself.
+
+The midterm is worth 10 points, each part below is worth 5 points.
+
+## M1: Explaining Basic programming skills
+
+Due: Before Spring Break
+Points: 5
+
+Write a blog post where you demonstrate your ability to use these basic programming concepts in R. 
+
+1. R objects: show that you understand and can create/use objects of various types, including at least: character/string, numeric, integer, logical, data.frame, and list. Show that you can index objects appropriately (e.g., locate elements of an object, change elements of an object etc.)
+
+2. Logical operations: show that you understand and can use logical operators in R (e.g., == | > < >= <=)
+
+3. Loops: Show that you understand the components of a for loop, and that you can use a for loop. 
+
+4. Functions: Show that you understand the syntax for declaring your own function, and that you can declare and run your own custom function to accomplish some task (you choose what the function does).
+
+
+## M2: Solving Problems
+
+An algorithm combines some or all of the basic components from part 1 to solve a computational problem. The purpose of part II is to give you practice opportunities to learn and demonstrate that you can use all of the above elements to write a script to solve a problem. There are many example problems to choose from in the second general assignment.
+
+It can be difficult to apply basic programming concepts to real problems when you are learning to code. Having concrete problems to solve can be very helpful. Below is a list of problems that can be solved with R code. They are not necessarily related to solving data-visualization problems. They are arranged roughly in order from easier to harder. 
+
+I think that if you can code all of the steps to solve the snakes and ladders problem (chutes and ladders), then you have demonstrated a wide variety of generalizable skills that will be very helpful down the road. You might never re-use the code you wrote, but the process of breaking down large problems into smaller ones and converting the problem into a set of computational tasks is immensely generalizable. These skills don't come for free, and much practice is required. This assignment is an opportunity for practice, to show your work, and to refine your code.
+
+The list of problems is published here:
+
+<https://crumplab.com/rstatsforpsych/practice-problems.html>
+
+There is a list of easier problems, and a list of harder problems. There are two videos throughout to provide tutorial support. 
+
+**Instructions**
+
+1. Create a new blog post for solving problems from this list
+2. Create sections within the post to describe each problem, and then add R code chunks to solve each problem.
+3. For a deeper learning experience, attempt to solve each problem in more than one way.
+
+Minimal expectations: Solve at least two of the hard problems. The more you put in the more you will get out.
+
+
+
