@@ -20,7 +20,7 @@ The midterm is worth 10 points, each part below is worth 5 points.
 
 ## M1: Explaining Basic programming skills
 
-Due: Before Spring Break
+Due: March 31st, 2023
 Points: 5
 
 Write a blog post where you demonstrate your ability to use these basic programming concepts in R. 
@@ -35,6 +35,9 @@ Write a blog post where you demonstrate your ability to use these basic programm
 
 
 ## M2: Solving Problems
+
+Due: March 31st, 2023
+Points: 5
 
 An algorithm combines some or all of the basic components from part 1 to solve a computational problem. The purpose of part II is to give you practice opportunities to learn and demonstrate that you can use all of the above elements to write a script to solve a problem. There are many example problems to choose from in the second general assignment.
 
