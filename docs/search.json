@@ -543,14 +543,14 @@
     "href": "modules/6 Data Summaries/index.html#additional-resources",
     "title": "6 Data Summaries",
     "section": "Additional resources",
-    "text": "Additional resources\nTBD"
+    "text": "Additional resources\nThis chapter begins to introduce an important and very useful library called dyplr.\nhttps://dplyr.tidyverse.org\nFor a more advanced introduction see data transformation chapter from the R for Data Science book.\nhttps://r4ds.had.co.nz/transform.html"
   },
   {
     "objectID": "modules/6 Data Summaries/index.html#week-6-assignment",
     "href": "modules/6 Data Summaries/index.html#week-6-assignment",
     "title": "6 Data Summaries",
     "section": "Week 6 assignment",
-    "text": "Week 6 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+    "text": "Week 6 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard.\n\nYour blog post should demonstrate that you can accomplish the major topics discussed in section 5.1 to 5.5 in the textbook.\n\nExtra blogging challenge. We have now learned the basics about how to import, summarize, and plot data. So far, the examples have used data provided by the textbook. To complete the extra blogging challenge your task is to obtain some open data from a different source, import it, summarize it (if necessary), and plot it.\n\nFor example, can you obtain, import, summarize, and plot data from the open data website of New York City?\nhttps://opendata.cityofnewyork.us"
   },
   {
     "objectID": "modules/7 Practice Report/index.html",
