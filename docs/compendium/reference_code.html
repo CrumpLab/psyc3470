@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.210">
+<meta name="generator" content="quarto-1.3.258">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,9 +20,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -49,43 +50,13 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -145,94 +116,105 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <span class="navbar-title">PSYC3470</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../syllabus.html">
+    <a class="nav-link" href="../syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://psyteachr.github.io/ads-v2">
+    <a class="nav-link" href="https://psyteachr.github.io/ads-v2" rel="" target="">
  <span class="menu-text">Textbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../modules/index.html">
+    <a class="nav-link" href="../modules/index.html" rel="" target="">
  <span class="menu-text">Modules</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../compendium/index.html" aria-current="page">
+    <a class="nav-link active" href="../compendium/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Compendium</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CrumpLab/psyc3470"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/CrumpLab/psyc3470" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Coding Reference</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../compendium/index.html">Compendium</a></li><li class="breadcrumb-item"><a href="../compendium/reference_code.html">Coding Reference</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../compendium/index.html" class="sidebar-item-text sidebar-link">Compendium</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a href="../compendium/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Compendium</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../compendium/resources.html" class="sidebar-item-text sidebar-link">R resources</a>
+  <a href="../compendium/resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">R resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../compendium/reference_code.html" class="sidebar-item-text sidebar-link active">Coding Reference</a>
+  <a href="../compendium/reference_code.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Coding Reference</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../compendium/version_control.html" class="sidebar-item-text sidebar-link">Git, github, and version control</a>
+  <a href="../compendium/version_control.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Git, github, and version control</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../compendium/posit_cloud.html" class="sidebar-item-text sidebar-link">Posit cloud</a>
+  <a href="../compendium/posit_cloud.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Posit cloud</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../compendium/privacy.html" class="sidebar-item-text sidebar-link">Privacy and sharing</a>
+  <a href="../compendium/privacy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Privacy and sharing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../compendium/Example_blog.html" class="sidebar-item-text sidebar-link">Example Blog</a>
+  <a href="../compendium/Example_blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Example Blog</span></a>
   </div>
 </li>
       </ul>
@@ -240,6 +222,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -328,7 +311,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Coding Reference</h1>
+<h1 class="title">Coding Reference</h1>
 </div>
 
 <div>
@@ -1432,45 +1415,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <tbody>
 <tr class="odd">
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">69.60307</td>
-<td style="text-align: right;">20</td>
+<td style="text-align: right;">68.25943</td>
+<td style="text-align: right;">18</td>
 <td style="text-align: left;">TRUE</td>
-<td style="text-align: left;">g</td>
+<td style="text-align: left;">o</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">68.30645</td>
-<td style="text-align: right;">18</td>
+<td style="text-align: right;">52.37694</td>
+<td style="text-align: right;">19</td>
 <td style="text-align: left;">FALSE</td>
-<td style="text-align: left;">b</td>
+<td style="text-align: left;">i</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">3</td>
-<td style="text-align: right;">60.22568</td>
-<td style="text-align: right;">19</td>
-<td style="text-align: left;">TRUE</td>
+<td style="text-align: right;">69.18372</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: left;">FALSE</td>
 <td style="text-align: left;">g</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">4</td>
-<td style="text-align: right;">67.87867</td>
-<td style="text-align: right;">18</td>
-<td style="text-align: left;">TRUE</td>
-<td style="text-align: left;">i</td>
+<td style="text-align: right;">66.27810</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: left;">FALSE</td>
+<td style="text-align: left;">r</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">5</td>
-<td style="text-align: right;">71.29326</td>
-<td style="text-align: right;">18</td>
+<td style="text-align: right;">66.24659</td>
+<td style="text-align: right;">20</td>
 <td style="text-align: left;">FALSE</td>
-<td style="text-align: left;">b</td>
+<td style="text-align: left;">i</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">6</td>
-<td style="text-align: right;">70.39732</td>
+<td style="text-align: right;">61.73495</td>
 <td style="text-align: right;">18</td>
 <td style="text-align: left;">TRUE</td>
-<td style="text-align: left;">v</td>
+<td style="text-align: left;">o</td>
 </tr>
 </tbody>
 </table>
@@ -1498,8 +1481,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb57-15"><a href="#cb57-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # A tibble: 2 × 3</span></span>
 <span id="cb57-16"><a href="#cb57-16" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   likes_chocolate mean_grade sd_grad</span></span>
 <span id="cb57-17"><a href="#cb57-17" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   &lt;lgl&gt;                &lt;dbl&gt;   &lt;dbl&gt;</span></span>
-<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 FALSE                 67.3    4.07</span></span>
-<span id="cb57-19"><a href="#cb57-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2 TRUE                  65.7    4.81</span></span>
+<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 FALSE                 63.2    5.95</span></span>
+<span id="cb57-19"><a href="#cb57-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2 TRUE                  65.1    3.06</span></span>
 <span id="cb57-20"><a href="#cb57-20" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb57-21"><a href="#cb57-21" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
 <span id="cb57-22"><a href="#cb57-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(likes_chocolate, age) <span class="sc">%&gt;%</span></span>
@@ -1507,14 +1490,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb57-24"><a href="#cb57-24" aria-hidden="true" tabindex="-1"></a>            <span class="at">sd_grad =</span> <span class="fu">sd</span>(grades))</span>
 <span id="cb57-25"><a href="#cb57-25" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; `summarise()` has grouped output by 'likes_chocolate'. You can override using</span></span>
 <span id="cb57-26"><a href="#cb57-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; the `.groups` argument.</span></span>
-<span id="cb57-27"><a href="#cb57-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # A tibble: 4 × 4</span></span>
+<span id="cb57-27"><a href="#cb57-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # A tibble: 5 × 4</span></span>
 <span id="cb57-28"><a href="#cb57-28" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # Groups:   likes_chocolate [2]</span></span>
 <span id="cb57-29"><a href="#cb57-29" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   likes_chocolate   age mean_grade sd_grad</span></span>
 <span id="cb57-30"><a href="#cb57-30" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   &lt;lgl&gt;           &lt;int&gt;      &lt;dbl&gt;   &lt;dbl&gt;</span></span>
-<span id="cb57-31"><a href="#cb57-31" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 FALSE              18       67.3    4.07</span></span>
-<span id="cb57-32"><a href="#cb57-32" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2 TRUE               18       65.8    5.89</span></span>
-<span id="cb57-33"><a href="#cb57-33" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3 TRUE               19       60.2   NA   </span></span>
-<span id="cb57-34"><a href="#cb57-34" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4 TRUE               20       68.1    2.08</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb57-31"><a href="#cb57-31" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 FALSE              18       61.1   NA   </span></span>
+<span id="cb57-32"><a href="#cb57-32" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2 FALSE              19       59.3    9.83</span></span>
+<span id="cb57-33"><a href="#cb57-33" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3 FALSE              20       66.5    2.55</span></span>
+<span id="cb57-34"><a href="#cb57-34" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4 TRUE               18       65.7    3.46</span></span>
+<span id="cb57-35"><a href="#cb57-35" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5 TRUE               19       63.3   NA</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="filter" class="level3">
@@ -1524,16 +1508,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb58"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
 <span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(grades <span class="sc">&lt;</span> <span class="dv">65</span>)</span>
 <span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   subjects   grades age likes_chocolate favorite_color</span></span>
-<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1        3 60.22568  19            TRUE              g</span></span>
-<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2        7 59.16341  18            TRUE              o</span></span>
-<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3        8 61.62560  18           FALSE              b</span></span>
-<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
-<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(grades <span class="sc">&lt;</span> <span class="dv">65</span>,</span>
-<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a>         likes_chocolate <span class="sc">==</span> <span class="cn">TRUE</span>)</span>
-<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   subjects   grades age likes_chocolate favorite_color</span></span>
-<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1        3 60.22568  19            TRUE              g</span></span>
-<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2        7 59.16341  18            TRUE              o</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1        2 52.37694  19           FALSE              i</span></span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2        6 61.73495  18            TRUE              o</span></span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3        7 64.11186  20           FALSE              o</span></span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4        8 61.14959  18           FALSE              g</span></span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5        9 63.28513  19            TRUE              g</span></span>
+<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
+<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(grades <span class="sc">&lt;</span> <span class="dv">65</span>,</span>
+<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a>         likes_chocolate <span class="sc">==</span> <span class="cn">TRUE</span>)</span>
+<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   subjects   grades age likes_chocolate favorite_color</span></span>
+<span id="cb58-14"><a href="#cb58-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1        6 61.73495  18            TRUE              o</span></span>
+<span id="cb58-15"><a href="#cb58-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2        9 63.28513  19            TRUE              g</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="select" class="level3">
@@ -1543,30 +1529,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb59"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
 <span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(grades)</span>
 <span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      grades</span></span>
-<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1  69.60307</span></span>
-<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2  68.30645</span></span>
-<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3  60.22568</span></span>
-<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4  67.87867</span></span>
-<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5  71.29326</span></span>
-<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6  70.39732</span></span>
-<span id="cb59-10"><a href="#cb59-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7  59.16341</span></span>
-<span id="cb59-11"><a href="#cb59-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8  61.62560</span></span>
-<span id="cb59-12"><a href="#cb59-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9  68.00451</span></span>
-<span id="cb59-13"><a href="#cb59-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10 66.66343</span></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1  68.25943</span></span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2  52.37694</span></span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3  69.18372</span></span>
+<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4  66.27810</span></span>
+<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5  66.24659</span></span>
+<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6  61.73495</span></span>
+<span id="cb59-10"><a href="#cb59-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7  64.11186</span></span>
+<span id="cb59-11"><a href="#cb59-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8  61.14959</span></span>
+<span id="cb59-12"><a href="#cb59-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9  63.28513</span></span>
+<span id="cb59-13"><a href="#cb59-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10 66.97361</span></span>
 <span id="cb59-14"><a href="#cb59-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb59-15"><a href="#cb59-15" aria-hidden="true" tabindex="-1"></a>fake_data <span class="sc">%&gt;%</span></span>
 <span id="cb59-16"><a href="#cb59-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(grades,likes_chocolate)</span>
 <span id="cb59-17"><a href="#cb59-17" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      grades likes_chocolate</span></span>
-<span id="cb59-18"><a href="#cb59-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1  69.60307            TRUE</span></span>
-<span id="cb59-19"><a href="#cb59-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2  68.30645           FALSE</span></span>
-<span id="cb59-20"><a href="#cb59-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3  60.22568            TRUE</span></span>
-<span id="cb59-21"><a href="#cb59-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4  67.87867            TRUE</span></span>
-<span id="cb59-22"><a href="#cb59-22" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5  71.29326           FALSE</span></span>
-<span id="cb59-23"><a href="#cb59-23" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6  70.39732            TRUE</span></span>
-<span id="cb59-24"><a href="#cb59-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7  59.16341            TRUE</span></span>
-<span id="cb59-25"><a href="#cb59-25" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8  61.62560           FALSE</span></span>
-<span id="cb59-26"><a href="#cb59-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9  68.00451           FALSE</span></span>
-<span id="cb59-27"><a href="#cb59-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10 66.66343            TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb59-18"><a href="#cb59-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1  68.25943            TRUE</span></span>
+<span id="cb59-19"><a href="#cb59-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2  52.37694           FALSE</span></span>
+<span id="cb59-20"><a href="#cb59-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3  69.18372           FALSE</span></span>
+<span id="cb59-21"><a href="#cb59-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4  66.27810           FALSE</span></span>
+<span id="cb59-22"><a href="#cb59-22" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5  66.24659           FALSE</span></span>
+<span id="cb59-23"><a href="#cb59-23" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6  61.73495            TRUE</span></span>
+<span id="cb59-24"><a href="#cb59-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7  64.11186           FALSE</span></span>
+<span id="cb59-25"><a href="#cb59-25" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8  61.14959           FALSE</span></span>
+<span id="cb59-26"><a href="#cb59-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9  63.28513            TRUE</span></span>
+<span id="cb59-27"><a href="#cb59-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10 66.97361            TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="mutate" class="level3">
@@ -1578,16 +1564,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>fake_data</span>
 <span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;    subjects   grades age likes_chocolate favorite_color new_thing</span></span>
-<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1         1 69.60307  20            TRUE              g         0</span></span>
-<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2         2 68.30645  18           FALSE              b         0</span></span>
-<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3         3 60.22568  19            TRUE              g         0</span></span>
-<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4         4 67.87867  18            TRUE              i         0</span></span>
-<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5         5 71.29326  18           FALSE              b         0</span></span>
-<span id="cb60-11"><a href="#cb60-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6         6 70.39732  18            TRUE              v         0</span></span>
-<span id="cb60-12"><a href="#cb60-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7         7 59.16341  18            TRUE              o         0</span></span>
-<span id="cb60-13"><a href="#cb60-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8         8 61.62560  18           FALSE              b         0</span></span>
-<span id="cb60-14"><a href="#cb60-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9         9 68.00451  18           FALSE              y         0</span></span>
-<span id="cb60-15"><a href="#cb60-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10       10 66.66343  20            TRUE              g         0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1         1 68.25943  18            TRUE              o         0</span></span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2         2 52.37694  19           FALSE              i         0</span></span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3         3 69.18372  20           FALSE              g         0</span></span>
+<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4         4 66.27810  19           FALSE              r         0</span></span>
+<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5         5 66.24659  20           FALSE              i         0</span></span>
+<span id="cb60-11"><a href="#cb60-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6         6 61.73495  18            TRUE              o         0</span></span>
+<span id="cb60-12"><a href="#cb60-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7         7 64.11186  20           FALSE              o         0</span></span>
+<span id="cb60-13"><a href="#cb60-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8         8 61.14959  18           FALSE              g         0</span></span>
+<span id="cb60-14"><a href="#cb60-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9         9 63.28513  19            TRUE              g         0</span></span>
+<span id="cb60-15"><a href="#cb60-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10       10 66.97361  18            TRUE              b         0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 </section>
@@ -1643,7 +1629,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(plot_df, <span class="fu">aes</span>(<span class="at">x =</span> a, <span class="at">y =</span> b)) <span class="sc">+</span></span>
 <span id="cb62-8"><a href="#cb62-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="reference_code_files/figure-html/unnamed-chunk-63-1.png" class="img-fluid" width="672"></p>
+<p><img src="reference_code_files/figure-html/unnamed-chunk-63-1.png" class="quarto-discovered-preview-image img-fluid" width="672"></p>
 </div>
 <div class="sourceCode cell-code" id="cb63"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a><span class="co"># customize, add regression line</span></span>
@@ -2090,29 +2076,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb83-12"><a href="#cb83-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="st">"striped"</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb83-13"><a href="#cb83-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_header_above</span>(<span class="fu">c</span>(<span class="st">"Group 1"</span> <span class="ot">=</span> <span class="dv">2</span>, <span class="st">"Group 2"</span> <span class="ot">=</span> <span class="dv">2</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-
-<table class="table table-striped" style="margin-left: auto; margin-right: auto;">
- <thead>
-<tr>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Group 1</div></th>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Group 2</div></th>
+<table class="table table-striped table-sm" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th colspan="2" data-quarto-table-cell-role="th" style="text-align: center; border-bottom: hidden; padding-bottom: 0; padding-left: 3px; padding-right: 3px;"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+Group 1
+</div></th>
+<th colspan="2" data-quarto-table-cell-role="th" style="text-align: center; border-bottom: hidden; padding-bottom: 0; padding-left: 3px; padding-right: 3px;"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+Group 2
+</div></th>
 </tr>
-  <tr>
-   <th style="text-align:right;"> A </th>
-   <th style="text-align:right;"> B </th>
-   <th style="text-align:right;"> C </th>
-   <th style="text-align:right;"> D </th>
-  </tr>
- </thead>
+<tr class="odd">
+<th style="text-align: right;" data-quarto-table-cell-role="th">A</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">B</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">C</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">D</th>
+</tr>
+</thead>
 <tbody>
-  <tr>
-   <td style="text-align:right;"> 1 </td>
-   <td style="text-align:right;"> 2 </td>
-   <td style="text-align:right;"> 3 </td>
-   <td style="text-align:right;"> 4 </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -2222,11 +2218,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="cell">
 <div class="sourceCode cell-code" id="cb88"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a><span class="co"># returns 1 randomly sampled number from 1 to 10</span></span>
 <span id="cb88-2"><a href="#cb88-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>,<span class="dv">1</span>)</span>
-<span id="cb88-3"><a href="#cb88-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 8</span></span>
+<span id="cb88-3"><a href="#cb88-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 5</span></span>
 <span id="cb88-4"><a href="#cb88-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb88-5"><a href="#cb88-5" aria-hidden="true" tabindex="-1"></a><span class="co"># let's repeat the above 10 times using replicate</span></span>
 <span id="cb88-6"><a href="#cb88-6" aria-hidden="true" tabindex="-1"></a><span class="fu">replicate</span>(<span class="dv">10</span>,<span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>,<span class="dv">1</span>))</span>
-<span id="cb88-7"><a href="#cb88-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  [1] 1 4 5 4 8 7 5 9 9 3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb88-7"><a href="#cb88-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  [1]  5  1 10  2  7  4  5  8  1  9</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>The next example shows how to write a function to do something, and then use the function inside replicate to repeat the function many times.</p>
 <p>For example, we write a function to run a one-sample t-test on a random sample drawn from a normal distribution</p>
@@ -2239,10 +2235,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb89-6"><a href="#cb89-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb89-7"><a href="#cb89-7" aria-hidden="true" tabindex="-1"></a><span class="co"># get 10 t-values from repeating the above 10 times</span></span>
 <span id="cb89-8"><a href="#cb89-8" aria-hidden="true" tabindex="-1"></a><span class="fu">replicate</span>(<span class="dv">10</span>, <span class="fu">ttest_result</span>() )</span>
-<span id="cb89-9"><a href="#cb89-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;          t          t          t          t          t          t          t </span></span>
-<span id="cb89-10"><a href="#cb89-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  0.5483853  0.7179792  0.7931985  2.2195427 -0.6707009 -0.3948935  1.0545863 </span></span>
-<span id="cb89-11"><a href="#cb89-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;          t          t          t </span></span>
-<span id="cb89-12"><a href="#cb89-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.1275836  0.3458579 -2.6452265</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb89-9"><a href="#cb89-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;           t           t           t           t           t           t </span></span>
+<span id="cb89-10"><a href="#cb89-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.59993730 -0.29192895 -0.04062437  1.26029656 -0.06862334  0.21482358 </span></span>
+<span id="cb89-11"><a href="#cb89-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;           t           t           t           t </span></span>
+<span id="cb89-12"><a href="#cb89-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.42771118  2.22878722 -1.28505875 -1.48769474</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="apply-family" class="level3">
@@ -2316,14 +2312,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb92-3"><a href="#cb92-3" aria-hidden="true" tabindex="-1"></a><span class="co"># applies the sum function to each row</span></span>
 <span id="cb92-4"><a href="#cb92-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1 tells apply to go across rows</span></span>
 <span id="cb92-5"><a href="#cb92-5" aria-hidden="true" tabindex="-1"></a><span class="fu">apply</span>(random_matrix,<span class="dv">1</span>,sum)</span>
-<span id="cb92-6"><a href="#cb92-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 28 37 27 23 17</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb92-6"><a href="#cb92-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 35 23 32 30 32</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>The sum of each column</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb93"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a><span class="co"># applies the sum function to each column</span></span>
 <span id="cb93-2"><a href="#cb93-2" aria-hidden="true" tabindex="-1"></a><span class="co"># 2 tells apply to go across columns</span></span>
 <span id="cb93-3"><a href="#cb93-3" aria-hidden="true" tabindex="-1"></a><span class="fu">apply</span>(random_matrix, <span class="dv">2</span>, sum)</span>
-<span id="cb93-4"><a href="#cb93-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 23 22 36 20 31</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb93-4"><a href="#cb93-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 30 25 26 35 36</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Let’s say we have a matrix storing 3 samples. Each sample has 10 numbers. Each sample is stored in a column, and each row represents an observation.</p>
 <div class="cell">
@@ -2337,13 +2333,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb95-4"><a href="#cb95-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  One Sample t-test</span></span>
 <span id="cb95-5"><a href="#cb95-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-6"><a href="#cb95-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; data:  newX[, i]</span></span>
-<span id="cb95-7"><a href="#cb95-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = -1.1856, df = 9, p-value = 0.2661</span></span>
+<span id="cb95-7"><a href="#cb95-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = -0.22594, df = 9, p-value = 0.8263</span></span>
 <span id="cb95-8"><a href="#cb95-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; alternative hypothesis: true mean is not equal to 0</span></span>
 <span id="cb95-9"><a href="#cb95-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 95 percent confidence interval:</span></span>
-<span id="cb95-10"><a href="#cb95-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -1.3514273  0.4219748</span></span>
+<span id="cb95-10"><a href="#cb95-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -0.8692928  0.7114127</span></span>
 <span id="cb95-11"><a href="#cb95-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; sample estimates:</span></span>
-<span id="cb95-12"><a href="#cb95-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  mean of x </span></span>
-<span id="cb95-13"><a href="#cb95-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.4647263 </span></span>
+<span id="cb95-12"><a href="#cb95-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   mean of x </span></span>
+<span id="cb95-13"><a href="#cb95-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.07894006 </span></span>
 <span id="cb95-14"><a href="#cb95-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-15"><a href="#cb95-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-16"><a href="#cb95-16" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [[2]]</span></span>
@@ -2351,13 +2347,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb95-18"><a href="#cb95-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  One Sample t-test</span></span>
 <span id="cb95-19"><a href="#cb95-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-20"><a href="#cb95-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; data:  newX[, i]</span></span>
-<span id="cb95-21"><a href="#cb95-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = 0.72862, df = 9, p-value = 0.4848</span></span>
+<span id="cb95-21"><a href="#cb95-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = -0.18906, df = 9, p-value = 0.8542</span></span>
 <span id="cb95-22"><a href="#cb95-22" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; alternative hypothesis: true mean is not equal to 0</span></span>
 <span id="cb95-23"><a href="#cb95-23" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 95 percent confidence interval:</span></span>
-<span id="cb95-24"><a href="#cb95-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -0.3378549  0.6589034</span></span>
+<span id="cb95-24"><a href="#cb95-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -0.8408800  0.7111657</span></span>
 <span id="cb95-25"><a href="#cb95-25" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; sample estimates:</span></span>
-<span id="cb95-26"><a href="#cb95-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; mean of x </span></span>
-<span id="cb95-27"><a href="#cb95-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 0.1605243 </span></span>
+<span id="cb95-26"><a href="#cb95-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   mean of x </span></span>
+<span id="cb95-27"><a href="#cb95-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.06485719 </span></span>
 <span id="cb95-28"><a href="#cb95-28" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-29"><a href="#cb95-29" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-30"><a href="#cb95-30" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [[3]]</span></span>
@@ -2365,13 +2361,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb95-32"><a href="#cb95-32" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  One Sample t-test</span></span>
 <span id="cb95-33"><a href="#cb95-33" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb95-34"><a href="#cb95-34" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; data:  newX[, i]</span></span>
-<span id="cb95-35"><a href="#cb95-35" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = 0.077239, df = 9, p-value = 0.9401</span></span>
+<span id="cb95-35"><a href="#cb95-35" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; t = -0.16766, df = 9, p-value = 0.8706</span></span>
 <span id="cb95-36"><a href="#cb95-36" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; alternative hypothesis: true mean is not equal to 0</span></span>
 <span id="cb95-37"><a href="#cb95-37" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 95 percent confidence interval:</span></span>
-<span id="cb95-38"><a href="#cb95-38" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -0.4739463  0.5074553</span></span>
+<span id="cb95-38"><a href="#cb95-38" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  -1.0443968  0.9002716</span></span>
 <span id="cb95-39"><a href="#cb95-39" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; sample estimates:</span></span>
 <span id="cb95-40"><a href="#cb95-40" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  mean of x </span></span>
-<span id="cb95-41"><a href="#cb95-41" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 0.01675451</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb95-41"><a href="#cb95-41" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; -0.0720626</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>What if we wanted to return only the t-values, rather than whole output?</p>
 <p>You might try this, but it doesn’t work</p>
@@ -2386,7 +2382,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb97-3"><a href="#cb97-3" aria-hidden="true" tabindex="-1"></a>        t_out <span class="ot">&lt;-</span> <span class="fu">t.test</span>(x,<span class="at">mu=</span><span class="dv">0</span>)</span>
 <span id="cb97-4"><a href="#cb97-4" aria-hidden="true" tabindex="-1"></a>        <span class="fu">return</span>(t_out<span class="sc">$</span>statistic)</span>
 <span id="cb97-5"><a href="#cb97-5" aria-hidden="true" tabindex="-1"></a>      })</span>
-<span id="cb97-6"><a href="#cb97-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] -1.18561253  0.72862420  0.07723921</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb97-6"><a href="#cb97-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] -0.2259432 -0.1890629 -0.1676552</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
@@ -2421,9 +2417,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -2488,6 +2498,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
