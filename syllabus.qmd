@@ -70,7 +70,7 @@ Link to the course website: <https://crumplab.com/psyc3470>
 
 <https://psyteachr.github.io/ads-v2>
 
-The textbook is a free and open-source web book. There are many additional free resources for learning R that will be discussed and made available throughout the semester.
+The textbook is a free and open-source web book. There are many additional free resources for learning R that will be discussed and made available throughout the semester in the compendium.
 
 ## Course Structure
 
