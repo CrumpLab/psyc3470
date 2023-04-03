@@ -1,8 +1,8 @@
 ---
-title: "9 Data Tidying"
+title: "10 Data Tidying"
 author: "Matt Crump"
 date: "1/23/2023"
-order: 9
+order: 10
 ---
 
 ```{r, include = FALSE}
