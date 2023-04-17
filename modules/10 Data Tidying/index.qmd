@@ -20,9 +20,27 @@ Read the data-tidying chapter.
 
 ## Additional resources
 
-TBD
+The tidyR cheatsheet:
+
+<https://raw.githubusercontent.com/rstudio/cheatsheets/main/tidyr.pdf>
 
 
-## Week 9 assignment
+## Week 10 assignment
 
 1. Write your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.
+
+There are several options for completing this post. The most open-ended option is to read the textbook chapter and use your blog post to demonstrate that you can accomplish the major topics covered in the chapter.
+
+Alternatively (or additionally), you can focus on accomplishing these two major goals:
+
+A. Explain the concept of tidy data.
+
+B. Demonstrate that you can use the pivot_longer and pivot_wider functions. Explain their use cases.
+
+C. Section 8.5 of the textbook shows an example of using pipes to accomplish several data tidying steps. 
+
+  - Show that you can compile and run this code on your blog.
+  - Add comments to the code to show that you can explain the meaning of each step.
+
+
+

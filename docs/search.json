@@ -354,7 +354,7 @@
     "href": "modules/10 Data Tidying/index.html#additional-resources",
     "title": "10 Data Tidying",
     "section": "Additional resources",
-    "text": "Additional resources\nTBD"
+    "text": "Additional resources\nThe tidyR cheatsheet:\nhttps://raw.githubusercontent.com/rstudio/cheatsheets/main/tidyr.pdf"
   },
   {
     "objectID": "modules/10 Data Tidying/index.html#week-9-assignment",
@@ -894,5 +894,12 @@
     "title": "Syllabus",
     "section": "",
     "text": "If you have questions about the syllabus, let’s talk about it in class, and/or please create a thread to discuss the question on the discussion board for this course on Blackboard."
+  },
+  {
+    "objectID": "modules/10 Data Tidying/index.html#week-10-assignment",
+    "href": "modules/10 Data Tidying/index.html#week-10-assignment",
+    "title": "10 Data Tidying",
+    "section": "Week 10 assignment",
+    "text": "Week 10 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.\n\nThere are several options for completing this post. The most open-ended option is to read the textbook chapter and use your blog post to demonstrate that you can accomplish the major topics covered in the chapter.\nAlternatively (or additionally), you can focus on accomplishing these two major goals:\nA. Explain the concept of tidy data.\nB. Demonstrate that you can use the pivot_longer and pivot_wider functions. Explain their use cases.\nC. Section 8.5 of the textbook shows an example of using pipes to accomplish several data tidying steps.\n\nShow that you can compile and run this code on your blog.\nAdd comments to the code to show that you can explain the meaning of each step."
   }
 ]
