@@ -1,0 +1,29 @@
+---
+title: "5 Data Import"
+author: "Matt Crump"
+date: "1/23/2023"
+order: 5 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Read
+
+Read the data import chapter.
+
+<https://psyteachr.github.io/ads-v2/04-data.html>
+
+## Additional resources
+
+<https://r4ds.had.co.nz/data-import.html>
+
+
+
+## Week 5 assignment
+
+1. Write your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.

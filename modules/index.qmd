@@ -1,0 +1,27 @@
+---
+title: "Modules"
+description: "Overview of modules for PSYC 3470"
+author: "Matt Crump"
+date: "1/23/2023"
+order: 0 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This is a 15 week course, with roughly 14 modules. The practical goal of the course is to train a broad base of data-analysis and visualization skills using open-source software tools like R.
+
+The modules roughly track the ten chapters of the textbook:
+
+<https://psyteachr.github.io/ads-v2/>
+
+## Module structure
+
+In general, modules will contain a reading, additional resources, and a weekly assignment.
+
+The modules will be updated across the semester as needed.
+

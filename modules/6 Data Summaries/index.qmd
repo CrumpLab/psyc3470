@@ -1,0 +1,43 @@
+---
+title: "6 Data Summaries"
+author: "Matt Crump"
+date: "1/23/2023"
+order: 6 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Read
+
+Read the data summaries chapter.
+
+<https://psyteachr.github.io/ads-v2/05-summary.html>
+
+## Additional resources
+
+This chapter begins to introduce an important and very useful library called `dyplr`.
+
+<https://dplyr.tidyverse.org>
+
+For a more advanced introduction see data transformation chapter from the R for Data Science book.
+
+<https://r4ds.had.co.nz/transform.html>
+
+
+## Week 6 assignment
+
+1. Write your blog post, and submit the link to this assignment on blackboard.
+
+Your blog post should demonstrate that you can accomplish the major topics discussed in section 5.1 to 5.5 in the textbook.
+
+2. Extra blogging challenge. We have now learned the basics about how to import, summarize, and plot data. So far, the examples have used data provided by the textbook. To complete the extra blogging challenge your task is to obtain some open data from a different source, import it, summarize it (if necessary), and plot it.
+
+For example, can you obtain, import, summarize, and plot data from the open data website of New York City?
+
+<https://opendata.cityofnewyork.us>
+
