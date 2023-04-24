@@ -1,0 +1,37 @@
+---
+title: "Final Project"
+author: "Matt Crump"
+date: "4/24/2023"
+order: 17
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The final project asks students to obtain an open data set, and then conduct a reproducible visualization of the results. By coding the whole set of operations using R, the analysis show be independently reproducible and verifiable by another person because they could obtain the same data set and analysis code, and by compiling the code show that the same analysis can be reproduced.
+
+We will spend several classes looking at examples of completing a final project. Your final project will be added as another blog post.
+
+The basic steps are:
+
+1. **Obtain openly available data** from an existing primary source article. For example, psychology papers may include links to open data from the published experiment. 
+
+Here are a few tips for finding a psych paper with open data. Most important, for this assignment you do not need to re-analyze all of the data from a particular paper. Many papers have multiple experiments, and multiple analyses, including analyses you may not be familiar with. You can restrict your re-analysis to a portion of the paper that involves a data-visualization of interest.
+
+- <https://osf.io> The open science framework contains many repositories of open data that are part of published papers
+
+- Some journals, including Psychological Science, put badges on papers with open data. Look for the blue open-data badge. You will usually find the link to the open-data in the paper.
+
+2. **Import, pre-process, and visualize the data using R**. After you have obtained the data, your main task is to produce a visualization of the data. For example if the authors provided a graph of their data, can you recreate this graph in your own analysis. 
+
+3. **Write a brief report about your visualization**. Include a brief description of the research question and experiment (with citation to the paper, and link to find the data). Include the R code chunks necessary to complete the data-visualization. Include a brief description or explanation of the pattern of results in the visualization, and how they relate to the research question.
+
+4. **Publish your completed report on your blog**. 
+
+
+
+
