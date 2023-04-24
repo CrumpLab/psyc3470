@@ -389,7 +389,7 @@
     "href": "modules/11 Data Wrangling/index.html#week-11-assignment",
     "title": "11 Data Wrangling",
     "section": "Week 11 assignment",
-    "text": "Week 11 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity."
+    "text": "Week 11 assignment\n\nWrite your blog post, and submit the link to this assignment on blackboard.\n\nThis chapter discusses essential functions from the dplyr package. These include: select, filter, arrange, mutate, summarise, and group_by. In you blog post demonstrate that you understand and can use each of these functions."
   },
   {
     "objectID": "modules/12 Customizations/index.html",

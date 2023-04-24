@@ -25,4 +25,7 @@ Read the data-wrangling chapter.
 
 ## Week 11 assignment
 
-1. Write your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.
+1. Write your blog post, and submit the link to this assignment on blackboard. 
+
+This chapter discusses essential functions from the `dplyr` package. These include: `select`, `filter`, `arrange`, `mutate`, `summarise`, and `group_by`. In you blog post demonstrate that you understand and can use each of these functions.
+
