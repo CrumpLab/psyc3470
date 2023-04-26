@@ -101,8 +101,11 @@ This is an engagement and skills-acquisition based course. At the beginning of t
 | Weekly Blog post    |      4 |    60 |
 | Attendance          |      1 |    15 |
 | Midterm project     |     10 |    10 |
-| Final Project       |     10 |    10 |
+| Final Project       |     15 |    15 |
 |                     |        |   100 |
+| Extra Credit        |        |       |
+| Tidy Tuesday x3     |      5 |    15 |
+| Final Presentation  |      5 |     5 |
 
 Percentage grades are converted to letter grades according to the following rubric.
 

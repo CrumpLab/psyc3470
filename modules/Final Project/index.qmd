@@ -16,6 +16,8 @@ The final project asks students to obtain an open data set, and then conduct a r
 
 We will spend several classes looking at examples of completing a final project. Your final project will be added as another blog post.
 
+15 points
+
 The basic steps are:
 
 1. **Obtain openly available data** from an existing primary source article. For example, psychology papers may include links to open data from the published experiment. 
@@ -31,6 +33,20 @@ Here are a few tips for finding a psych paper with open data. Most important, fo
 3. **Write a brief report about your visualization**. Include a brief description of the research question and experiment (with citation to the paper, and link to find the data). Include the R code chunks necessary to complete the data-visualization. Include a brief description or explanation of the pattern of results in the visualization, and how they relate to the research question.
 
 4. **Publish your completed report on your blog**. 
+
+## Extra Credit
+
+5. For 5 extra credit points, you can choose to convert your final project into a brief presentation, and deliver the presentation to class during our final exam period.
+
+  - Use quarto to create a slide deck for your presentation
+  - Suggested slides include:
+
+    - Title
+    - Research question
+    - Source of open-data
+    - original data-visualization
+    - your data-visualization
+    - Discussion of results and reproducibility attempt
 
 
 
