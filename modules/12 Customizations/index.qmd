@@ -1,7 +1,7 @@
 ---
 title: "12 Customizations"
 author: "Matt Crump"
-date: "1/23/2023"
+date: "5/2/2023"
 order: 12
 ---
 
@@ -14,15 +14,14 @@ knitr::opts_chunk$set(
 
 ## Read
 
-Read the practice report chapter.
+Read the chapter on customizations.
 
 <https://psyteachr.github.io/ads-v2/10-custom.html>
 
-## Additional resources
-
-TBD
-
+This chapter introduces several different add ons for visualizations, and options that you have with R markdown documents. 
 
 ## Week 12 assignment
 
 1. Write your blog post, and submit the link to this assignment on blackboard. Blog post ideas will be discussed in class, and this assignment will be updated for clarity.
+
+As we near the end of the semester I am not giving specific requirements for the blog post. Use the post to demonstrate that you can accomplish concepts discussed in the chapter. For example, at a minimum demonstrate that you can create some of the graphs from the chapter (e.g., like a word cloud.)

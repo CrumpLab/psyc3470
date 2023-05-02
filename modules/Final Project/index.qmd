@@ -34,6 +34,8 @@ Here are a few tips for finding a psych paper with open data. Most important, fo
 
 4. **Publish your completed report on your blog**. 
 
+A minimal example of a final prject is on the example blog: <https://crumplab.com/CrumplabExampleBlog/posts/week_12_ExampleFinal/ExampleFinal.html>
+
 ## Extra Credit
 
 5. For 5 extra credit points, you can choose to convert your final project into a brief presentation, and deliver the presentation to class during our final exam period.

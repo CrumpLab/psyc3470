@@ -1,0 +1,33 @@
+---
+title: "13 Practice Tidy Tuesday"
+author: "Matt Crump"
+date: "1/23/2023"
+order: 13
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Read
+
+There are no textbook readings. We will be using class time to complete tidy tuesday challenges, which involve obtaining open data and visualizing patterns from the open data set. 
+
+## Additional resources
+
+See the general assignment information about tidy tuesday.
+
+<https://crumplab.com/psyc3470/modules/General%20Assignments/>
+
+
+## Week 13 assignment
+
+1. You have a few options for your blog post this week:
+
+A. Blog about the tidy tuesday examples that we discuss in class
+B. Use the time to complete a missing blog post
+C. Blog about completing an aspect of your final project
+D. Blog about a different tidy tuesday challenge that we did not discuss in class (if you do this, you will get credit both for this week's blog and for completing a tidy tuesday challenge)
